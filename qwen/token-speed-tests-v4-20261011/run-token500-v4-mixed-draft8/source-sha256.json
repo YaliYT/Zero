@@ -1,0 +1,9 @@
+{
+  "Qwen-Agent.py": "f492bdac13bf570e9ca7b19583d9fb3862ba51a7fb95b88ef10795f9a6bf4438",
+  "qwen_coding.py": "2123f6c4c23a9fc1fd90505d3a61c61cab28ce3419bfd047e2330c2d4c6da5eb",
+  "qwen_context.py": "10e44f8869567dc971deef648914780a937faf969467c957c46bca0a1c0b70d0",
+  "qwen_cpu_runner.py": "a00bd9333c5fcdc5027ed183ab2aad40cc6cea66df771b3212ea35c9f9902bcd",
+  "qwen_input.py": "58dee1e34fbb450595d787177e81f3163a509e0bb69d1a83c74f08d143ac8e1c",
+  "qwen_memory_guard.py": "b96d07a68d795285a34789d27ab3b06815cb65986a13c1b53e2af3e858cc5f0e",
+  "qwen_terminal.py": "0831dce1b689877851edc5c4b862ef51ee337d395ca614e167c3e2a31b6f2d47"
+}

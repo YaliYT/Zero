@@ -1,0 +1,214 @@
+{
+  "variants": [
+    {
+      "name": "reload_after_idle",
+      "runs": [
+        {
+          "idle": {
+            "after": {
+              "used_percent": 30.2,
+              "available_mib": 22658.32,
+              "total_mib": 32460.93
+            },
+            "is_sleeping": true
+          },
+          "response": {
+            "seconds": 23.53099999999995,
+            "first_token_seconds": 19.35899999999947,
+            "content": "1. Create subfolders for specific file types, such as \"Images,\" \"",
+            "timings": {
+              "cache_n": 0,
+              "prompt_n": 25,
+              "prompt_ms": 3822.05,
+              "prompt_per_token_ms": 152.882,
+              "prompt_per_second": 6.540992399366832,
+              "predicted_n": 16,
+              "predicted_ms": 4166.892,
+              "predicted_per_token_ms": 277.7928,
+              "predicted_per_second": 3.599805322528158,
+              "draft_n": 18,
+              "draft_n_accepted": 10
+            },
+            "ram": {
+              "used_percent": 83.67,
+              "available_mib": 5302.48,
+              "total_mib": 32460.93
+            }
+          }
+        },
+        {
+          "idle": {
+            "after": {
+              "used_percent": 30.26,
+              "available_mib": 22639.36,
+              "total_mib": 32460.93
+            },
+            "is_sleeping": true
+          },
+          "response": {
+            "seconds": 24.561999999999898,
+            "first_token_seconds": 20.64099999999962,
+            "content": "1. Create subfolders for specific file types, such as \"Images,\" \"",
+            "timings": {
+              "cache_n": 0,
+              "prompt_n": 25,
+              "prompt_ms": 4209.381,
+              "prompt_per_token_ms": 168.37524000000002,
+              "prompt_per_second": 5.939115513658658,
+              "predicted_n": 16,
+              "predicted_ms": 3912.979,
+              "predicted_per_token_ms": 260.8652666666666,
+              "predicted_per_second": 3.8333964991889817,
+              "draft_n": 18,
+              "draft_n_accepted": 10
+            },
+            "ram": {
+              "used_percent": 83.45,
+              "available_mib": 5371.34,
+              "total_mib": 32460.93
+            }
+          }
+        }
+      ],
+      "warmup": {
+        "seconds": 8.608999999999469,
+        "first_token_seconds": 3.6719999999995707,
+        "content": "1. Create subfolders for specific file types, such as \"Images,\" \"",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 25,
+          "prompt_ms": 3650.083,
+          "prompt_per_token_ms": 146.00332,
+          "prompt_per_second": 6.8491593204866845,
+          "predicted_n": 16,
+          "predicted_ms": 4950.041,
+          "predicted_per_token_ms": 330.00273333333337,
+          "predicted_per_second": 3.0302779310312786,
+          "draft_n": 18,
+          "draft_n_accepted": 10
+        },
+        "ram": {
+          "used_percent": 83.39,
+          "available_mib": 5390.58,
+          "total_mib": 32460.93
+        }
+      }
+    },
+    {
+      "name": "page_only_after_idle",
+      "runs": [
+        {
+          "idle": {
+            "before": {
+              "used_percent": 84.05,
+              "available_mib": 5177.09,
+              "total_mib": 32460.93
+            },
+            "after": {
+              "used_percent": 35.82,
+              "available_mib": 20832.14,
+              "total_mib": 32460.93
+            },
+            "process": {
+              "pid": 22264,
+              "name": "llama-server.exe",
+              "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+              "working_set_mib": 27.06
+            }
+          },
+          "response": {
+            "seconds": 9.04700000000048,
+            "first_token_seconds": 3.360000000000582,
+            "content": "1. Create subfolders for specific file types, such as \"Images,\" \"",
+            "timings": {
+              "cache_n": 21,
+              "prompt_n": 4,
+              "prompt_ms": 3333.626,
+              "prompt_per_token_ms": 833.4065,
+              "prompt_per_second": 1.1998946492497957,
+              "predicted_n": 16,
+              "predicted_ms": 5687.522,
+              "predicted_per_token_ms": 379.16813333333334,
+              "predicted_per_second": 2.6373524357356333,
+              "draft_n": 22,
+              "draft_n_accepted": 9
+            },
+            "ram": {
+              "used_percent": 74.99,
+              "available_mib": 8119.14,
+              "total_mib": 32460.93
+            }
+          }
+        },
+        {
+          "idle": {
+            "before": {
+              "used_percent": 74.91,
+              "available_mib": 8143.49,
+              "total_mib": 32460.93
+            },
+            "after": {
+              "used_percent": 35.59,
+              "available_mib": 20908.95,
+              "total_mib": 32460.93
+            },
+            "process": {
+              "pid": 22264,
+              "name": "llama-server.exe",
+              "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+              "working_set_mib": 1.01
+            }
+          },
+          "response": {
+            "seconds": 7.842999999999847,
+            "first_token_seconds": 3.1719999999995707,
+            "content": "1. Create subfolders for specific file types, such as \"Images,\" \"",
+            "timings": {
+              "cache_n": 21,
+              "prompt_n": 4,
+              "prompt_ms": 3172.138,
+              "prompt_per_token_ms": 793.0345,
+              "prompt_per_second": 1.260979188168989,
+              "predicted_n": 16,
+              "predicted_ms": 4672.474,
+              "predicted_per_token_ms": 311.49826666666667,
+              "predicted_per_second": 3.210290736770285,
+              "draft_n": 22,
+              "draft_n_accepted": 9
+            },
+            "ram": {
+              "used_percent": 74.61,
+              "available_mib": 8243.11,
+              "total_mib": 32460.93
+            }
+          }
+        }
+      ],
+      "warmup": {
+        "seconds": 11.0,
+        "first_token_seconds": 5.389999999999418,
+        "content": "1. Create subfolders for specific file types, such as \"Images,\" \"",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 25,
+          "prompt_ms": 5391.594,
+          "prompt_per_token_ms": 215.66376,
+          "prompt_per_second": 4.636847655813846,
+          "predicted_n": 16,
+          "predicted_ms": 5604.42,
+          "predicted_per_token_ms": 373.628,
+          "predicted_per_second": 2.6764589377669767,
+          "draft_n": 18,
+          "draft_n_accepted": 10
+        },
+        "ram": {
+          "used_percent": 83.38,
+          "available_mib": 5394.52,
+          "total_mib": 32460.93
+        }
+      }
+    }
+  ],
+  "response_token_cap": 16,
+  "ram_ceiling_percent": 88
+}

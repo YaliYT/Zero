@@ -1,0 +1,1729 @@
+{
+  "settings": {
+    "num_gpu": 8,
+    "num_ctx": 2048,
+    "num_thread": 4,
+    "num_thread_batch": 12,
+    "native_runner_enabled": true,
+    "native_runner_port": 57206,
+    "cpu_generation_logical": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "cpu_batch_logical": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "num_batch": 512,
+    "draft_num_predict": 4,
+    "memory_cleanup_enabled": true,
+    "memory_threshold_percent": 80,
+    "memory_cleanup_llama": true,
+    "memory_llama_idle_seconds": 45,
+    "memory_target_percent": 40,
+    "memory_cleanup_aggressive": true,
+    "native_sleep_idle_seconds": -1,
+    "model_repack": false,
+    "memory_active_interval_seconds": 120,
+    "model_load_mode": "mmap",
+    "memory_cleanup_active": true,
+    "model_no_host": true,
+    "memory_active_threshold_percent": 80,
+    "memory_idle_trim_enabled": true,
+    "memory_idle_trim_seconds": 30,
+    "memory_prepare_request_enabled": true
+  },
+  "samples": [
+    {
+      "used_percent": 30.52,
+      "available_mib": 22552.43,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1475.31,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 31.41,
+      "available_mib": 22266.21,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1472.43,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 32.64,
+      "available_mib": 21864.89,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1472.43,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 31.74,
+      "available_mib": 22157.01,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1472.43,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 31.74,
+      "available_mib": 22157.97,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1472.43,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 31.63,
+      "available_mib": 22192.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1472.43,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 33.27,
+      "available_mib": 21661.4,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1472.43,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 36.81,
+      "available_mib": 20512.52,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1472.43,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 40.09,
+      "available_mib": 19447.05,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1472.06,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 43.36,
+      "available_mib": 18385.03,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1472.06,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 46.71,
+      "available_mib": 17297.08,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1472.06,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 49.95,
+      "available_mib": 16247.05,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.8,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 53.09,
+      "available_mib": 15227.18,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.8,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 56.39,
+      "available_mib": 14156.43,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.8,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 59.88,
+      "available_mib": 13023.85,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.55,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 63.34,
+      "available_mib": 11901.53,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.55,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 66.7,
+      "available_mib": 10810.63,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.55,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 69.77,
+      "available_mib": 9811.5,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.55,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 73.0,
+      "available_mib": 8765.39,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.55,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 76.42,
+      "available_mib": 7655.82,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.55,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.68,
+      "available_mib": 6595.8,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.55,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 60.2,
+      "available_mib": 12919.83,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.18,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 31.97,
+      "available_mib": 22082.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.18,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 34.09,
+      "available_mib": 21393.5,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.18,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 36.79,
+      "available_mib": 20517.91,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.18,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 39.8,
+      "available_mib": 19542.75,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.18,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 47.34,
+      "available_mib": 17095.32,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.18,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 53.58,
+      "available_mib": 15067.67,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.18,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 60.79,
+      "available_mib": 12728.48,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.18,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 65.1,
+      "available_mib": 11330.25,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.18,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 72.18,
+      "available_mib": 9032.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.18,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 76.37,
+      "available_mib": 7669.36,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.18,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.44,
+      "available_mib": 6999.84,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.18,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 81.84,
+      "available_mib": 5894.86,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.18,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 82.98,
+      "available_mib": 5526.18,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.18,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 85.24,
+      "available_mib": 4790.9,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.18,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.7,
+      "available_mib": 6914.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.18,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 67.13,
+      "available_mib": 10670.8,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1413.18,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 51.48,
+      "available_mib": 15749.65,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1412.68,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 37.46,
+      "available_mib": 20299.54,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1412.68,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 35.63,
+      "available_mib": 20895.74,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1412.68,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 35.43,
+      "available_mib": 20959.04,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1437.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 35.27,
+      "available_mib": 21012.37,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1437.76,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 35.24,
+      "available_mib": 21020.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1437.76,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 36.56,
+      "available_mib": 20593.35,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1437.76,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 39.12,
+      "available_mib": 19762.11,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1437.76,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 42.03,
+      "available_mib": 18817.42,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1434.14,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 45.33,
+      "available_mib": 17745.71,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1433.84,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 48.92,
+      "available_mib": 16580.82,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1433.84,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 52.0,
+      "available_mib": 15581.68,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1433.84,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 55.18,
+      "available_mib": 14548.75,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1433.84,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 58.71,
+      "available_mib": 13402.88,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1433.84,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 62.29,
+      "available_mib": 12240.05,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1433.84,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 65.6,
+      "available_mib": 11166.67,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1433.84,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 69.27,
+      "available_mib": 9973.86,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1433.84,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 71.73,
+      "available_mib": 9177.9,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 74.79,
+      "available_mib": 8183.36,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.03,
+      "available_mib": 7456.4,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.06,
+      "available_mib": 7444.92,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.13,
+      "available_mib": 7424.5,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.1,
+      "available_mib": 7432.32,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.06,
+      "available_mib": 7446.78,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.03,
+      "available_mib": 7456.83,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.01,
+      "available_mib": 7461.89,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.11,
+      "available_mib": 7429.78,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.08,
+      "available_mib": 7440.05,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.67,
+      "available_mib": 7246.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.64,
+      "available_mib": 7257.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.71,
+      "available_mib": 7236.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.69,
+      "available_mib": 7241.89,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.69,
+      "available_mib": 7241.45,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.66,
+      "available_mib": 7250.25,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.77,
+      "available_mib": 7217.37,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.23,
+      "available_mib": 7067.1,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.22,
+      "available_mib": 7070.42,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.26,
+      "available_mib": 7056.56,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.28,
+      "available_mib": 7050.47,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.04,
+      "available_mib": 7127.9,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.03,
+      "available_mib": 7132.31,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7137.51,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.02,
+      "available_mib": 7136.16,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.05,
+      "available_mib": 7125.79,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.27,
+      "available_mib": 7053.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.26,
+      "available_mib": 7056.22,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.42,
+      "available_mib": 7003.62,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.42,
+      "available_mib": 7006.21,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.41,
+      "available_mib": 7007.5,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.85,
+      "available_mib": 6866.25,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.83,
+      "available_mib": 6870.88,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.48,
+      "available_mib": 6984.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.48,
+      "available_mib": 6985.74,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6837.16,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6837.05,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6837.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6835.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6834.97,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.85,
+      "available_mib": 6864.53,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.87,
+      "available_mib": 6859.59,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.87,
+      "available_mib": 6858.4,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.89,
+      "available_mib": 6853.57,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.6,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.88,
+      "available_mib": 6855.33,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.48,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.89,
+      "available_mib": 6851.19,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.48,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.92,
+      "available_mib": 6844.22,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.48,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.92,
+      "available_mib": 6842.7,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.48,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.88,
+      "available_mib": 6856.8,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.48,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.93,
+      "available_mib": 6838.1,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.48,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.81,
+      "available_mib": 6879.28,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.23,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.77,
+      "available_mib": 6891.82,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.23,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.75,
+      "available_mib": 6897.82,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.23,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.83,
+      "available_mib": 6872.3,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.23,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.81,
+      "available_mib": 6878.86,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.23,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.79,
+      "available_mib": 6884.72,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.23,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.77,
+      "available_mib": 6890.92,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.23,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.77,
+      "available_mib": 6890.48,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.23,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.76,
+      "available_mib": 6894.99,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.23,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.84,
+      "available_mib": 6868.55,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.23,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.84,
+      "available_mib": 6869.1,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.86,
+      "available_mib": 6862.35,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.89,
+      "available_mib": 6851.24,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.92,
+      "available_mib": 6841.89,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.33,
+      "available_mib": 6708.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.48,
+      "available_mib": 6660.59,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.53,
+      "available_mib": 6646.03,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.5,
+      "available_mib": 6654.75,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.5,
+      "available_mib": 6654.06,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.51,
+      "available_mib": 6652.03,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.51,
+      "available_mib": 6652.31,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.46,
+      "available_mib": 6665.91,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.47,
+      "available_mib": 6665.78,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6672.77,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.41,
+      "available_mib": 6683.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.46,
+      "available_mib": 6668.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6678.11,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.45,
+      "available_mib": 6671.29,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.45,
+      "available_mib": 6671.85,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.34,
+      "available_mib": 6705.64,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.29,
+      "available_mib": 6721.44,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6679.83,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.28,
+      "available_mib": 6724.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.28,
+      "available_mib": 6725.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.34,
+      "available_mib": 6706.58,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.41,
+      "available_mib": 6683.9,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.36,
+      "available_mib": 6701.15,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.37,
+      "available_mib": 6697.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.35,
+      "available_mib": 6703.67,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.33,
+      "available_mib": 6710.5,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.32,
+      "available_mib": 6712.41,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.32,
+      "available_mib": 6713.14,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.32,
+      "available_mib": 6713.09,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.32,
+      "available_mib": 6713.03,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.37,
+      "available_mib": 6697.1,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.4,
+      "available_mib": 6687.14,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.39,
+      "available_mib": 6691.17,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.39,
+      "available_mib": 6690.29,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.39,
+      "available_mib": 6689.92,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.39,
+      "available_mib": 6690.12,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.37,
+      "available_mib": 6697.98,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.34,
+      "available_mib": 6707.82,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.33,
+      "available_mib": 6709.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.33,
+      "available_mib": 6708.2,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1432.1,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 69.01,
+      "available_mib": 10060.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.25,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 61.35,
+      "available_mib": 12544.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 48.63,
+      "available_mib": 16674.61,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 40.12,
+      "available_mib": 19436.29,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 40.14,
+      "available_mib": 19431.84,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 40.22,
+      "available_mib": 19404.61,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 40.23,
+      "available_mib": 19402.76,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 39.49,
+      "available_mib": 19643.32,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 43.42,
+      "available_mib": 18365.14,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 49.92,
+      "available_mib": 16255.81,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 52.95,
+      "available_mib": 15274.39,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 58.6,
+      "available_mib": 13437.65,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 65.51,
+      "available_mib": 11195.11,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 72.23,
+      "available_mib": 9014.33,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.6,
+      "available_mib": 6947.84,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.64,
+      "available_mib": 6934.46,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.62,
+      "available_mib": 6940.26,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.65,
+      "available_mib": 6931.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.62,
+      "available_mib": 6938.62,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.93,
+      "available_mib": 6838.18,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.93,
+      "available_mib": 6838.79,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.93,
+      "available_mib": 6838.9,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.93,
+      "available_mib": 6838.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.99,
+      "available_mib": 6819.96,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.97,
+      "available_mib": 6827.66,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.0,
+      "available_mib": 6816.12,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.98,
+      "available_mib": 6822.91,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6672.36,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6677.76,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.41,
+      "available_mib": 6682.29,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.47,
+      "available_mib": 6664.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.54,
+      "available_mib": 6640.73,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.8,
+      "available_mib": 6556.47,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.96,
+      "available_mib": 6503.93,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.75,
+      "available_mib": 6574.94,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.75,
+      "available_mib": 6574.88,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 1431.45,
+      "pagefile_total_mib": 16384.0
+    }
+  ],
+  "turns": [
+    {
+      "seconds": 29.906,
+      "result": {
+        "answer": "391",
+        "tools": [
+          {
+            "name": "read_file",
+            "arguments": {
+              "path": "q"
+            },
+            "result": {
+              "ok": true,
+              "path": "C:\\Users\\nagor\\Downloads\\q",
+              "content": "391",
+              "truncated": false
+            }
+          }
+        ],
+        "prompt": "Use read_file with path q. Answer ONLY the exact file text."
+      },
+      "ram_after": {
+        "used_percent": 78.94,
+        "available_mib": 6835.09,
+        "total_mib": 32460.93,
+        "pagefile_used_mib": 1432.6,
+        "pagefile_total_mib": 16384.0
+      }
+    },
+    {
+      "seconds": 15.907,
+      "result": {
+        "answer": "391",
+        "tools": [
+          {
+            "name": "read_file",
+            "arguments": {
+              "path": "q"
+            },
+            "result": {
+              "ok": true,
+              "path": "C:\\Users\\nagor\\Downloads\\q",
+              "content": "391",
+              "truncated": false
+            }
+          }
+        ],
+        "prompt": "Use read_file with path q. Answer ONLY the exact file text."
+      },
+      "ram_after": {
+        "used_percent": 79.72,
+        "available_mib": 6583.83,
+        "total_mib": 32460.93,
+        "pagefile_used_mib": 1431.45,
+        "pagefile_total_mib": 16384.0
+      }
+    }
+  ],
+  "ram_ceiling_percent": 88,
+  "model_pid": 29808,
+  "idle_ram": {
+    "used_percent": 40.14,
+    "available_mib": 19431.57,
+    "total_mib": 32460.93,
+    "pagefile_used_mib": 1431.45,
+    "pagefile_total_mib": 16384.0
+  },
+  "idle_props": {
+    "default_generation_settings": {
+      "params": {
+        "seed": 4294967295,
+        "temperature": 1.0,
+        "dynatemp_range": 0.0,
+        "dynatemp_exponent": 1.0,
+        "top_k": 20,
+        "top_p": 0.949999988079071,
+        "min_p": 0.05000000074505806,
+        "top_n_sigma": -1.0,
+        "xtc_probability": 0.0,
+        "xtc_threshold": 0.10000000149011612,
+        "typical_p": 1.0,
+        "repeat_last_n": 64,
+        "repeat_penalty": 1.0,
+        "presence_penalty": 0.0,
+        "frequency_penalty": 0.0,
+        "dry_multiplier": 0.0,
+        "dry_base": 1.75,
+        "dry_allowed_length": 2,
+        "dry_penalty_last_n": 64,
+        "mirostat": 0,
+        "mirostat_tau": 5.0,
+        "mirostat_eta": 0.10000000149011612,
+        "adaptive_target": -1.0,
+        "adaptive_decay": 0.8999999761581421,
+        "max_tokens": -1,
+        "n_predict": -1,
+        "n_keep": 0,
+        "n_discard": 0,
+        "ignore_eos": false,
+        "stream": false,
+        "n_probs": 0,
+        "min_keep": 0,
+        "chat_format": "Content-only",
+        "reasoning_format": "none",
+        "reasoning_in_content": false,
+        "generation_prompt": "",
+        "samplers": [
+          "penalties",
+          "dry",
+          "top_n_sigma",
+          "top_k",
+          "typ_p",
+          "top_p",
+          "min_p",
+          "xtc",
+          "temperature"
+        ],
+        "speculative.types": "none",
+        "timings_per_token": false,
+        "post_sampling_probs": false,
+        "backend_sampling": false,
+        "lora": []
+      },
+      "n_ctx": 2048
+    },
+    "total_slots": 1,
+    "model_alias": "C:\\Users\\nagor\\.ollama\\models\\blobs\\sha256-f5f1dd8920d417aac2718b0bda3403da274301efdd6760b4f0f4b864ff2ad57d",
+    "model_ftype": "Q4_K - Medium",
+    "model_path": "C:\\Users\\nagor\\.ollama\\models\\blobs\\sha256-f5f1dd8920d417aac2718b0bda3403da274301efdd6760b4f0f4b864ff2ad57d",
+    "modalities": {
+      "vision": true,
+      "video": false,
+      "audio": false
+    },
+    "media_marker": "<__media_IO0zceK4mCHe7pVeoZYwXdAJbz4tONwX__>",
+    "endpoint_slots": true,
+    "endpoint_props": false,
+    "endpoint_metrics": false,
+    "ui": false,
+    "ui_settings": {},
+    "chat_template": "{%- set image_count = namespace(value=0) %}\n{%- set video_count = namespace(value=0) %}\n{%- macro render_content(content, do_vision_count, is_system_content=false) %}\n    {%- if content is string %}\n        {{- content }}\n    {%- elif content is iterable and content is not mapping %}\n        {%- for item in content %}\n            {%- if 'image' in item or 'image_url' in item or item.type == 'image' %}\n                {%- if is_system_content %}\n                    {{- raise_exception('System message cannot contain images.') }}\n                {%- endif %}\n                {%- if do_vision_count %}\n                    {%- set image_count.value = image_count.value + 1 %}\n                {%- endif %}\n                {%- if add_vision_id %}\n                    {{- 'Picture ' ~ image_count.value ~ ': ' }}\n                {%- endif %}\n                {{- '<|vision_start|><|image_pad|><|vision_end|>' }}\n            {%- elif 'video' in item or item.type == 'video' %}\n                {%- if is_system_content %}\n                    {{- raise_exception('System message cannot contain videos.') }}\n                {%- endif %}\n                {%- if do_vision_count %}\n                    {%- set video_count.value = video_count.value + 1 %}\n                {%- endif %}\n                {%- if add_vision_id %}\n                    {{- 'Video ' ~ video_count.value ~ ': ' }}\n                {%- endif %}\n                {{- '<|vision_start|><|video_pad|><|vision_end|>' }}\n            {%- elif 'text' in item %}\n                {{- item.text }}\n            {%- else %}\n                {{- raise_exception('Unexpected item type in content.') }}\n            {%- endif %}\n        {%- endfor %}\n    {%- elif content is none or content is undefined %}\n        {{- '' }}\n    {%- else %}\n        {{- raise_exception('Unexpected content type.') }}\n    {%- endif %}\n{%- endmacro %}\n{%- if not messages %}\n    {{- raise_exception('No messages provided.') }}\n{%- endif %}\n{%- set reasoning_instructions = '' %}\n{%- if enable_thinking is undefined or enable_thinking is true %}\n    {%- set resolved_reasoning_effort = reasoning_effort|default('xhigh') %}\n    {%- if resolved_reasoning_effort not in ('xhigh', 'medium', 'low') %}\n        {{- raise_exception('Unexpected reasoning effort ' ~ reasoning_effort ~ '. Supported types are xhigh (default), medium, and low.') }}\n    {%- endif %}\n    {%- if resolved_reasoning_effort == 'xhigh' %}\n        {%- set reasoning_instructions = 'Reasoning effort is set to xhigh. Please think carefully through the task, validate key assumptions, consider plausible alternatives, and prioritize correctness, consistency, and clarity in the final answer.' %}\n    {%- elif resolved_reasoning_effort == 'low' %}\n        {%- set reasoning_instructions = 'Reasoning effort is set to low. Keep your thinking brief and focused, moving directly to the conclusion without unnecessary elaboration.' %}\n    {%- endif %}\n{%- endif %}\n{%- if tools and tools is iterable and tools is not mapping %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if reasoning_instructions %}\n        {{- reasoning_instructions + '\\n\\n' }}\n    {%- endif %}\n    {{- \"# Tools\\n\\nYou have access to the following functions:\\n\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\" }}\n    {{- '\\n\\nIf you choose to call a function ONLY reply in the following format with NO suffix:\\n\\n<tool_call>\\n<function=example_function_name>\\n<parameter=example_parameter_1>\\nvalue_1\\n</parameter>\\n<parameter=example_parameter_2>\\nThis is the value for the second parameter\\nthat can span\\nmultiple lines\\n</parameter>\\n</function>\\n</tool_call>\\n\\n<IMPORTANT>\\nReminder:\\n- Function calls MUST follow the specified format: an inner <function=...></function> block must be nested within <tool_call></tool_call> XML tags\\n- Required parameters MUST be specified\\n- You may provide optional reasoning for your function call in natural language BEFORE the function call, but NOT after\\n- If there is no function call available, answer the question like normal with your current knowledge and do not tell the user about function calls\\n</IMPORTANT>' }}\n    {%- if messages[0].role == 'system' %}\n        {%- set content = render_content(messages[0].content, false, true)|trim %}\n        {%- if content %}\n            {{- '\\n\\n' + content }}\n        {%- endif %}\n    {%- endif %}\n    {{- '<|im_end|>\\n' }}\n{%- else %}\n    {%- if messages[0].role == 'system' %}\n        {%- set content = render_content(messages[0].content, false, true)|trim %}\n        {%- if content %}\n            {{- '<|im_start|>system\\n' + (reasoning_instructions + '\\n\\n' if reasoning_instructions else '')  + content + '<|im_end|>\\n' }}\n        {%- elif reasoning_instructions %}\n            {{- '<|im_start|>system\\n' + reasoning_instructions + '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- elif reasoning_instructions %}\n        {{- '<|im_start|>system\\n' + reasoning_instructions + '<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- set ns = namespace(multi_step_tool=true, last_query_index=messages|length - 1) %}\n{%- for message in messages[::-1] %}\n    {%- set index = (messages|length - 1) - loop.index0 %}\n    {%- if ns.multi_step_tool and message.role == \"user\" %}\n        {%- set content = render_content(message.content, false)|trim %}\n        {%- if not(content.startswith('<tool_response>') and content.endswith('</tool_response>')) %}\n            {%- set ns.multi_step_tool = false %}\n            {%- set ns.last_query_index = index %}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if ns.multi_step_tool %}\n    {{- raise_exception('No user query found in messages.') }}\n{%- endif %}\n{%- for message in messages %}\n    {%- set content = render_content(message.content, true)|trim %}\n    {%- if message.role == \"system\" %}\n        {%- if not loop.first %}\n            {{- raise_exception('System message must be at the beginning.') }}\n        {%- endif %}\n    {%- elif message.role == \"user\" %}\n        {{- '<|im_start|>' + message.role + '\\n' + content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {%- set reasoning_content = '' %}\n        {%- if message.reasoning_content is string %}\n            {%- set reasoning_content = message.reasoning_content %}\n        {%- endif %}\n        {%- set reasoning_content = reasoning_content|trim %}\n        {%- if preserve_thinking is undefined or preserve_thinking is true or loop.index0 > ns.last_query_index %}\n            {{- '<|im_start|>' + message.role + '\\n<think>\\n' + reasoning_content + '\\n</think>\\n\\n' + content }}\n        {%- else %}\n            {{- '<|im_start|>' + message.role + '\\n' + content }}\n        {%- endif %}\n        {%- if message.tool_calls and message.tool_calls is iterable and message.tool_calls is not mapping %}\n            {%- for tool_call in message.tool_calls %}\n                {%- if tool_call.function is defined %}\n                    {%- set tool_call = tool_call.function %}\n                {%- endif %}\n                {%- if loop.first %}\n                    {%- if content|trim %}\n                        {{- '\\n\\n<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                    {%- else %}\n                        {{- '<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                    {%- endif %}\n                {%- else %}\n                    {{- '\\n<tool_call>\\n<function=' + tool_call.name + '>\\n' }}\n                {%- endif %}\n                {%- if tool_call.arguments is defined and tool_call.arguments != '' %}\n                    {%- for args_name, args_value in tool_call.arguments|items %}\n                        {{- '<parameter=' + args_name + '>\\n' }}\n                        {%- set args_value = args_value | string if args_value is string else args_value | tojson | safe %}\n                        {{- args_value }}\n                        {{- '\\n</parameter>\\n' }}\n                    {%- endfor %}\n                {%- endif %}\n                {{- '</function>\\n</tool_call>' }}\n            {%- endfor %}\n        {%- endif %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if loop.previtem and loop.previtem.role != \"tool\" %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- content }}\n        {{- '\\n</tool_response>' }}\n        {%- if not loop.last and loop.nextitem.role != \"tool\" %}\n            {{- '<|im_end|>\\n' }}\n        {%- elif loop.last %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- else %}\n        {{- raise_exception('Unexpected message role.') }}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n    {%- if enable_thinking is defined and enable_thinking is false %}\n        {{- '<think>\\n\\n</think>\\n\\n' }}\n    {%- else %}\n        {{- '<think>\\n' }}\n    {%- endif %}\n{%- endif %}",
+    "chat_template_caps": {
+      "supports_object_arguments": true,
+      "supports_parallel_tool_calls": true,
+      "supports_preserve_reasoning": true,
+      "supports_reasoning_effort": true,
+      "supports_string_content": true,
+      "supports_system_role": true,
+      "supports_tool_calls": true,
+      "supports_tools": true,
+      "supports_typed_content": true
+    },
+    "bos_token": "<|endoftext|>",
+    "eos_token": "<|im_end|>",
+    "build_info": "b1-631109b34",
+    "is_sleeping": false,
+    "cors_proxy_enabled": false
+  },
+  "memory_events": [
+    {
+      "time": 1791611214.6621819,
+      "event": "monitor_started",
+      "pid": 27064,
+      "threshold_percent": 80,
+      "poll_seconds": 5,
+      "target_percent": 40,
+      "aggressive": true,
+      "active_cleanup": true,
+      "active_threshold_percent": 80,
+      "idle_trim_enabled": true,
+      "idle_trim_seconds": 30,
+      "prepare_request_enabled": true,
+      "pass_cooldown_seconds": 120,
+      "process_cooldown_seconds": 600,
+      "llama_cleanup": true,
+      "llama_idle_seconds": 45
+    },
+    {
+      "time": 1791611217.7672966,
+      "threshold_percent": 80,
+      "foreground_excluded": "firefox.exe",
+      "target_percent": 40,
+      "target_reached": true,
+      "before": {
+        "used_percent": 85.3,
+        "available_mib": 4770.49,
+        "total_mib": 32460.93,
+        "pagefile_used_mib": 1413.18,
+        "pagefile_total_mib": 16384.0
+      },
+      "after": {
+        "used_percent": 35.36,
+        "available_mib": 20981.58,
+        "total_mib": 32460.93,
+        "pagefile_used_mib": 1437.89,
+        "pagefile_total_mib": 16384.0
+      },
+      "available_change_mib": 16211.09,
+      "trimmed": [
+        {
+          "pid": 26464,
+          "name": "discord.exe",
+          "before_mib": 462.84,
+          "after_mib": 53.36
+        }
+      ]
+    },
+    {
+      "time": 1791611218.6843364,
+      "event": "request_model_paged",
+      "pid": 29808,
+      "ok": true,
+      "before": {
+        "used_percent": 85.32,
+        "available_mib": 4766.49,
+        "total_mib": 32460.93,
+        "pagefile_used_mib": 1413.18,
+        "pagefile_total_mib": 16384.0
+      },
+      "after": {
+        "used_percent": 35.22,
+        "available_mib": 21028.12,
+        "total_mib": 32460.93,
+        "pagefile_used_mib": 1437.76,
+        "pagefile_total_mib": 16384.0
+      },
+      "target_percent": 40,
+      "target_reached": true,
+      "model_retained": true
+    },
+    {
+      "time": 1791611218.6856449,
+      "event": "turn_started",
+      "snapshot": {
+        "used_percent": 35.22,
+        "available_mib": 21028.29,
+        "total_mib": 32460.93,
+        "pagefile_used_mib": 1437.76,
+        "pagefile_total_mib": 16384.0
+      },
+      "model_paged": true,
+      "disk_backing": "mapped_model_and_windows_pagefile"
+    },
+    {
+      "time": 1791611244.5637348,
+      "event": "turn_finished",
+      "snapshot": {
+        "used_percent": 78.94,
+        "available_mib": 6835.09,
+        "total_mib": 32460.93,
+        "pagefile_used_mib": 1432.6,
+        "pagefile_total_mib": 16384.0
+      }
+    },
+    {
+      "time": 1791611281.7149389,
+      "event": "idle_model_paged",
+      "pid": 29808,
+      "ok": true,
+      "before": {
+        "used_percent": 79.33,
+        "available_mib": 6708.2,
+        "total_mib": 32460.93,
+        "pagefile_used_mib": 1432.1,
+        "pagefile_total_mib": 16384.0
+      },
+      "after": {
+        "used_percent": 40.46,
+        "available_mib": 19325.97,
+        "total_mib": 32460.93,
+        "pagefile_used_mib": 1431.45,
+        "pagefile_total_mib": 16384.0
+      },
+      "target_percent": 40,
+      "target_reached": false,
+      "model_retained": true
+    },
+    {
+      "time": 1791611281.716782,
+      "event": "turn_started",
+      "snapshot": {
+        "used_percent": 40.46,
+        "available_mib": 19325.97,
+        "total_mib": 32460.93,
+        "pagefile_used_mib": 1431.45,
+        "pagefile_total_mib": 16384.0
+      },
+      "model_paged": false,
+      "disk_backing": "mapped_model_and_windows_pagefile"
+    },
+    {
+      "time": 1791611296.475288,
+      "event": "turn_finished",
+      "snapshot": {
+        "used_percent": 79.72,
+        "available_mib": 6583.84,
+        "total_mib": 32460.93,
+        "pagefile_used_mib": 1431.45,
+        "pagefile_total_mib": 16384.0
+      }
+    }
+  ],
+  "verified": true
+}

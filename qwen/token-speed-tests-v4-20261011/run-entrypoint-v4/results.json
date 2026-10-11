@@ -1,0 +1,6063 @@
+{
+  "preflight": {
+    "used_percent": 32.57,
+    "available_mib": 21889.77,
+    "total_mib": 32460.93,
+    "pagefile_used_mib": 697.96,
+    "pagefile_total_mib": 16384.0
+  },
+  "samples": [
+    {
+      "used_percent": 32.59,
+      "available_mib": 21880.43,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 32.62,
+      "available_mib": 21872.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 32.65,
+      "available_mib": 21862.68,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 32.65,
+      "available_mib": 21863.96,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 32.66,
+      "available_mib": 21860.68,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 32.64,
+      "available_mib": 21865.16,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 32.64,
+      "available_mib": 21864.94,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 32.64,
+      "available_mib": 21865.11,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 32.64,
+      "available_mib": 21865.68,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 32.66,
+      "available_mib": 21860.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 3195.8,
+        "used_mib": 900.2
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 32.65,
+      "available_mib": 21863.54,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 32.65,
+      "available_mib": 21862.89,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 32.64,
+      "available_mib": 21867.21,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 32.64,
+      "available_mib": 21867.29,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 32.63,
+      "available_mib": 21869.24,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 32.64,
+      "available_mib": 21867.29,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 32.91,
+      "available_mib": 21777.84,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 33.43,
+      "available_mib": 21609.37,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 33.59,
+      "available_mib": 21556.85,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 33.62,
+      "available_mib": 21548.01,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 3128.55,
+        "used_mib": 967.45
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 33.78,
+      "available_mib": 21494.26,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 33.81,
+      "available_mib": 21485.47,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 35.73,
+      "available_mib": 20861.92,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 37.52,
+      "available_mib": 20282.21,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 37.35,
+      "available_mib": 20337.05,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 37.35,
+      "available_mib": 20337.92,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 37.35,
+      "available_mib": 20338.04,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 37.35,
+      "available_mib": 20337.99,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 37.35,
+      "available_mib": 20336.6,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 37.36,
+      "available_mib": 20333.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 332.12,
+        "used_mib": 3763.88
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 34.5,
+      "available_mib": 21262.24,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 34.68,
+      "available_mib": 21203.08,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 34.48,
+      "available_mib": 21267.98,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 34.69,
+      "available_mib": 21199.39,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 34.53,
+      "available_mib": 21250.82,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 34.51,
+      "available_mib": 21257.78,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 34.45,
+      "available_mib": 21278.88,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 34.65,
+      "available_mib": 21211.8,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 34.61,
+      "available_mib": 21227.77,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 34.45,
+      "available_mib": 21278.86,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 253.99,
+        "used_mib": 3842.01
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 34.6,
+      "available_mib": 21228.48,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 34.66,
+      "available_mib": 21209.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 34.45,
+      "available_mib": 21277.58,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 34.5,
+      "available_mib": 21261.8,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 34.5,
+      "available_mib": 21261.4,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 34.49,
+      "available_mib": 21266.67,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 34.43,
+      "available_mib": 21284.52,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 34.72,
+      "available_mib": 21190.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 35.17,
+      "available_mib": 21043.1,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 35.45,
+      "available_mib": 20955.14,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 254.87,
+        "used_mib": 3841.13
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 36.22,
+      "available_mib": 20704.31,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 36.43,
+      "available_mib": 20634.4,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 37.05,
+      "available_mib": 20434.18,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 37.3,
+      "available_mib": 20352.11,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 38.07,
+      "available_mib": 20103.3,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 38.25,
+      "available_mib": 20044.7,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 38.61,
+      "available_mib": 19928.81,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 39.23,
+      "available_mib": 19727.73,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 39.6,
+      "available_mib": 19607.86,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 39.97,
+      "available_mib": 19485.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 255.18,
+        "used_mib": 3840.82
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 40.36,
+      "available_mib": 19360.83,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 40.72,
+      "available_mib": 19242.8,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 40.95,
+      "available_mib": 19166.68,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 41.34,
+      "available_mib": 19040.97,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 41.7,
+      "available_mib": 18924.12,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 42.16,
+      "available_mib": 18775.74,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 42.53,
+      "available_mib": 18654.83,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 43.01,
+      "available_mib": 18500.08,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 43.15,
+      "available_mib": 18453.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 43.56,
+      "available_mib": 18320.77,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 255.18,
+        "used_mib": 3840.82
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 44.06,
+      "available_mib": 18157.57,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 44.52,
+      "available_mib": 18010.72,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 44.69,
+      "available_mib": 17954.25,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 45.07,
+      "available_mib": 17829.53,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 45.48,
+      "available_mib": 17698.65,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 45.86,
+      "available_mib": 17574.22,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 46.34,
+      "available_mib": 17417.84,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 46.87,
+      "available_mib": 17247.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 47.02,
+      "available_mib": 17199.05,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 47.63,
+      "available_mib": 16999.5,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 255.18,
+        "used_mib": 3840.82
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 47.86,
+      "available_mib": 16925.36,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 48.21,
+      "available_mib": 16810.67,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 48.58,
+      "available_mib": 16692.78,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 49.15,
+      "available_mib": 16504.76,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 49.35,
+      "available_mib": 16441.97,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 49.84,
+      "available_mib": 16282.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 50.38,
+      "available_mib": 16108.18,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 50.43,
+      "available_mib": 16091.93,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 50.67,
+      "available_mib": 16014.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 51.05,
+      "available_mib": 15889.53,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 255.18,
+        "used_mib": 3840.82
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 51.31,
+      "available_mib": 15806.03,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 51.67,
+      "available_mib": 15686.96,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 52.13,
+      "available_mib": 15539.73,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 52.51,
+      "available_mib": 15414.54,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 52.79,
+      "available_mib": 15324.05,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 53.16,
+      "available_mib": 15205.3,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 53.35,
+      "available_mib": 15142.04,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 53.67,
+      "available_mib": 15037.81,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 53.91,
+      "available_mib": 14960.66,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 54.48,
+      "available_mib": 14777.62,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 224.49,
+        "used_mib": 3871.51
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 54.54,
+      "available_mib": 14757.97,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 55.09,
+      "available_mib": 14578.7,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 55.3,
+      "available_mib": 14510.72,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 55.7,
+      "available_mib": 14380.08,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 55.95,
+      "available_mib": 14299.31,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 56.21,
+      "available_mib": 14216.21,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 56.44,
+      "available_mib": 14138.52,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 56.93,
+      "available_mib": 13980.41,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 57.25,
+      "available_mib": 13877.36,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 57.64,
+      "available_mib": 13751.01,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 224.49,
+        "used_mib": 3871.51
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 57.99,
+      "available_mib": 13635.98,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 58.32,
+      "available_mib": 13530.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 58.4,
+      "available_mib": 13505.08,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 58.59,
+      "available_mib": 13441.91,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 59.09,
+      "available_mib": 13279.18,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 59.28,
+      "available_mib": 13217.71,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 59.72,
+      "available_mib": 13074.98,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 59.83,
+      "available_mib": 13039.56,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 60.48,
+      "available_mib": 12828.84,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 60.65,
+      "available_mib": 12774.64,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 224.49,
+        "used_mib": 3871.51
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 61.04,
+      "available_mib": 12646.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 61.14,
+      "available_mib": 12613.06,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 61.67,
+      "available_mib": 12443.61,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 61.88,
+      "available_mib": 12372.75,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 62.42,
+      "available_mib": 12200.04,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 62.48,
+      "available_mib": 12178.2,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 63.03,
+      "available_mib": 11999.43,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 63.07,
+      "available_mib": 11987.67,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 63.44,
+      "available_mib": 11867.73,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 63.79,
+      "available_mib": 11754.24,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 224.49,
+        "used_mib": 3871.51
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 64.37,
+      "available_mib": 11566.15,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 64.42,
+      "available_mib": 11549.53,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 64.96,
+      "available_mib": 11374.81,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 65.1,
+      "available_mib": 11328.29,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 65.47,
+      "available_mib": 11209.58,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 65.82,
+      "available_mib": 11095.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 66.19,
+      "available_mib": 10975.37,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 66.48,
+      "available_mib": 10882.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 66.83,
+      "available_mib": 10766.47,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 67.1,
+      "available_mib": 10679.68,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 224.49,
+        "used_mib": 3871.51
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 67.46,
+      "available_mib": 10561.49,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 67.72,
+      "available_mib": 10479.63,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 68.23,
+      "available_mib": 10313.01,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 68.31,
+      "available_mib": 10285.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 68.64,
+      "available_mib": 10180.54,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 69.13,
+      "available_mib": 10021.93,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 69.46,
+      "available_mib": 9914.76,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 69.86,
+      "available_mib": 9784.89,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 70.08,
+      "available_mib": 9711.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 70.34,
+      "available_mib": 9626.41,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 224.49,
+        "used_mib": 3871.51
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 70.69,
+      "available_mib": 9513.14,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 71.17,
+      "available_mib": 9357.46,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 71.6,
+      "available_mib": 9219.51,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 71.73,
+      "available_mib": 9175.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 72.37,
+      "available_mib": 8968.96,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 72.43,
+      "available_mib": 8947.86,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 72.84,
+      "available_mib": 8815.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 73.14,
+      "available_mib": 8719.64,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 73.47,
+      "available_mib": 8612.93,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 73.9,
+      "available_mib": 8473.32,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 224.49,
+        "used_mib": 3871.51
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 74.18,
+      "available_mib": 8380.16,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 74.5,
+      "available_mib": 8277.67,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 75.08,
+      "available_mib": 8088.45,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 75.11,
+      "available_mib": 8080.68,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 76.16,
+      "available_mib": 7738.64,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.17,
+      "available_mib": 7412.45,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.23,
+      "available_mib": 7392.08,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.96,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.21,
+      "available_mib": 7396.75,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.94,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.17,
+      "available_mib": 7409.73,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.94,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.09,
+      "available_mib": 7436.69,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.94,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 212.49,
+        "used_mib": 3883.51
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.04,
+      "available_mib": 7452.98,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.03,
+      "available_mib": 7455.37,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.02,
+      "available_mib": 7459.33,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.02,
+      "available_mib": 7459.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.14,
+      "available_mib": 7419.16,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.2,
+      "available_mib": 7399.92,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.2,
+      "available_mib": 7399.82,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.24,
+      "available_mib": 7387.63,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.46,
+      "available_mib": 7316.11,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.49,
+      "available_mib": 7306.1,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 231.64,
+        "used_mib": 3864.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.53,
+      "available_mib": 7293.89,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.49,
+      "available_mib": 7306.33,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.77,
+      "available_mib": 7214.77,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.76,
+      "available_mib": 7220.27,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.74,
+      "available_mib": 7225.14,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.74,
+      "available_mib": 7225.64,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.74,
+      "available_mib": 7225.77,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.79,
+      "available_mib": 7208.21,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.78,
+      "available_mib": 7213.32,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.76,
+      "available_mib": 7218.26,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 229.64,
+        "used_mib": 3866.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.77,
+      "available_mib": 7216.52,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.76,
+      "available_mib": 7220.74,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.76,
+      "available_mib": 7220.45,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.73,
+      "available_mib": 7228.98,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.72,
+      "available_mib": 7230.91,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.72,
+      "available_mib": 7231.13,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.72,
+      "available_mib": 7231.14,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.72,
+      "available_mib": 7231.72,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.72,
+      "available_mib": 7231.59,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.72,
+      "available_mib": 7231.63,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 229.64,
+        "used_mib": 3866.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.72,
+      "available_mib": 7232.8,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.76,
+      "available_mib": 7219.73,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.76,
+      "available_mib": 7218.62,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.77,
+      "available_mib": 7217.5,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.78,
+      "available_mib": 7213.98,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.78,
+      "available_mib": 7213.19,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.78,
+      "available_mib": 7213.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.81,
+      "available_mib": 7203.36,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.79,
+      "available_mib": 7208.9,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.8,
+      "available_mib": 7206.99,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 229.64,
+        "used_mib": 3866.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.8,
+      "available_mib": 7207.58,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.79,
+      "available_mib": 7209.16,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.79,
+      "available_mib": 7209.61,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.8,
+      "available_mib": 7205.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.8,
+      "available_mib": 7205.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.8,
+      "available_mib": 7205.35,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.8,
+      "available_mib": 7205.33,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 698.02,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.8,
+      "available_mib": 7204.94,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.8,
+      "available_mib": 7205.6,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.8,
+      "available_mib": 7206.44,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 229.64,
+        "used_mib": 3866.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.8,
+      "available_mib": 7206.52,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.79,
+      "available_mib": 7208.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.83,
+      "available_mib": 7196.97,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7190.93,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7188.73,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7188.94,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7188.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.87,
+      "available_mib": 7182.68,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.89,
+      "available_mib": 7177.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.96,
+      "available_mib": 7153.09,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 227.64,
+        "used_mib": 3868.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7145.22,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7145.54,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7146.11,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7146.3,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7146.32,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7146.32,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7146.32,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7146.8,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7147.14,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7147.09,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 209.64,
+        "used_mib": 3886.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7147.09,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7147.53,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7148.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7147.88,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7147.78,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7147.47,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7146.58,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7144.92,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7145.05,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7145.03,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 189.64,
+        "used_mib": 3906.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7145.04,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7145.1,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7145.11,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7145.46,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7145.46,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7145.44,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7145.15,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.03,
+      "available_mib": 7130.78,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.05,
+      "available_mib": 7124.32,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.08,
+      "available_mib": 7116.05,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 171.64,
+        "used_mib": 3924.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.08,
+      "available_mib": 7115.67,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.08,
+      "available_mib": 7116.57,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.09,
+      "available_mib": 7111.96,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.09,
+      "available_mib": 7110.75,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.09,
+      "available_mib": 7112.05,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.09,
+      "available_mib": 7111.78,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.09,
+      "available_mib": 7111.81,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.09,
+      "available_mib": 7113.51,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.09,
+      "available_mib": 7113.01,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.09,
+      "available_mib": 7113.8,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 151.64,
+        "used_mib": 3944.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.09,
+      "available_mib": 7113.08,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.08,
+      "available_mib": 7114.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.11,
+      "available_mib": 7104.25,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.19,
+      "available_mib": 7080.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.19,
+      "available_mib": 7079.87,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.2,
+      "available_mib": 7076.8,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.23,
+      "available_mib": 7068.16,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.13,
+      "available_mib": 7098.59,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.13,
+      "available_mib": 7099.32,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.13,
+      "available_mib": 7099.33,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 139.64,
+        "used_mib": 3956.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.13,
+      "available_mib": 7099.33,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.11,
+      "available_mib": 7106.52,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.1,
+      "available_mib": 7110.42,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.09,
+      "available_mib": 7110.69,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.09,
+      "available_mib": 7112.18,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.09,
+      "available_mib": 7112.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.09,
+      "available_mib": 7112.3,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.1,
+      "available_mib": 7110.17,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.08,
+      "available_mib": 7114.48,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.08,
+      "available_mib": 7115.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 139.64,
+        "used_mib": 3956.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.08,
+      "available_mib": 7116.06,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.08,
+      "available_mib": 7116.96,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.07,
+      "available_mib": 7117.56,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.07,
+      "available_mib": 7118.57,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.1,
+      "available_mib": 7108.1,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.1,
+      "available_mib": 7108.21,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.1,
+      "available_mib": 7108.52,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.1,
+      "available_mib": 7107.85,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.07,
+      "available_mib": 7119.12,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.04,
+      "available_mib": 7129.06,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 139.64,
+        "used_mib": 3956.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.11,
+      "available_mib": 7104.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.02,
+      "available_mib": 7135.71,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.36,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.25,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.35,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.42,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.42,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.42,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 139.64,
+        "used_mib": 3956.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.5,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.67,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.73,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.74,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7137.94,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7137.76,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.58,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.89,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.89,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.92,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 137.64,
+        "used_mib": 3958.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7139.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7139.08,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7139.08,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7139.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.88,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7139.67,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.06,
+      "available_mib": 7123.21,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.06,
+      "available_mib": 7122.35,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.04,
+      "available_mib": 7127.61,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.03,
+      "available_mib": 7132.4,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 137.64,
+        "used_mib": 3958.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.05,
+      "available_mib": 7126.49,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.03,
+      "available_mib": 7131.03,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.03,
+      "available_mib": 7133.26,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.02,
+      "available_mib": 7133.48,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.02,
+      "available_mib": 7135.45,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.02,
+      "available_mib": 7135.98,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.02,
+      "available_mib": 7136.47,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7137.55,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7137.64,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7137.67,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 137.64,
+        "used_mib": 3958.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.57,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.39,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7137.79,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.22,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.25,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.27,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7136.94,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.02,
+      "available_mib": 7135.69,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.02,
+      "available_mib": 7135.12,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.02,
+      "available_mib": 7134.65,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 137.64,
+        "used_mib": 3958.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.02,
+      "available_mib": 7134.89,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.02,
+      "available_mib": 7135.79,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.02,
+      "available_mib": 7135.98,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.02,
+      "available_mib": 7136.26,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7136.61,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7136.63,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.06,
+      "available_mib": 7122.17,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.06,
+      "available_mib": 7121.06,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7146.32,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7148.7,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 137.64,
+        "used_mib": 3958.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.97,
+      "available_mib": 7151.64,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.96,
+      "available_mib": 7152.9,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7149.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7147.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7149.14,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.96,
+      "available_mib": 7153.16,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7146.36,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.96,
+      "available_mib": 7154.31,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.97,
+      "available_mib": 7150.79,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.0,
+      "available_mib": 7142.58,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 133.64,
+        "used_mib": 3962.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7148.57,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7146.39,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7144.41,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7143.68,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7148.57,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.97,
+      "available_mib": 7151.83,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.96,
+      "available_mib": 7153.19,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.0,
+      "available_mib": 7141.73,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.0,
+      "available_mib": 7141.75,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7146.36,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 133.64,
+        "used_mib": 3962.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.0,
+      "available_mib": 7140.69,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7139.21,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7144.14,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7146.68,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7147.94,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.97,
+      "available_mib": 7151.16,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.97,
+      "available_mib": 7151.3,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.95,
+      "available_mib": 7156.04,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.98,
+      "available_mib": 7146.88,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.97,
+      "available_mib": 7152.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 133.39,
+        "used_mib": 3962.61
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7145.82,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7137.62,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.86,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.0,
+      "available_mib": 7140.78,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.0,
+      "available_mib": 7141.44,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.0,
+      "available_mib": 7141.99,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.04,
+      "available_mib": 7129.76,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.02,
+      "available_mib": 7135.35,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.03,
+      "available_mib": 7132.62,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.02,
+      "available_mib": 7134.8,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 133.39,
+        "used_mib": 3962.61
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.0,
+      "available_mib": 7140.44,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7143.93,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7144.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7145.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.99,
+      "available_mib": 7146.2,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.93,
+      "available_mib": 7162.63,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.97,
+      "available_mib": 7152.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.01,
+      "available_mib": 7138.87,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.02,
+      "available_mib": 7136.52,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.04,
+      "available_mib": 7129.65,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 132.02,
+        "used_mib": 3963.98
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.9,
+      "available_mib": 7173.19,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.89,
+      "available_mib": 7175.67,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.89,
+      "available_mib": 7176.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.89,
+      "available_mib": 7176.32,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.9,
+      "available_mib": 7174.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.89,
+      "available_mib": 7177.62,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.88,
+      "available_mib": 7179.45,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.89,
+      "available_mib": 7178.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.88,
+      "available_mib": 7179.11,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.88,
+      "available_mib": 7179.1,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 133.64,
+        "used_mib": 3962.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7189.3,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7190.08,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7190.26,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7190.43,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7190.22,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.84,
+      "available_mib": 7191.9,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.86,
+      "available_mib": 7187.5,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.9,
+      "available_mib": 7174.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.87,
+      "available_mib": 7182.93,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.86,
+      "available_mib": 7187.19,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 133.64,
+        "used_mib": 3962.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.87,
+      "available_mib": 7185.14,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.88,
+      "available_mib": 7179.11,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.87,
+      "available_mib": 7183.05,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.86,
+      "available_mib": 7187.38,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.91,
+      "available_mib": 7170.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.93,
+      "available_mib": 7164.69,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.92,
+      "available_mib": 7167.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.91,
+      "available_mib": 7169.68,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.9,
+      "available_mib": 7174.47,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.92,
+      "available_mib": 7165.97,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 133.64,
+        "used_mib": 3962.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.9,
+      "available_mib": 7174.45,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.87,
+      "available_mib": 7183.54,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.89,
+      "available_mib": 7177.84,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.89,
+      "available_mib": 7177.14,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.87,
+      "available_mib": 7183.54,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.86,
+      "available_mib": 7187.12,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.86,
+      "available_mib": 7185.91,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.86,
+      "available_mib": 7185.54,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7188.8,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7189.42,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 133.64,
+        "used_mib": 3962.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7189.52,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7191.18,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7191.22,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.84,
+      "available_mib": 7192.09,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.84,
+      "available_mib": 7192.11,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.87,
+      "available_mib": 7183.14,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.88,
+      "available_mib": 7180.25,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.87,
+      "available_mib": 7182.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.86,
+      "available_mib": 7187.49,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.87,
+      "available_mib": 7184.14,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 133.64,
+        "used_mib": 3962.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.88,
+      "available_mib": 7181.11,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7188.98,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.88,
+      "available_mib": 7180.43,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.86,
+      "available_mib": 7187.82,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.88,
+      "available_mib": 7180.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.88,
+      "available_mib": 7180.32,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.86,
+      "available_mib": 7185.43,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7189.49,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7189.39,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.85,
+      "available_mib": 7189.36,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 131.83,
+        "used_mib": 3964.17
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.86,
+      "available_mib": 7187.96,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.88,
+      "available_mib": 7181.85,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.88,
+      "available_mib": 7180.56,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.88,
+      "available_mib": 7180.47,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.88,
+      "available_mib": 7179.96,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.93,
+      "available_mib": 7164.56,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.91,
+      "available_mib": 7169.74,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.92,
+      "available_mib": 7166.69,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.9,
+      "available_mib": 7174.18,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.9,
+      "available_mib": 7174.68,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 131.83,
+        "used_mib": 3964.17
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.92,
+      "available_mib": 7167.87,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.9,
+      "available_mib": 7173.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.9,
+      "available_mib": 7173.62,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.92,
+      "available_mib": 7168.93,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.9,
+      "available_mib": 7173.79,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.93,
+      "available_mib": 7164.33,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.93,
+      "available_mib": 7163.98,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.92,
+      "available_mib": 7168.9,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.9,
+      "available_mib": 7173.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.91,
+      "available_mib": 7171.91,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 131.83,
+        "used_mib": 3964.17
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.92,
+      "available_mib": 7167.19,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.9,
+      "available_mib": 7173.59,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.89,
+      "available_mib": 7177.58,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.89,
+      "available_mib": 7175.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.9,
+      "available_mib": 7172.82,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.9,
+      "available_mib": 7173.37,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.91,
+      "available_mib": 7170.05,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.9,
+      "available_mib": 7174.86,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.9,
+      "available_mib": 7174.86,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.88,
+      "available_mib": 7179.03,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 131.83,
+        "used_mib": 3964.17
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 77.88,
+      "available_mib": 7181.56,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.91,
+      "available_mib": 7171.65,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.89,
+      "available_mib": 7176.54,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.91,
+      "available_mib": 7169.26,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.91,
+      "available_mib": 7171.28,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 77.93,
+      "available_mib": 7164.03,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.33,
+      "available_mib": 7034.72,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.35,
+      "available_mib": 7029.11,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.35,
+      "available_mib": 7029.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.35,
+      "available_mib": 7029.09,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 133.64,
+        "used_mib": 3962.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.34,
+      "available_mib": 7030.57,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.34,
+      "available_mib": 7031.75,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.33,
+      "available_mib": 7033.54,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.33,
+      "available_mib": 7033.73,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.33,
+      "available_mib": 7033.76,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.33,
+      "available_mib": 7034.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.33,
+      "available_mib": 7034.88,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.33,
+      "available_mib": 7035.48,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.33,
+      "available_mib": 7035.49,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7036.06,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 133.64,
+        "used_mib": 3962.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7036.06,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7036.31,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7036.31,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7036.38,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7036.38,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.33,
+      "available_mib": 7034.06,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7036.9,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7037.96,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7037.97,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7038.35,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 133.64,
+        "used_mib": 3962.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7038.36,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7038.48,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7038.52,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7038.8,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7038.8,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.33,
+      "available_mib": 7033.73,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7038.04,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7038.46,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7038.49,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7038.53,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 133.64,
+        "used_mib": 3962.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7038.69,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7039.1,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7039.1,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.31,
+      "available_mib": 7039.21,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.31,
+      "available_mib": 7039.21,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.33,
+      "available_mib": 7034.5,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.32,
+      "available_mib": 7038.88,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.45,
+      "available_mib": 6995.61,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.78,
+      "available_mib": 6886.87,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.78,
+      "available_mib": 6886.87,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 133.64,
+        "used_mib": 3962.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.78,
+      "available_mib": 6886.87,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.79,
+      "available_mib": 6886.53,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.81,
+      "available_mib": 6878.94,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.83,
+      "available_mib": 6872.43,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.84,
+      "available_mib": 6870.33,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.86,
+      "available_mib": 6862.89,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.86,
+      "available_mib": 6863.51,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.86,
+      "available_mib": 6863.18,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.86,
+      "available_mib": 6862.33,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.86,
+      "available_mib": 6862.86,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 133.64,
+        "used_mib": 3962.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.86,
+      "available_mib": 6862.71,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.86,
+      "available_mib": 6862.81,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.85,
+      "available_mib": 6865.3,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.85,
+      "available_mib": 6865.54,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.85,
+      "available_mib": 6865.55,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.86,
+      "available_mib": 6863.78,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.87,
+      "available_mib": 6860.43,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.9,
+      "available_mib": 6848.79,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.95,
+      "available_mib": 6833.37,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.95,
+      "available_mib": 6832.6,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 133.64,
+        "used_mib": 3962.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.97,
+      "available_mib": 6826.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.92,
+      "available_mib": 6841.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.86,
+      "available_mib": 6863.65,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.85,
+      "available_mib": 6865.68,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.88,
+      "available_mib": 6854.81,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.87,
+      "available_mib": 6858.76,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.86,
+      "available_mib": 6861.35,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.86,
+      "available_mib": 6863.01,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.86,
+      "available_mib": 6863.85,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.85,
+      "available_mib": 6864.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 131.39,
+        "used_mib": 3964.61
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.85,
+      "available_mib": 6864.71,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.84,
+      "available_mib": 6868.4,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.83,
+      "available_mib": 6873.2,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.83,
+      "available_mib": 6873.56,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.82,
+      "available_mib": 6873.84,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.82,
+      "available_mib": 6873.93,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.82,
+      "available_mib": 6876.36,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.06,
+      "available_mib": 6795.91,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.34,
+      "available_mib": 6707.94,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.34,
+      "available_mib": 6707.91,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 133.64,
+        "used_mib": 3962.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 79.34,
+      "available_mib": 6707.88,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.34,
+      "available_mib": 6707.88,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.34,
+      "available_mib": 6707.96,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.34,
+      "available_mib": 6708.03,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.38,
+      "available_mib": 6693.04,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.39,
+      "available_mib": 6690.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.4,
+      "available_mib": 6686.37,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.4,
+      "available_mib": 6686.37,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.41,
+      "available_mib": 6683.5,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.37,
+      "available_mib": 6696.28,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 131.64,
+        "used_mib": 3964.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 79.37,
+      "available_mib": 6697.52,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.37,
+      "available_mib": 6697.52,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.37,
+      "available_mib": 6697.54,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.41,
+      "available_mib": 6685.14,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6679.29,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6674.82,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6674.7,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6674.43,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 127.64,
+        "used_mib": 3968.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.12,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.13,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6675.85,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6676.55,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6674.19,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6675.68,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.48,
+      "available_mib": 6661.63,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.5,
+      "available_mib": 6653.49,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.5,
+      "available_mib": 6653.77,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.53,
+      "available_mib": 6645.27,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 121.64,
+        "used_mib": 3974.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 79.53,
+      "available_mib": 6644.44,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.54,
+      "available_mib": 6639.91,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.45,
+      "available_mib": 6669.31,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.45,
+      "available_mib": 6669.43,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.5,
+      "available_mib": 6653.83,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.49,
+      "available_mib": 6656.55,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.47,
+      "available_mib": 6664.21,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.46,
+      "available_mib": 6666.36,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6674.12,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6674.52,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 121.64,
+        "used_mib": 3974.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6674.64,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6674.75,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.34,
+      "available_mib": 6704.94,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.35,
+      "available_mib": 6704.71,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.39,
+      "available_mib": 6689.42,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.38,
+      "available_mib": 6694.38,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.37,
+      "available_mib": 6695.36,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.36,
+      "available_mib": 6701.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.39,
+      "available_mib": 6691.32,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.37,
+      "available_mib": 6698.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 121.64,
+        "used_mib": 3974.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 79.35,
+      "available_mib": 6701.88,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.36,
+      "available_mib": 6698.35,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.36,
+      "available_mib": 6700.88,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.36,
+      "available_mib": 6698.7,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.57,
+      "available_mib": 6633.12,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6676.85,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.46,
+      "available_mib": 6668.56,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.46,
+      "available_mib": 6668.47,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.47,
+      "available_mib": 6662.94,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6677.98,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 121.64,
+        "used_mib": 3974.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 79.45,
+      "available_mib": 6672.06,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.45,
+      "available_mib": 6672.06,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6672.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6673.27,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6673.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6674.54,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6674.53,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6674.61,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6674.74,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6674.84,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 121.64,
+        "used_mib": 3974.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.04,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.04,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.16,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6676.78,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.45,
+      "available_mib": 6671.48,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6674.91,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6676.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6676.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 121.64,
+        "used_mib": 3974.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.86,
+      "available_mib": 6861.96,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6835.35,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.93,
+      "available_mib": 6839.45,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.92,
+      "available_mib": 6842.14,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.92,
+      "available_mib": 6842.04,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6835.61,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6836.04,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6836.04,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6835.86,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6835.86,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 121.64,
+        "used_mib": 3974.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6835.55,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6836.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6836.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6835.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6836.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6837.27,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6837.46,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6837.53,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6837.46,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6837.41,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 121.64,
+        "used_mib": 3974.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6837.37,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.93,
+      "available_mib": 6839.43,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.93,
+      "available_mib": 6838.24,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.93,
+      "available_mib": 6838.12,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.93,
+      "available_mib": 6838.92,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6836.84,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6836.79,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6837.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6836.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6835.73,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 121.64,
+        "used_mib": 3974.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6835.73,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6835.84,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6835.73,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6835.25,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6835.1,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6837.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6836.6,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 78.94,
+      "available_mib": 6836.73,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.41,
+      "available_mib": 6684.86,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.41,
+      "available_mib": 6684.66,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 121.64,
+        "used_mib": 3974.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 79.41,
+      "available_mib": 6684.71,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.41,
+      "available_mib": 6684.6,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.41,
+      "available_mib": 6684.56,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.41,
+      "available_mib": 6683.89,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.41,
+      "available_mib": 6683.62,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6677.93,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6677.61,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6677.85,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6676.48,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6675.83,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 121.64,
+        "used_mib": 3974.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6677.46,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6676.41,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6677.5,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6677.34,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.4,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6675.87,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6676.21,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6676.2,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.55,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.43,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 121.64,
+        "used_mib": 3974.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.45,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.39,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6675.7,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6676.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.5,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6677.78,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.09,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.1,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6675.78,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6675.8,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 121.64,
+        "used_mib": 3974.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6675.8,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6676.16,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6675.73,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6675.92,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6675.76,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6677.86,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6675.62,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6675.88,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.18,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 121.64,
+        "used_mib": 3974.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6676.48,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6676.27,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6677.73,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6675.79,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6676.87,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6680.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6680.46,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6680.52,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6680.5,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6681.19,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 121.64,
+        "used_mib": 3974.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6680.83,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6681.05,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6681.05,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.44,
+      "available_mib": 6675.19,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6676.16,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6679.33,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6678.21,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6678.76,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6679.09,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6678.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 121.64,
+        "used_mib": 3974.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6678.23,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6678.47,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6678.52,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6676.41,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6677.5,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6677.78,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6679.72,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6679.74,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6679.79,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6681.0,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0,
+      "gpu": {
+        "total_mib": 4096.0,
+        "free_mib": 121.64,
+        "used_mib": 3974.36
+      },
+      "ac": 1
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6681.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6681.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.42,
+      "available_mib": 6681.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    },
+    {
+      "used_percent": 79.43,
+      "available_mib": 6676.61,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 697.89,
+      "pagefile_total_mib": 16384.0
+    }
+  ],
+  "aborted": false,
+  "source_sha256": {
+    "Qwen-Agent.py": "f492bdac13bf570e9ca7b19583d9fb3862ba51a7fb95b88ef10795f9a6bf4438",
+    "qwen_coding.py": "2123f6c4c23a9fc1fd90505d3a61c61cab28ce3419bfd047e2330c2d4c6da5eb",
+    "qwen_context.py": "10e44f8869567dc971deef648914780a937faf969467c957c46bca0a1c0b70d0",
+    "qwen_cpu_runner.py": "a4d1e5440084e184152303eb3dde215baeb584db0b7eab29510fcc4c9905d61e",
+    "qwen_input.py": "58dee1e34fbb450595d787177e81f3163a509e0bb69d1a83c74f08d143ac8e1c",
+    "qwen_memory_guard.py": "b96d07a68d795285a34789d27ab3b06815cb65986a13c1b53e2af3e858cc5f0e",
+    "qwen_terminal.py": "0831dce1b689877851edc5c4b862ef51ee337d395ca614e167c3e2a31b6f2d47"
+  },
+  "settings": {
+    "num_gpu": 9,
+    "num_ctx": 2048,
+    "num_thread": 4,
+    "num_thread_batch": 12,
+    "native_runner_enabled": true,
+    "native_runner_port": 57206,
+    "cpu_generation_logical": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "cpu_batch_logical": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "num_batch": 128,
+    "draft_num_predict": 4,
+    "memory_cleanup_enabled": true,
+    "memory_threshold_percent": 80,
+    "memory_cleanup_llama": true,
+    "memory_llama_idle_seconds": 45,
+    "memory_target_percent": 40,
+    "memory_cleanup_aggressive": true,
+    "native_sleep_idle_seconds": -1,
+    "model_repack": false,
+    "memory_active_interval_seconds": 600,
+    "model_load_mode": "none",
+    "memory_cleanup_active": true,
+    "model_no_host": true,
+    "memory_active_threshold_percent": 90,
+    "memory_idle_trim_enabled": true,
+    "memory_idle_trim_seconds": 600,
+    "memory_prepare_request_enabled": true,
+    "cuda_no_pinned": true,
+    "native_fit_enabled": false,
+    "native_projector_enabled": false,
+    "native_cache_ram_mib": 0,
+    "native_context_checkpoints": 3,
+    "native_checkpoint_min_step": 512,
+    "memory_prepare_min_percent": 90,
+    "memory_model_trim_cooldown_seconds": 600,
+    "native_passive_openmp": true,
+    "native_poll_level": 0,
+    "native_greedy_sampling": true,
+    "native_cache_type_k": "q4_0",
+    "native_cache_type_v": "q4_0",
+    "agent_compact_protocol_enabled": true,
+    "native_draft_probability_min": 0.3
+  },
+  "exit_code": 0,
+  "seconds_including_model_load": 78.99257300001045,
+  "peak_ram_percent": 79.57,
+  "verified_bytes": true,
+  "result": {
+    "answer": "הקובץ hello.txt נוצר עם התוכן \"hello\" וירידת שורה בסוף, ואומת בהצלחה.",
+    "tools": [
+      {
+        "name": "write_file",
+        "arguments": {
+          "path": "hello.txt",
+          "content": "hello\n"
+        },
+        "result": {
+          "ok": true,
+          "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-entrypoint-v4\\project\\hello.txt",
+          "bytes": 6,
+          "verified": true,
+          "checkpoint": "e9b891e1e1ce"
+        }
+      }
+    ],
+    "prompt": "צור קובץ hello.txt שמכיל בדיוק hello עם ירידת שורה בסוף. אמת את התוכן וענה במשפט קצר בעברית."
+  },
+  "verified": true
+}

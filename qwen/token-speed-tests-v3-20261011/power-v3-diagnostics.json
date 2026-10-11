@@ -1,0 +1,707 @@
+{
+  "time": "2026-10-11T04:02:59.5936219+03:00",
+  "bios": {
+    "SMBIOSBIOSVersion": "FX507ZC4.312",
+    "ReleaseDate": "2024-12-03T02:00:00+02:00"
+  },
+  "battery": {
+    "PowerOnline": true,
+    "Charging": true,
+    "Discharging": false,
+    "RemainingCapacity": 37406
+  },
+  "devices": [
+    {
+      "Name": "Microsoft ACPI-Compliant Control Method Battery",
+      "Status": "OK",
+      "ConfigManagerErrorCode": 0
+    },
+    {
+      "Name": "Microsoft AC Adapter",
+      "Status": "OK",
+      "ConfigManagerErrorCode": 0
+    }
+  ],
+  "transitions": [
+    {
+      "time": "2026-10-11T03:56:10.2356993+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "34905"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41166"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:53:43.2296287+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "36753"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41166"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:29.4390485+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "30970"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:28.4373513+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "30986"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:27.4318906+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "30986"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:18.4719551+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31097"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:15.7924122+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31113"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:14.7867284+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31113"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:13.7890596+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31129"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:12.7515654+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31145"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:11.7504507+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31161"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:05.1072506+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31225"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:01.3933372+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31273"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:58.1379939+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31304"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:55.7909362+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31320"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:54.1198386+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31336"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:52.1049900+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31368"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:48.8472898+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31400"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:42.7913310+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31464"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:36.0059906+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31543"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:32.8350776+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31575"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:31.8297928+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31607"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:29.2510676+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31607"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:27.2675315+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31655"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:22.5820896+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31703"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:20.6336574+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31719"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:19.6197656+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31719"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:15.6006947+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31782"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:12.9624031+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31814"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:10.9741261+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31830"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:09.4837808+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31846"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:07.4766318+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31862"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:40:07.0286588+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31894"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:39:56.8098088+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31989"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:39:50.3341071+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "32053"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:39:41.9029974+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "32133"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:39:39.8841657+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "32165"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:39:37.8860122+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "32181"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:39:37.7656540+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "32197"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:39:30.3575852+03:00",
+      "values": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "32292"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    }
+  ]
+}

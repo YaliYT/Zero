@@ -1,0 +1,14 @@
+{
+  "target_improvement_percent": 500,
+  "target_speed_multiplier": 6,
+  "target_achieved": false,
+  "selected_threads": 4,
+  "draft_max": 4,
+  "gpu_layers": 9,
+  "generation_ms_baseline_mixed": 69797.158,
+  "generation_ms_smt8_mixed": 79881.625,
+  "generation_ms_draft3_mixed": 59917.543,
+  "draft3_texts_identical": true,
+  "short_responses_measured": 39,
+  "reason": "SMT8 selected only if >=5% faster generation without >5% task regression; draft3 rejected for slower initial task."
+}

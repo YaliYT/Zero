@@ -1,0 +1,73 @@
+{
+  "label": "token500-v4-verified",
+  "checked_at": "2026-10-11T04:45:51.0414608+03:00",
+  "python": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "all_passed": true,
+  "tests": [
+    {
+      "test": "test_memory_guard.py",
+      "exit_code": 0,
+      "seconds": 4.432
+    },
+    {
+      "test": "test_memory_target.py",
+      "exit_code": 0,
+      "seconds": 1.397
+    },
+    {
+      "test": "test_active_cleanup.py",
+      "exit_code": 0,
+      "seconds": 1.383
+    },
+    {
+      "test": "test_request_paging.py",
+      "exit_code": 0,
+      "seconds": 0.609
+    },
+    {
+      "test": "test_native_stream.py",
+      "exit_code": 0,
+      "seconds": 0.372
+    },
+    {
+      "test": "test_coding_features.py",
+      "exit_code": 0,
+      "seconds": 1.666
+    },
+    {
+      "test": "test_command_completion.py",
+      "exit_code": 0,
+      "seconds": 3.055
+    },
+    {
+      "test": "test_hebrew_console.py",
+      "exit_code": 0,
+      "seconds": 0.584
+    },
+    {
+      "test": "test_memory_hysteresis.py",
+      "exit_code": 0,
+      "seconds": 0.678
+    },
+    {
+      "test": "test_progress_guards.py",
+      "exit_code": 0,
+      "seconds": 0.81
+    },
+    {
+      "test": "test_agent_loop.py",
+      "exit_code": 0,
+      "seconds": 0.566
+    },
+    {
+      "test": "test_link_boundaries.py",
+      "exit_code": 0,
+      "seconds": 0.712
+    },
+    {
+      "test": "test_compact_protocol.py",
+      "exit_code": 0,
+      "seconds": 0.551
+    }
+  ]
+}

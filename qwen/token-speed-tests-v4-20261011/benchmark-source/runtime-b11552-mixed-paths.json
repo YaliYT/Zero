@@ -1,0 +1,9 @@
+{
+  "executable": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552-mixed\\llama-server.exe",
+  "model": "C:\\Users\\nagor\\.ollama\\models\\blobs\\sha256-f5f1dd8920d417aac2718b0bda3403da274301efdd6760b4f0f4b864ff2ad57d",
+  "projector": "C:\\Users\\nagor\\.ollama\\models\\blobs\\sha256-ac3714bfdddeca31351f2752bf1a63f266f4df87c0b68c895e44945ca704448e",
+  "cuda_library": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552-mixed\\ggml-cuda.dll",
+  "runtime_library_dirs": [
+    "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\cuda_v12"
+  ]
+}

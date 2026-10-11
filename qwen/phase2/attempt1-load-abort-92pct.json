@@ -1,0 +1,205 @@
+{
+ "tag": "probes",
+ "started": "2026-10-11T00:36:31+0300",
+ "settings": {
+  "num_gpu": 8,
+  "num_ctx": 2048,
+  "num_thread": 4,
+  "num_thread_batch": 12,
+  "native_runner_enabled": true,
+  "native_runner_port": 57206,
+  "cpu_generation_logical": [
+   0,
+   2,
+   4,
+   6
+  ],
+  "cpu_batch_logical": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "num_batch": 512,
+  "draft_num_predict": 4,
+  "memory_cleanup_enabled": true,
+  "memory_threshold_percent": 80,
+  "memory_cleanup_llama": true,
+  "memory_llama_idle_seconds": 45,
+  "memory_target_percent": 40,
+  "memory_cleanup_aggressive": true,
+  "native_sleep_idle_seconds": -1,
+  "model_repack": false,
+  "memory_active_interval_seconds": 120,
+  "model_load_mode": "mmap",
+  "memory_cleanup_active": true,
+  "model_no_host": true,
+  "memory_active_threshold_percent": 80,
+  "memory_idle_trim_enabled": true,
+  "memory_idle_trim_seconds": 30,
+  "memory_prepare_request_enabled": true
+ },
+ "n_predict": 16,
+ "pause_s": 35.0,
+ "ceiling_percent": 88.0,
+ "variants": [
+  "baseline",
+  "candidate",
+  "control"
+ ],
+ "rows": [],
+ "events": [
+  {
+   "time": "00:36:31",
+   "event": "preflight",
+   "ram": {
+    "used_percent": 55.51,
+    "total_mib": 32461,
+    "available_mib": 14442,
+    "commit_used_mib": 23945,
+    "commit_limit_mib": 48845
+   },
+   "pagefile": {
+    "pagefile_used_mib": 407,
+    "pagefile_total_mib": 16384
+   }
+  },
+  {
+   "time": "00:36:32",
+   "event": "ollama_api_ps",
+   "value": {
+    "models": []
+   },
+   "attached_existing_server": false
+  },
+  {
+   "time": "00:36:32",
+   "event": "vram_baseline",
+   "value": {
+    "vram_used_mib": 1916,
+    "vram_total_mib": 4096
+   }
+  },
+  {
+   "time": "00:36:43",
+   "event": "start_failed",
+   "error": "RuntimeError('Qwen runner failed; see qwen-cpu-runner.log')",
+   "abort": {
+    "t": 64959.3313979,
+    "ram": 92.05,
+    "time": 1791668203.5679333
+   }
+  },
+  {
+   "time": "00:36:43",
+   "event": "error",
+   "error": "RuntimeError('Qwen runner failed; see qwen-cpu-runner.log')",
+   "trace": "Traceback (most recent call last):\n  File \"C:\\Users\\nagor\\Downloads\\Qwen-Agent-work\\phase2\\bench.py\", line 190, in main\n    runner.start()\n  File \"C:\\Users\\nagor\\Downloads\\Qwen-Agent-work\\qwen_cpu_runner.py\", line 111, in start\n    raise RuntimeError('Qwen runner failed; see qwen-cpu-runner.log')\nRuntimeError: Qwen runner failed; see qwen-cpu-runner.log\n",
+   "safety": {
+    "t": 64959.3313979,
+    "ram": 92.05,
+    "time": 1791668203.5679333
+   }
+  },
+  {
+   "time": "00:36:46",
+   "event": "final",
+   "llama_server_pids_left": [],
+   "ram": {
+    "used_percent": 54.29,
+    "total_mib": 32461,
+    "available_mib": 14837,
+    "commit_used_mib": 23820,
+    "commit_limit_mib": 48845
+   }
+  }
+ ],
+ "guard_sources": {
+  "baseline": "9eea1518773479001184cc2525cada14c3130763eae9146a289dfaf9bb444e27",
+  "candidate": "54147c2bcfe14bf81bf21c73bce0f931569c40cf30544f0943196ee11dbdd29d"
+ },
+ "safety_trip": {
+  "t": 64959.3313979,
+  "ram": 92.05,
+  "time": 1791668203.5679333
+ },
+ "valve_events": [
+  {
+   "t": 64958.274335,
+   "time": 1791668202.559676,
+   "ram": 86.44,
+   "ok": true
+  }
+ ],
+ "ram_series": [
+  {
+   "t": 64948.1695356,
+   "ram": 55.5,
+   "avail_mib": 14444,
+   "commit_mib": 23952
+  },
+  {
+   "t": 64953.2239423,
+   "ram": 56.34,
+   "avail_mib": 14171,
+   "commit_mib": 24399,
+   "ws": 326.8,
+   "private": 541.9,
+   "faults": 368360
+  },
+  {
+   "t": 64958.274335,
+   "ram": 86.44,
+   "avail_mib": 4401,
+   "commit_mib": 34267,
+   "ws": 336.4,
+   "private": 519.1,
+   "faults": 375741
+  }
+ ],
+ "vram_series": [
+  {
+   "t": 64948.1697913,
+   "vram_used_mib": 1916,
+   "vram_total_mib": 4096
+  },
+  {
+   "t": 64950.2249502,
+   "vram_used_mib": 1916,
+   "vram_total_mib": 4096
+  },
+  {
+   "t": 64952.2883487,
+   "vram_used_mib": 1982,
+   "vram_total_mib": 4096
+  },
+  {
+   "t": 64954.3565819,
+   "vram_used_mib": 1975,
+   "vram_total_mib": 4096
+  },
+  {
+   "t": 64956.4208236,
+   "vram_used_mib": 1975,
+   "vram_total_mib": 4096
+  },
+  {
+   "t": 64958.4772494,
+   "vram_used_mib": 1975,
+   "vram_total_mib": 4096
+  }
+ ],
+ "finished": "2026-10-11T00:36:46+0300"
+}

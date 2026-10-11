@@ -1,0 +1,2637 @@
+{
+  "live-token-sampling": {
+    "preflight": {
+      "used_percent": 85.37,
+      "available_mib": 4749.67,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 783.77,
+      "pagefile_total_mib": 16384.0
+    },
+    "rows": [
+      {
+        "index": 0,
+        "backend_sampling": false,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "first_token_seconds": 4.041153900005156,
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 4024.838,
+          "prompt_per_token_ms": 174.99295652173913,
+          "prompt_per_second": 5.714515714669758,
+          "predicted_n": 16,
+          "predicted_ms": 4311.759,
+          "predicted_per_token_ms": 287.4506,
+          "predicted_per_second": 3.4788586282303813,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "generation_settings": {
+          "seed": 1234,
+          "temperature": 0.0,
+          "dynatemp_range": 0.0,
+          "dynatemp_exponent": 1.0,
+          "top_k": 20,
+          "top_p": 0.949999988079071,
+          "min_p": 0.05000000074505806,
+          "top_n_sigma": -1.0,
+          "xtc_probability": 0.0,
+          "xtc_threshold": 0.10000000149011612,
+          "typical_p": 1.0,
+          "repeat_last_n": 64,
+          "repeat_penalty": 1.0,
+          "presence_penalty": 0.0,
+          "frequency_penalty": 0.0,
+          "dry_multiplier": 0.0,
+          "dry_base": 1.75,
+          "dry_allowed_length": 2,
+          "dry_penalty_last_n": 64,
+          "dry_sequence_breakers": [
+            "\n",
+            ":",
+            "\"",
+            "*"
+          ],
+          "mirostat": 0,
+          "mirostat_tau": 5.0,
+          "mirostat_eta": 0.10000000149011612,
+          "adaptive_target": -1.0,
+          "adaptive_decay": 0.8999999761581421,
+          "stop": [],
+          "max_tokens": 16,
+          "n_predict": 16,
+          "n_keep": 4,
+          "n_discard": 0,
+          "ignore_eos": false,
+          "stream": true,
+          "logit_bias": [],
+          "n_probs": 0,
+          "min_keep": 0,
+          "grammar": "",
+          "grammar_lazy": false,
+          "grammar_triggers": [],
+          "preserved_tokens": [],
+          "chat_format": "Content-only",
+          "reasoning_format": "deepseek",
+          "reasoning_in_content": false,
+          "generation_prompt": "",
+          "samplers": [
+            "penalties",
+            "dry",
+            "top_n_sigma",
+            "top_k",
+            "typ_p",
+            "top_p",
+            "min_p",
+            "xtc",
+            "temperature"
+          ],
+          "speculative.types": "none,draft-mtp",
+          "timings_per_token": false,
+          "post_sampling_probs": false,
+          "backend_sampling": false,
+          "lora": []
+        },
+        "seconds": 8.351087899995036
+      },
+      {
+        "index": 1,
+        "backend_sampling": false,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "first_token_seconds": 0.8506446999963373,
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 849.289,
+          "prompt_per_token_ms": 212.32225,
+          "prompt_per_second": 4.709821980503692,
+          "predicted_n": 16,
+          "predicted_ms": 4496.783,
+          "predicted_per_token_ms": 299.7855333333334,
+          "predicted_per_second": 3.3357180010687637,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "generation_settings": {
+          "seed": 1234,
+          "temperature": 0.0,
+          "dynatemp_range": 0.0,
+          "dynatemp_exponent": 1.0,
+          "top_k": 20,
+          "top_p": 0.949999988079071,
+          "min_p": 0.05000000074505806,
+          "top_n_sigma": -1.0,
+          "xtc_probability": 0.0,
+          "xtc_threshold": 0.10000000149011612,
+          "typical_p": 1.0,
+          "repeat_last_n": 64,
+          "repeat_penalty": 1.0,
+          "presence_penalty": 0.0,
+          "frequency_penalty": 0.0,
+          "dry_multiplier": 0.0,
+          "dry_base": 1.75,
+          "dry_allowed_length": 2,
+          "dry_penalty_last_n": 64,
+          "dry_sequence_breakers": [
+            "\n",
+            ":",
+            "\"",
+            "*"
+          ],
+          "mirostat": 0,
+          "mirostat_tau": 5.0,
+          "mirostat_eta": 0.10000000149011612,
+          "adaptive_target": -1.0,
+          "adaptive_decay": 0.8999999761581421,
+          "stop": [],
+          "max_tokens": 16,
+          "n_predict": 16,
+          "n_keep": 4,
+          "n_discard": 0,
+          "ignore_eos": false,
+          "stream": true,
+          "logit_bias": [],
+          "n_probs": 0,
+          "min_keep": 0,
+          "grammar": "",
+          "grammar_lazy": false,
+          "grammar_triggers": [],
+          "preserved_tokens": [],
+          "chat_format": "Content-only",
+          "reasoning_format": "deepseek",
+          "reasoning_in_content": false,
+          "generation_prompt": "",
+          "samplers": [
+            "penalties",
+            "dry",
+            "top_n_sigma",
+            "top_k",
+            "typ_p",
+            "top_p",
+            "min_p",
+            "xtc",
+            "temperature"
+          ],
+          "speculative.types": "none,draft-mtp",
+          "timings_per_token": false,
+          "post_sampling_probs": false,
+          "backend_sampling": false,
+          "lora": []
+        },
+        "seconds": 5.3476132999931
+      },
+      {
+        "index": 2,
+        "backend_sampling": true,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "first_token_seconds": 0.8494470000005094,
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 848.334,
+          "prompt_per_token_ms": 212.0835,
+          "prompt_per_second": 4.7151239959732845,
+          "predicted_n": 16,
+          "predicted_ms": 4702.095,
+          "predicted_per_token_ms": 313.473,
+          "predicted_per_second": 3.190067406124291,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "generation_settings": {
+          "seed": 1234,
+          "temperature": 0.0,
+          "dynatemp_range": 0.0,
+          "dynatemp_exponent": 1.0,
+          "top_k": 20,
+          "top_p": 0.949999988079071,
+          "min_p": 0.05000000074505806,
+          "top_n_sigma": -1.0,
+          "xtc_probability": 0.0,
+          "xtc_threshold": 0.10000000149011612,
+          "typical_p": 1.0,
+          "repeat_last_n": 64,
+          "repeat_penalty": 1.0,
+          "presence_penalty": 0.0,
+          "frequency_penalty": 0.0,
+          "dry_multiplier": 0.0,
+          "dry_base": 1.75,
+          "dry_allowed_length": 2,
+          "dry_penalty_last_n": 64,
+          "dry_sequence_breakers": [
+            "\n",
+            ":",
+            "\"",
+            "*"
+          ],
+          "mirostat": 0,
+          "mirostat_tau": 5.0,
+          "mirostat_eta": 0.10000000149011612,
+          "adaptive_target": -1.0,
+          "adaptive_decay": 0.8999999761581421,
+          "stop": [],
+          "max_tokens": 16,
+          "n_predict": 16,
+          "n_keep": 4,
+          "n_discard": 0,
+          "ignore_eos": false,
+          "stream": true,
+          "logit_bias": [],
+          "n_probs": 0,
+          "min_keep": 0,
+          "grammar": "",
+          "grammar_lazy": false,
+          "grammar_triggers": [],
+          "preserved_tokens": [],
+          "chat_format": "Content-only",
+          "reasoning_format": "deepseek",
+          "reasoning_in_content": false,
+          "generation_prompt": "",
+          "samplers": [
+            "penalties",
+            "dry",
+            "top_n_sigma",
+            "top_k",
+            "typ_p",
+            "top_p",
+            "min_p",
+            "xtc",
+            "temperature"
+          ],
+          "speculative.types": "none,draft-mtp",
+          "timings_per_token": false,
+          "post_sampling_probs": false,
+          "backend_sampling": true,
+          "lora": []
+        },
+        "seconds": 5.551845499998308
+      },
+      {
+        "index": 3,
+        "backend_sampling": true,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "first_token_seconds": 0.9068582000036258,
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 895.391,
+          "prompt_per_token_ms": 223.84775,
+          "prompt_per_second": 4.467322097273705,
+          "predicted_n": 16,
+          "predicted_ms": 4883.79,
+          "predicted_per_token_ms": 325.586,
+          "predicted_per_second": 3.071385133267401,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "generation_settings": {
+          "seed": 1234,
+          "temperature": 0.0,
+          "dynatemp_range": 0.0,
+          "dynatemp_exponent": 1.0,
+          "top_k": 20,
+          "top_p": 0.949999988079071,
+          "min_p": 0.05000000074505806,
+          "top_n_sigma": -1.0,
+          "xtc_probability": 0.0,
+          "xtc_threshold": 0.10000000149011612,
+          "typical_p": 1.0,
+          "repeat_last_n": 64,
+          "repeat_penalty": 1.0,
+          "presence_penalty": 0.0,
+          "frequency_penalty": 0.0,
+          "dry_multiplier": 0.0,
+          "dry_base": 1.75,
+          "dry_allowed_length": 2,
+          "dry_penalty_last_n": 64,
+          "dry_sequence_breakers": [
+            "\n",
+            ":",
+            "\"",
+            "*"
+          ],
+          "mirostat": 0,
+          "mirostat_tau": 5.0,
+          "mirostat_eta": 0.10000000149011612,
+          "adaptive_target": -1.0,
+          "adaptive_decay": 0.8999999761581421,
+          "stop": [],
+          "max_tokens": 16,
+          "n_predict": 16,
+          "n_keep": 4,
+          "n_discard": 0,
+          "ignore_eos": false,
+          "stream": true,
+          "logit_bias": [],
+          "n_probs": 0,
+          "min_keep": 0,
+          "grammar": "",
+          "grammar_lazy": false,
+          "grammar_triggers": [],
+          "preserved_tokens": [],
+          "chat_format": "Content-only",
+          "reasoning_format": "deepseek",
+          "reasoning_in_content": false,
+          "generation_prompt": "",
+          "samplers": [
+            "penalties",
+            "dry",
+            "top_n_sigma",
+            "top_k",
+            "typ_p",
+            "top_p",
+            "min_p",
+            "xtc",
+            "temperature"
+          ],
+          "speculative.types": "none,draft-mtp",
+          "timings_per_token": false,
+          "post_sampling_probs": false,
+          "backend_sampling": true,
+          "lora": []
+        },
+        "seconds": 5.79104670000379
+      },
+      {
+        "index": 4,
+        "backend_sampling": false,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "first_token_seconds": 0.9352929000015138,
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 924.962,
+          "prompt_per_token_ms": 231.2405,
+          "prompt_per_second": 4.3245019795407815,
+          "predicted_n": 16,
+          "predicted_ms": 4786.269,
+          "predicted_per_token_ms": 319.0846,
+          "predicted_per_second": 3.133965098911072,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "generation_settings": {
+          "seed": 1234,
+          "temperature": 0.0,
+          "dynatemp_range": 0.0,
+          "dynatemp_exponent": 1.0,
+          "top_k": 20,
+          "top_p": 0.949999988079071,
+          "min_p": 0.05000000074505806,
+          "top_n_sigma": -1.0,
+          "xtc_probability": 0.0,
+          "xtc_threshold": 0.10000000149011612,
+          "typical_p": 1.0,
+          "repeat_last_n": 64,
+          "repeat_penalty": 1.0,
+          "presence_penalty": 0.0,
+          "frequency_penalty": 0.0,
+          "dry_multiplier": 0.0,
+          "dry_base": 1.75,
+          "dry_allowed_length": 2,
+          "dry_penalty_last_n": 64,
+          "dry_sequence_breakers": [
+            "\n",
+            ":",
+            "\"",
+            "*"
+          ],
+          "mirostat": 0,
+          "mirostat_tau": 5.0,
+          "mirostat_eta": 0.10000000149011612,
+          "adaptive_target": -1.0,
+          "adaptive_decay": 0.8999999761581421,
+          "stop": [],
+          "max_tokens": 16,
+          "n_predict": 16,
+          "n_keep": 4,
+          "n_discard": 0,
+          "ignore_eos": false,
+          "stream": true,
+          "logit_bias": [],
+          "n_probs": 0,
+          "min_keep": 0,
+          "grammar": "",
+          "grammar_lazy": false,
+          "grammar_triggers": [],
+          "preserved_tokens": [],
+          "chat_format": "Content-only",
+          "reasoning_format": "deepseek",
+          "reasoning_in_content": false,
+          "generation_prompt": "",
+          "samplers": [
+            "penalties",
+            "dry",
+            "top_n_sigma",
+            "top_k",
+            "typ_p",
+            "top_p",
+            "min_p",
+            "xtc",
+            "temperature"
+          ],
+          "speculative.types": "none,draft-mtp",
+          "timings_per_token": false,
+          "post_sampling_probs": false,
+          "backend_sampling": false,
+          "lora": []
+        },
+        "seconds": 5.721818499994697
+      },
+      {
+        "index": 5,
+        "backend_sampling": true,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "first_token_seconds": 0.9481426999991527,
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 913.901,
+          "prompt_per_token_ms": 228.47525,
+          "prompt_per_second": 4.376841692918599,
+          "predicted_n": 16,
+          "predicted_ms": 4767.016,
+          "predicted_per_token_ms": 317.80106666666666,
+          "predicted_per_second": 3.1466225412291466,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "generation_settings": {
+          "seed": 1234,
+          "temperature": 0.0,
+          "dynatemp_range": 0.0,
+          "dynatemp_exponent": 1.0,
+          "top_k": 20,
+          "top_p": 0.949999988079071,
+          "min_p": 0.05000000074505806,
+          "top_n_sigma": -1.0,
+          "xtc_probability": 0.0,
+          "xtc_threshold": 0.10000000149011612,
+          "typical_p": 1.0,
+          "repeat_last_n": 64,
+          "repeat_penalty": 1.0,
+          "presence_penalty": 0.0,
+          "frequency_penalty": 0.0,
+          "dry_multiplier": 0.0,
+          "dry_base": 1.75,
+          "dry_allowed_length": 2,
+          "dry_penalty_last_n": 64,
+          "dry_sequence_breakers": [
+            "\n",
+            ":",
+            "\"",
+            "*"
+          ],
+          "mirostat": 0,
+          "mirostat_tau": 5.0,
+          "mirostat_eta": 0.10000000149011612,
+          "adaptive_target": -1.0,
+          "adaptive_decay": 0.8999999761581421,
+          "stop": [],
+          "max_tokens": 16,
+          "n_predict": 16,
+          "n_keep": 4,
+          "n_discard": 0,
+          "ignore_eos": false,
+          "stream": true,
+          "logit_bias": [],
+          "n_probs": 0,
+          "min_keep": 0,
+          "grammar": "",
+          "grammar_lazy": false,
+          "grammar_triggers": [],
+          "preserved_tokens": [],
+          "chat_format": "Content-only",
+          "reasoning_format": "deepseek",
+          "reasoning_in_content": false,
+          "generation_prompt": "",
+          "samplers": [
+            "penalties",
+            "dry",
+            "top_n_sigma",
+            "top_k",
+            "typ_p",
+            "top_p",
+            "min_p",
+            "xtc",
+            "temperature"
+          ],
+          "speculative.types": "none,draft-mtp",
+          "timings_per_token": false,
+          "post_sampling_probs": false,
+          "backend_sampling": true,
+          "lora": []
+        },
+        "seconds": 5.715408299991395
+      }
+    ],
+    "error": null,
+    "peak_ram_percent": 85.16
+  },
+  "token500-no-op": {
+    "settings": {
+      "num_gpu": 9,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 600,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 90,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 600,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false,
+      "native_cache_ram_mib": 0,
+      "native_context_checkpoints": 3,
+      "native_checkpoint_min_step": 512,
+      "memory_prepare_min_percent": 90,
+      "memory_model_trim_cooldown_seconds": 600,
+      "native_passive_openmp": true,
+      "native_poll_level": 0,
+      "native_op_offload": false
+    },
+    "rows": [
+      {
+        "seconds": 8.838200799989863,
+        "first_token_seconds": 4.4578873999998905,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 4440.174,
+          "prompt_per_token_ms": 193.05104347826088,
+          "prompt_per_second": 5.1799771810744355,
+          "predicted_n": 16,
+          "predicted_ms": 4378.929,
+          "predicted_per_token_ms": 291.9286,
+          "predicted_per_second": 3.4254951381947505,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 0
+      },
+      {
+        "seconds": 5.552484500003629,
+        "first_token_seconds": 0.9985287000017706,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 980.058,
+          "prompt_per_token_ms": 245.0145,
+          "prompt_per_second": 4.081391101342982,
+          "predicted_n": 16,
+          "predicted_ms": 4553.727,
+          "predicted_per_token_ms": 303.5818,
+          "predicted_per_second": 3.2940051083431223,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 1
+      },
+      {
+        "seconds": 5.793837900011567,
+        "first_token_seconds": 0.8831194000085816,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 871.918,
+          "prompt_per_token_ms": 217.9795,
+          "prompt_per_second": 4.58758736486688,
+          "predicted_n": 16,
+          "predicted_ms": 4910.679,
+          "predicted_per_token_ms": 327.3786,
+          "predicted_per_second": 3.0545674030006844,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 2
+      }
+    ],
+    "events": [],
+    "label": "token500-no-op",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 41.86,
+      "available_mib": 18871.29,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 782.46,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      {
+        "time": 1791675784.8927066,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 42.04,
+          "available_mib": 18813.46,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 782.46,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 41.22,
+          "available_mib": 19079.4,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 782.46,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 265.94,
+        "trimmed": [
+          {
+            "pid": 30120,
+            "name": "discord.exe",
+            "before_mib": 423.04,
+            "after_mib": 1.43
+          },
+          {
+            "pid": 31764,
+            "name": "firefox.exe",
+            "before_mib": 332.03,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30196,
+            "name": "firefox.exe",
+            "before_mib": 194.35,
+            "after_mib": 3.29
+          },
+          {
+            "pid": 30240,
+            "name": "firefox.exe",
+            "before_mib": 180.73,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37484,
+            "name": "firefox.exe",
+            "before_mib": 161.52,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 3080,
+            "name": "discord.exe",
+            "before_mib": 116.89,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 9052,
+            "name": "firefox.exe",
+            "before_mib": 96.34,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 12548,
+            "name": "firefox.exe",
+            "before_mib": 66.64,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 15044,
+            "name": "firefox.exe",
+            "before_mib": 61.91,
+            "after_mib": 0.11
+          },
+          {
+            "pid": 2028,
+            "name": "firefox.exe",
+            "before_mib": 55.54,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 31616,
+            "name": "msedge.exe",
+            "before_mib": 53.07,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 16756,
+            "name": "discord.exe",
+            "before_mib": 49.08,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 24896,
+            "name": "msedge.exe",
+            "before_mib": 40.88,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 27108,
+            "name": "firefox.exe",
+            "before_mib": 38.86,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 31452,
+            "name": "firefox.exe",
+            "before_mib": 38.18,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791675785.9194796,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 41.22,
+          "available_mib": 19079.45,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 782.46,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 41.25,
+          "available_mib": 19071.57,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 782.46,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": -7.88,
+        "trimmed": []
+      }
+    ],
+    "load_seconds": 17.682360000006156,
+    "peak_ram_percent": 84.94,
+    "aborted": false
+  },
+  "token500-physical6": {
+    "settings": {
+      "num_gpu": 9,
+      "num_ctx": 2048,
+      "num_thread": 6,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        9
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 600,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 90,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 600,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false,
+      "native_cache_ram_mib": 0,
+      "native_context_checkpoints": 3,
+      "native_checkpoint_min_step": 512,
+      "memory_prepare_min_percent": 90,
+      "memory_model_trim_cooldown_seconds": 600,
+      "native_passive_openmp": true,
+      "native_poll_level": 0
+    },
+    "rows": [
+      {
+        "seconds": 8.897764099994674,
+        "first_token_seconds": 4.148679499994614,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 4141.389,
+          "prompt_per_token_ms": 180.06039130434783,
+          "prompt_per_second": 5.55369225156101,
+          "predicted_n": 16,
+          "predicted_ms": 4748.737,
+          "predicted_per_token_ms": 316.5824666666667,
+          "predicted_per_second": 3.158734627754706,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 0
+      },
+      {
+        "seconds": 5.891108900003019,
+        "first_token_seconds": 0.9746352000074694,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 973.428,
+          "prompt_per_token_ms": 243.357,
+          "prompt_per_second": 4.109189380210966,
+          "predicted_n": 16,
+          "predicted_ms": 4916.314,
+          "predicted_per_token_ms": 327.7542666666667,
+          "predicted_per_second": 3.05106630699341,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 1
+      },
+      {
+        "seconds": 6.0367034999944735,
+        "first_token_seconds": 1.2382533999916632,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 1228.548,
+          "prompt_per_token_ms": 307.137,
+          "prompt_per_second": 3.255876042287318,
+          "predicted_n": 16,
+          "predicted_ms": 4798.287,
+          "predicted_per_token_ms": 319.8858,
+          "predicted_per_second": 3.1261156325163544,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 2
+      }
+    ],
+    "events": [],
+    "label": "token500-physical6",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 40.67,
+      "available_mib": 19260.67,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 780.97,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      {
+        "time": 1791675834.7233646,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 40.71,
+          "available_mib": 19246.31,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 780.97,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 40.48,
+          "available_mib": 19320.42,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 780.97,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 74.11,
+        "trimmed": [
+          {
+            "pid": 31764,
+            "name": "firefox.exe",
+            "before_mib": 264.45,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 2028,
+            "name": "firefox.exe",
+            "before_mib": 225.84,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 12548,
+            "name": "firefox.exe",
+            "before_mib": 171.82,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30120,
+            "name": "discord.exe",
+            "before_mib": 161.61,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37484,
+            "name": "firefox.exe",
+            "before_mib": 156.05,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30196,
+            "name": "firefox.exe",
+            "before_mib": 119.94,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 15044,
+            "name": "firefox.exe",
+            "before_mib": 108.07,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 35908,
+            "name": "msedge.exe",
+            "before_mib": 55.43,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 24896,
+            "name": "msedge.exe",
+            "before_mib": 43.86,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 34744,
+            "name": "firefox.exe",
+            "before_mib": 35.52,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791675835.7369552,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 40.48,
+          "available_mib": 19320.41,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 780.97,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 40.48,
+          "available_mib": 19320.3,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 780.97,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": -0.11,
+        "trimmed": []
+      }
+    ],
+    "load_seconds": 17.78676310001174,
+    "peak_ram_percent": 85.27,
+    "aborted": false
+  },
+  "token500-draft2": {
+    "settings": {
+      "num_gpu": 9,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 2,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 600,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 90,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 600,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false,
+      "native_cache_ram_mib": 0,
+      "native_context_checkpoints": 3,
+      "native_checkpoint_min_step": 512,
+      "memory_prepare_min_percent": 90,
+      "memory_model_trim_cooldown_seconds": 600,
+      "native_passive_openmp": true,
+      "native_poll_level": 0
+    },
+    "rows": [
+      {
+        "seconds": 9.795310199988307,
+        "first_token_seconds": 4.085417399997823,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 4077.899,
+          "prompt_per_token_ms": 177.29995652173912,
+          "prompt_per_second": 5.640159307525763,
+          "predicted_n": 16,
+          "predicted_ms": 5711.146,
+          "predicted_per_token_ms": 380.74306666666666,
+          "predicted_per_second": 2.6264430991608343,
+          "draft_n": 13,
+          "draft_n_accepted": 8
+        },
+        "run": 0
+      },
+      {
+        "seconds": 6.8589575000078185,
+        "first_token_seconds": 1.4459291999955894,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 1444.412,
+          "prompt_per_token_ms": 361.103,
+          "prompt_per_second": 2.7692929718113666,
+          "predicted_n": 16,
+          "predicted_ms": 5412.809,
+          "predicted_per_token_ms": 360.8539333333334,
+          "predicted_per_second": 2.77120437835512,
+          "draft_n": 13,
+          "draft_n_accepted": 8
+        },
+        "run": 1
+      },
+      {
+        "seconds": 6.319685499998741,
+        "first_token_seconds": 1.3236268000036944,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 1322.206,
+          "prompt_per_token_ms": 330.5515,
+          "prompt_per_second": 3.0252472005118722,
+          "predicted_n": 16,
+          "predicted_ms": 4995.945,
+          "predicted_per_token_ms": 333.063,
+          "predicted_per_second": 3.002434974764534,
+          "draft_n": 13,
+          "draft_n_accepted": 8
+        },
+        "run": 2
+      }
+    ],
+    "events": [],
+    "label": "token500-draft2",
+    "ceiling": 88,
+    "scenario": "files",
+    "token_limit": 16,
+    "preflight": {
+      "used_percent": 40.28,
+      "available_mib": 19384.61,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 780.85,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      {
+        "time": 1791675887.0084405,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 40.3,
+          "available_mib": 19380.03,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 780.85,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 40.19,
+          "available_mib": 19416.33,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 780.85,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 36.3,
+        "trimmed": [
+          {
+            "pid": 31764,
+            "name": "firefox.exe",
+            "before_mib": 260.33,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 2028,
+            "name": "firefox.exe",
+            "before_mib": 215.12,
+            "after_mib": 1.59
+          },
+          {
+            "pid": 37484,
+            "name": "firefox.exe",
+            "before_mib": 154.34,
+            "after_mib": 8.46
+          },
+          {
+            "pid": 12548,
+            "name": "firefox.exe",
+            "before_mib": 148.61,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30120,
+            "name": "discord.exe",
+            "before_mib": 123.91,
+            "after_mib": 0.34
+          },
+          {
+            "pid": 30196,
+            "name": "firefox.exe",
+            "before_mib": 114.05,
+            "after_mib": 0.52
+          },
+          {
+            "pid": 15044,
+            "name": "firefox.exe",
+            "before_mib": 91.74,
+            "after_mib": 1.29
+          },
+          {
+            "pid": 27108,
+            "name": "firefox.exe",
+            "before_mib": 38.75,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 17008,
+            "name": "firefox.exe",
+            "before_mib": 34.2,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791675888.039086,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 40.19,
+          "available_mib": 19416.34,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 780.85,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 40.28,
+          "available_mib": 19384.38,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 780.85,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": -31.96,
+        "trimmed": []
+      }
+    ],
+    "load_seconds": 17.755253600000287,
+    "peak_ram_percent": 84.07,
+    "aborted": false
+  },
+  "token500-draft6": {
+    "settings": {
+      "num_gpu": 9,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 6,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 600,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 90,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 600,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false,
+      "native_cache_ram_mib": 0,
+      "native_context_checkpoints": 3,
+      "native_checkpoint_min_step": 512,
+      "memory_prepare_min_percent": 90,
+      "memory_model_trim_cooldown_seconds": 600,
+      "native_passive_openmp": true,
+      "native_poll_level": 0
+    },
+    "rows": [
+      {
+        "seconds": 9.70941200001107,
+        "first_token_seconds": 4.108381300000474,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 4088.964,
+          "prompt_per_token_ms": 177.78104347826087,
+          "prompt_per_second": 5.624896673093723,
+          "predicted_n": 16,
+          "predicted_ms": 5601.367,
+          "predicted_per_token_ms": 373.42446666666666,
+          "predicted_per_second": 2.6779177297256185,
+          "draft_n": 21,
+          "draft_n_accepted": 10
+        },
+        "run": 0
+      },
+      {
+        "seconds": 7.410374500002945,
+        "first_token_seconds": 1.1410515000025043,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 1139.788,
+          "prompt_per_token_ms": 284.947,
+          "prompt_per_second": 3.509424559654953,
+          "predicted_n": 16,
+          "predicted_ms": 6269.191,
+          "predicted_per_token_ms": 417.94606666666664,
+          "predicted_per_second": 2.392653214744933,
+          "draft_n": 21,
+          "draft_n_accepted": 10
+        },
+        "run": 1
+      },
+      {
+        "seconds": 6.77139910000551,
+        "first_token_seconds": 1.3337242000125116,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 1319.74,
+          "prompt_per_token_ms": 329.935,
+          "prompt_per_second": 3.03090002576265,
+          "predicted_n": 16,
+          "predicted_ms": 5437.633,
+          "predicted_per_token_ms": 362.5088666666667,
+          "predicted_per_second": 2.7585532160776576,
+          "draft_n": 21,
+          "draft_n_accepted": 10
+        },
+        "run": 2
+      }
+    ],
+    "events": [],
+    "label": "token500-draft6",
+    "ceiling": 88,
+    "scenario": "files",
+    "token_limit": 16,
+    "preflight": {
+      "used_percent": 40.31,
+      "available_mib": 19376.03,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 760.41,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      {
+        "time": 1791675942.3185916,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": true,
+        "before": {
+          "used_percent": 40.26,
+          "available_mib": 19391.73,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 760.41,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 39.99,
+          "available_mib": 19480.39,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 756.73,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 88.66,
+        "trimmed": [
+          {
+            "pid": 31764,
+            "name": "firefox.exe",
+            "before_mib": 255.28,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 2028,
+            "name": "firefox.exe",
+            "before_mib": 212.39,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37484,
+            "name": "firefox.exe",
+            "before_mib": 149.44,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30120,
+            "name": "discord.exe",
+            "before_mib": 143.52,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30196,
+            "name": "firefox.exe",
+            "before_mib": 139.73,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 15044,
+            "name": "firefox.exe",
+            "before_mib": 118.08,
+            "after_mib": 1.29
+          },
+          {
+            "pid": 9052,
+            "name": "firefox.exe",
+            "before_mib": 59.52,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 12548,
+            "name": "firefox.exe",
+            "before_mib": 55.89,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 24896,
+            "name": "msedge.exe",
+            "before_mib": 37.11,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 9020,
+            "name": "firefox.exe",
+            "before_mib": 34.67,
+            "after_mib": 0.0
+          }
+        ]
+      }
+    ],
+    "load_seconds": 17.699703700011014,
+    "peak_ram_percent": 85.4,
+    "aborted": false
+  },
+  "token500-draft3-mixed": {
+    "settings": {
+      "num_gpu": 9,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 3,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 600,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 90,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 600,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false,
+      "native_cache_ram_mib": 0,
+      "native_context_checkpoints": 3,
+      "native_checkpoint_min_step": 512,
+      "memory_prepare_min_percent": 90,
+      "memory_model_trim_cooldown_seconds": 600,
+      "native_passive_openmp": true,
+      "native_poll_level": 0
+    },
+    "rows": [
+      {
+        "seconds": 13.194244700003765,
+        "first_token_seconds": 3.976516399998218,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as `YYYY-MM-DD_ProjectName_Version`, to ensure files are easily searchable and sortable",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 3971.447,
+          "prompt_per_token_ms": 172.67160869565217,
+          "prompt_per_second": 5.791340032990495,
+          "predicted_n": 32,
+          "predicted_ms": 9216.384,
+          "predicted_per_token_ms": 297.30270967741933,
+          "predicted_per_second": 3.363575128814077,
+          "draft_n": 29,
+          "draft_n_accepted": 21
+        },
+        "run": 0,
+        "scenario": "files"
+      },
+      {
+        "seconds": 10.132595200004289,
+        "first_token_seconds": 0.9159917000069981,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as `YYYY-MM-DD_ProjectName_Version`, to ensure files are easily searchable and sortable",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 894.683,
+          "prompt_per_token_ms": 223.67075,
+          "prompt_per_second": 4.470857275705473,
+          "predicted_n": 32,
+          "predicted_ms": 9216.564,
+          "predicted_per_token_ms": 297.3085161290323,
+          "predicted_per_second": 3.363509438007483,
+          "draft_n": 30,
+          "draft_n_accepted": 20
+        },
+        "run": 1,
+        "scenario": "files"
+      },
+      {
+        "seconds": 11.360788099991623,
+        "first_token_seconds": 4.534770400001435,
+        "content": "```python\ndef remove_duplicates(lst):\n    seen = set()\n    result = []\n    for item in lst:\n        if item not in",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 30,
+          "prompt_ms": 4532.009,
+          "prompt_per_token_ms": 151.06696666666667,
+          "prompt_per_second": 6.6195808525534705,
+          "predicted_n": 32,
+          "predicted_ms": 6825.899,
+          "predicted_per_token_ms": 220.19029032258067,
+          "predicted_per_second": 4.541526324957342,
+          "draft_n": 23,
+          "draft_n_accepted": 23
+        },
+        "run": 2,
+        "scenario": "code"
+      },
+      {
+        "seconds": 8.529075899990858,
+        "first_token_seconds": 0.8757427999953507,
+        "content": "```python\ndef remove_duplicates(lst):\n    seen = set()\n    result = []\n    for item in lst:\n        if item not in",
+        "timings": {
+          "cache_n": 26,
+          "prompt_n": 4,
+          "prompt_ms": 871.682,
+          "prompt_per_token_ms": 217.9205,
+          "prompt_per_second": 4.588829412561003,
+          "predicted_n": 32,
+          "predicted_ms": 7653.197,
+          "predicted_per_token_ms": 246.87732258064517,
+          "predicted_per_second": 4.050594803714056,
+          "draft_n": 23,
+          "draft_n_accepted": 23
+        },
+        "run": 3,
+        "scenario": "code"
+      },
+      {
+        "seconds": 15.976958100000047,
+        "first_token_seconds": 3.0644601000094553,
+        "content": "1. השתמשו במבנה תיקיות היררכי ופשוט, למשל לפי שנה, חודש ו",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 38,
+          "prompt_ms": 3063.017,
+          "prompt_per_token_ms": 80.60571052631579,
+          "prompt_per_second": 12.406068918324646,
+          "predicted_n": 32,
+          "predicted_ms": 12912.19,
+          "predicted_per_token_ms": 416.52225806451617,
+          "predicted_per_second": 2.40083208193188,
+          "draft_n": 42,
+          "draft_n_accepted": 17
+        },
+        "run": 4,
+        "scenario": "hebrew"
+      },
+      {
+        "seconds": 15.062908599997172,
+        "first_token_seconds": 0.9693470999918645,
+        "content": "1. השתמשו במבנה תיקיות היררכי ופשוט, למשל לפי שנה, חודש ו",
+        "timings": {
+          "cache_n": 34,
+          "prompt_n": 4,
+          "prompt_ms": 967.768,
+          "prompt_per_token_ms": 241.942,
+          "prompt_per_second": 4.133222011887146,
+          "predicted_n": 32,
+          "predicted_ms": 14093.309,
+          "predicted_per_token_ms": 454.6228709677419,
+          "predicted_per_second": 2.1996253683219464,
+          "draft_n": 42,
+          "draft_n_accepted": 17
+        },
+        "run": 5,
+        "scenario": "hebrew"
+      }
+    ],
+    "events": [],
+    "label": "token500-draft3-mixed",
+    "ceiling": 88,
+    "scenario": "mixed",
+    "token_limit": 32,
+    "preflight": {
+      "used_percent": 40.38,
+      "available_mib": 19352.45,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 756.36,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      {
+        "time": 1791676005.2309659,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 40.41,
+          "available_mib": 19344.71,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 756.36,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 40.21,
+          "available_mib": 19407.12,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 756.36,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 62.41,
+        "trimmed": [
+          {
+            "pid": 30120,
+            "name": "discord.exe",
+            "before_mib": 369.74,
+            "after_mib": 0.34
+          },
+          {
+            "pid": 31764,
+            "name": "firefox.exe",
+            "before_mib": 249.2,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37484,
+            "name": "firefox.exe",
+            "before_mib": 151.77,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30196,
+            "name": "firefox.exe",
+            "before_mib": 112.37,
+            "after_mib": 0.71
+          },
+          {
+            "pid": 15044,
+            "name": "firefox.exe",
+            "before_mib": 73.76,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 12548,
+            "name": "firefox.exe",
+            "before_mib": 60.39,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 2028,
+            "name": "firefox.exe",
+            "before_mib": 53.78,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30240,
+            "name": "firefox.exe",
+            "before_mib": 40.09,
+            "after_mib": 0.43
+          },
+          {
+            "pid": 24896,
+            "name": "msedge.exe",
+            "before_mib": 37.23,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 9052,
+            "name": "firefox.exe",
+            "before_mib": 36.53,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791676006.256109,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 40.21,
+          "available_mib": 19407.11,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 756.36,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 40.21,
+          "available_mib": 19408.67,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 756.36,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 1.56,
+        "trimmed": [
+          {
+            "pid": 27108,
+            "name": "firefox.exe",
+            "before_mib": 38.89,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791676007.2719586,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 40.21,
+          "available_mib": 19409.45,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 756.36,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 40.22,
+          "available_mib": 19405.05,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 756.36,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": -4.4,
+        "trimmed": []
+      }
+    ],
+    "load_seconds": 17.711157800004003,
+    "peak_ram_percent": 84.87,
+    "aborted": false
+  },
+  "token500-draft4-mixed": {
+    "settings": {
+      "num_gpu": 9,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 600,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 90,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 600,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false,
+      "native_cache_ram_mib": 0,
+      "native_context_checkpoints": 3,
+      "native_checkpoint_min_step": 512,
+      "memory_prepare_min_percent": 90,
+      "memory_model_trim_cooldown_seconds": 600,
+      "native_passive_openmp": true,
+      "native_poll_level": 0
+    },
+    "rows": [
+      {
+        "seconds": 16.374924100004137,
+        "first_token_seconds": 4.332270500002778,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as `YYYY-MM-DD_ProjectName_Version`, to ensure files are easily searchable and sortable",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 4326.312,
+          "prompt_per_token_ms": 188.10052173913044,
+          "prompt_per_second": 5.316306359781727,
+          "predicted_n": 32,
+          "predicted_ms": 12041.82,
+          "predicted_per_token_ms": 388.4458064516129,
+          "predicted_per_second": 2.5743616828685365,
+          "draft_n": 42,
+          "draft_n_accepted": 20
+        },
+        "run": 0,
+        "scenario": "files"
+      },
+      {
+        "seconds": 13.010905700008152,
+        "first_token_seconds": 1.0277574000065215,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as `YYYY-MM-DD_ProjectName_Version`, to ensure files are easily searchable and sortable",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 1026.171,
+          "prompt_per_token_ms": 256.54275,
+          "prompt_per_second": 3.8979858132806324,
+          "predicted_n": 32,
+          "predicted_ms": 11983.044,
+          "predicted_per_token_ms": 386.5498064516129,
+          "predicted_per_second": 2.5869887484348717,
+          "draft_n": 43,
+          "draft_n_accepted": 19
+        },
+        "run": 1,
+        "scenario": "files"
+      },
+      {
+        "seconds": 11.294012900005328,
+        "first_token_seconds": 4.292764800004079,
+        "content": "```python\ndef remove_duplicates(lst):\n    seen = set()\n    result = []\n    for item in lst:\n        if item not in",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 30,
+          "prompt_ms": 4289.386,
+          "prompt_per_token_ms": 142.97953333333334,
+          "prompt_per_second": 6.9940080002126175,
+          "predicted_n": 32,
+          "predicted_ms": 7000.726,
+          "predicted_per_token_ms": 225.82987096774193,
+          "predicted_per_second": 4.428112170080646,
+          "draft_n": 24,
+          "draft_n_accepted": 24
+        },
+        "run": 2,
+        "scenario": "code"
+      },
+      {
+        "seconds": 8.366104200002155,
+        "first_token_seconds": 0.996446899996954,
+        "content": "```python\ndef remove_duplicates(lst):\n    seen = set()\n    result = []\n    for item in lst:\n        if item not in",
+        "timings": {
+          "cache_n": 26,
+          "prompt_n": 4,
+          "prompt_ms": 994.802,
+          "prompt_per_token_ms": 248.7005,
+          "prompt_per_second": 4.0209006415346975,
+          "predicted_n": 32,
+          "predicted_ms": 7369.54,
+          "predicted_per_token_ms": 237.72709677419354,
+          "predicted_per_second": 4.2065040694534535,
+          "draft_n": 24,
+          "draft_n_accepted": 24
+        },
+        "run": 3,
+        "scenario": "code"
+      },
+      {
+        "seconds": 18.835925200008205,
+        "first_token_seconds": 3.1079193000041414,
+        "content": "1. השתמשו במבנה תיקיות היררכי ופשוט, למשל לפי שנה, חודש ו",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 38,
+          "prompt_ms": 3105.512,
+          "prompt_per_token_ms": 81.724,
+          "prompt_per_second": 12.236307571827124,
+          "predicted_n": 32,
+          "predicted_ms": 15727.843,
+          "predicted_per_token_ms": 507.3497741935484,
+          "predicted_per_second": 1.9710267962364578,
+          "draft_n": 55,
+          "draft_n_accepted": 17
+        },
+        "run": 4,
+        "scenario": "hebrew"
+      },
+      {
+        "seconds": 16.619921600009548,
+        "first_token_seconds": 0.9455253000051016,
+        "content": "1. השתמשו במבנה תיקיות היררכי ופשוט, למשל לפי שנה, חודש ו",
+        "timings": {
+          "cache_n": 34,
+          "prompt_n": 4,
+          "prompt_ms": 938.87,
+          "prompt_per_token_ms": 234.7175,
+          "prompt_per_second": 4.260440742594821,
+          "predicted_n": 32,
+          "predicted_ms": 15674.185,
+          "predicted_per_token_ms": 505.61887096774194,
+          "predicted_per_second": 1.9777742830009983,
+          "draft_n": 55,
+          "draft_n_accepted": 17
+        },
+        "run": 5,
+        "scenario": "hebrew"
+      }
+    ],
+    "events": [],
+    "label": "token500-draft4-mixed",
+    "ceiling": 88,
+    "scenario": "mixed",
+    "token_limit": 32,
+    "preflight": {
+      "used_percent": 40.41,
+      "available_mib": 19344.72,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 756.89,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      {
+        "time": 1791676108.394981,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 40.43,
+          "available_mib": 19336.21,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 756.89,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 40.18,
+          "available_mib": 19419.17,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 756.89,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 82.96,
+        "trimmed": [
+          {
+            "pid": 30120,
+            "name": "discord.exe",
+            "before_mib": 381.0,
+            "after_mib": 0.06
+          },
+          {
+            "pid": 30196,
+            "name": "firefox.exe",
+            "before_mib": 203.52,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 31764,
+            "name": "firefox.exe",
+            "before_mib": 157.53,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37484,
+            "name": "firefox.exe",
+            "before_mib": 153.33,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 2028,
+            "name": "firefox.exe",
+            "before_mib": 67.75,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 15044,
+            "name": "firefox.exe",
+            "before_mib": 63.62,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 12548,
+            "name": "firefox.exe",
+            "before_mib": 62.55,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 22888,
+            "name": "whatsapp.root.exe",
+            "before_mib": 53.18,
+            "after_mib": 0.01
+          },
+          {
+            "pid": 9052,
+            "name": "firefox.exe",
+            "before_mib": 49.96,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 31452,
+            "name": "firefox.exe",
+            "before_mib": 41.99,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 17988,
+            "name": "steamwebhelper.exe",
+            "before_mib": 37.83,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 24896,
+            "name": "msedge.exe",
+            "before_mib": 37.68,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 16756,
+            "name": "discord.exe",
+            "before_mib": 36.36,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 17008,
+            "name": "firefox.exe",
+            "before_mib": 35.69,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791676109.409084,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 40.18,
+          "available_mib": 19419.17,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 756.89,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 40.15,
+          "available_mib": 19428.98,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 756.89,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 9.81,
+        "trimmed": []
+      }
+    ],
+    "load_seconds": 17.706801899999846,
+    "peak_ram_percent": 84.94,
+    "aborted": false
+  },
+  "token500-draft3-agent": {
+    "settings": {
+      "num_gpu": 9,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 3,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 600,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 90,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 600,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false,
+      "native_cache_ram_mib": 0,
+      "native_context_checkpoints": 3,
+      "native_checkpoint_min_step": 512,
+      "memory_prepare_min_percent": 90,
+      "memory_model_trim_cooldown_seconds": 600,
+      "native_passive_openmp": true,
+      "native_poll_level": 0
+    },
+    "rows": [
+      {
+        "seconds": 7.270656799999415,
+        "first_token_seconds": 3.9639893999992637,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 3958.592,
+          "prompt_per_token_ms": 172.11269565217393,
+          "prompt_per_second": 5.81014663799654,
+          "predicted_n": 16,
+          "predicted_ms": 3307.272,
+          "predicted_per_token_ms": 220.4848,
+          "predicted_per_second": 4.535460040782857,
+          "draft_n": 11,
+          "draft_n_accepted": 11
+        },
+        "run": 0,
+        "scenario": "files"
+      },
+      {
+        "seconds": 5.977733699997771,
+        "first_token_seconds": 1.3696744000044418,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 1368.523,
+          "prompt_per_token_ms": 342.13075,
+          "prompt_per_second": 2.922859170068753,
+          "predicted_n": 16,
+          "predicted_ms": 4607.94,
+          "predicted_per_token_ms": 307.19599999999997,
+          "predicted_per_second": 3.255250719410409,
+          "draft_n": 13,
+          "draft_n_accepted": 10
+        },
+        "run": 1,
+        "scenario": "files"
+      },
+      {
+        "seconds": 5.411307400005171,
+        "first_token_seconds": 0.9583022000006167,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 943.156,
+          "prompt_per_token_ms": 235.789,
+          "prompt_per_second": 4.241079948598111,
+          "predicted_n": 16,
+          "predicted_ms": 4452.899,
+          "predicted_per_token_ms": 296.85993333333334,
+          "predicted_per_second": 3.3685920116310744,
+          "draft_n": 13,
+          "draft_n_accepted": 10
+        },
+        "run": 2,
+        "scenario": "files"
+      }
+    ],
+    "events": [],
+    "label": "token500-draft3-agent",
+    "ceiling": 88,
+    "scenario": "files",
+    "token_limit": 16,
+    "preflight": {
+      "used_percent": 39.77,
+      "available_mib": 19550.78,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 752.45,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      null
+    ],
+    "load_seconds": 16.74933950000559,
+    "tasks": [
+      {
+        "policy": "warm",
+        "seconds": 51.46284690000175,
+        "result": {
+          "answer": "הקובץ נוצר בהצלחה עם התוכן הנכון.",
+          "tools": [
+            {
+              "name": "write_file",
+              "arguments": {
+                "path": "hello.txt",
+                "content": "hello\n"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-token500-draft3-agent\\task-warm\\project\\hello.txt",
+                "bytes": 6,
+                "verified": true,
+                "checkpoint": "acb3a3af2363"
+              }
+            },
+            {
+              "name": "read_file",
+              "arguments": {
+                "path": "hello.txt"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-token500-draft3-agent\\task-warm\\project\\hello.txt",
+                "content": "hello",
+                "start_line": 1,
+                "total_lines": 1,
+                "next_line": null,
+                "truncated": false
+              }
+            }
+          ],
+          "prompt": "צור קובץ hello.txt שמכיל בדיוק hello עם ירידת שורה בסוף. אמת את התוכן וענה במשפט קצר בעברית."
+        },
+        "verified": true
+      },
+      {
+        "policy": "warm",
+        "repeat": true,
+        "seconds": 24.035564399993746,
+        "result": {
+          "answer": "הקובץ נוצר בהצלחה עם התוכן הנדרש.",
+          "tools": [
+            {
+              "name": "write_file",
+              "arguments": {
+                "path": "hello.txt",
+                "content": "hello\n"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-token500-draft3-agent\\task-warm\\project\\hello.txt",
+                "bytes": 6,
+                "verified": true,
+                "checkpoint": "cbc350daf75e"
+              }
+            }
+          ],
+          "prompt": "צור קובץ hello.txt שמכיל בדיוק hello עם ירידת שורה בסוף. אמת את התוכן וענה במשפט קצר בעברית."
+        },
+        "verified": true
+      },
+      {
+        "policy": "warm",
+        "changed_prompt": true,
+        "seconds": 21.317970099989907,
+        "result": {
+          "answer": "התוכן הוא \"hello\".",
+          "tools": [
+            {
+              "name": "read_file",
+              "arguments": {
+                "path": "hello.txt"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-token500-draft3-agent\\task-warm\\project\\hello.txt",
+                "content": "hello",
+                "start_line": 1,
+                "total_lines": 1,
+                "next_line": null,
+                "truncated": false
+              }
+            }
+          ],
+          "prompt": "קרא עכשיו שוב את hello.txt בעזרת read_file וציין את התוכן. ענה בקצרה בעברית."
+        },
+        "verified": true
+      }
+    ],
+    "peak_ram_percent": 85.28,
+    "aborted": false
+  },
+  "token500-smt8-final": {
+    "settings": {
+      "num_gpu": 9,
+      "num_ctx": 2048,
+      "num_thread": 8,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 600,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 90,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 600,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false,
+      "native_cache_ram_mib": 0,
+      "native_context_checkpoints": 3,
+      "native_checkpoint_min_step": 512,
+      "memory_prepare_min_percent": 90,
+      "memory_model_trim_cooldown_seconds": 600,
+      "native_passive_openmp": true,
+      "native_poll_level": 0
+    },
+    "rows": [
+      {
+        "seconds": 15.286704800004372,
+        "first_token_seconds": 4.3234298000024864,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as `YYYY-MM-DD_ProjectName_Version`, to ensure files are easily searchable and sortable",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 4294.068,
+          "prompt_per_token_ms": 186.69860869565218,
+          "prompt_per_second": 5.356226310342547,
+          "predicted_n": 32,
+          "predicted_ms": 10962.788,
+          "predicted_per_token_ms": 353.6383225806452,
+          "predicted_per_second": 2.8277478320295897,
+          "draft_n": 42,
+          "draft_n_accepted": 20
+        },
+        "run": 0,
+        "scenario": "files"
+      },
+      {
+        "seconds": 12.955261300012353,
+        "first_token_seconds": 0.9081045000057202,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as `YYYY-MM-DD_ProjectName_Version`, to ensure files are easily searchable and sortable",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 906.759,
+          "prompt_per_token_ms": 226.68975,
+          "prompt_per_second": 4.411315465300041,
+          "predicted_n": 32,
+          "predicted_ms": 12047.008,
+          "predicted_per_token_ms": 388.6131612903226,
+          "predicted_per_second": 2.573253043411277,
+          "draft_n": 43,
+          "draft_n_accepted": 19
+        },
+        "run": 1,
+        "scenario": "files"
+      },
+      {
+        "seconds": 11.74119570000039,
+        "first_token_seconds": 4.2967582999990555,
+        "content": "```python\ndef remove_duplicates(lst):\n    seen = set()\n    result = []\n    for item in lst:\n        if item not in",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 30,
+          "prompt_ms": 4295.487,
+          "prompt_per_token_ms": 143.1829,
+          "prompt_per_second": 6.9840742155662445,
+          "predicted_n": 32,
+          "predicted_ms": 7444.204,
+          "predicted_per_token_ms": 240.1356129032258,
+          "predicted_per_second": 4.164313605591679,
+          "draft_n": 24,
+          "draft_n_accepted": 24
+        },
+        "run": 2,
+        "scenario": "code"
+      },
+      {
+        "seconds": 8.05600919999415,
+        "first_token_seconds": 1.0543126999982633,
+        "content": "```python\ndef remove_duplicates(lst):\n    seen = set()\n    result = []\n    for item in lst:\n        if item not in",
+        "timings": {
+          "cache_n": 26,
+          "prompt_n": 4,
+          "prompt_ms": 1050.941,
+          "prompt_per_token_ms": 262.73525,
+          "prompt_per_second": 3.8061128074744444,
+          "predicted_n": 32,
+          "predicted_ms": 7001.427,
+          "predicted_per_token_ms": 225.85248387096775,
+          "predicted_per_second": 4.427668816656948,
+          "draft_n": 24,
+          "draft_n_accepted": 24
+        },
+        "run": 3,
+        "scenario": "code"
+      },
+      {
+        "seconds": 19.752444199999445,
+        "first_token_seconds": 3.2275353000004543,
+        "content": "1. השתמשו במבנה תיקיות היררכי ופשוט, למשל לפי שנה, חודש ו",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 38,
+          "prompt_ms": 3225.713,
+          "prompt_per_token_ms": 84.88718421052631,
+          "prompt_per_second": 11.780341276486778,
+          "predicted_n": 32,
+          "predicted_ms": 16524.651,
+          "predicted_per_token_ms": 533.0532580645162,
+          "predicted_per_second": 1.8759851569633754,
+          "draft_n": 55,
+          "draft_n_accepted": 17
+        },
+        "run": 4,
+        "scenario": "hebrew"
+      },
+      {
+        "seconds": 26.98555719999422,
+        "first_token_seconds": 1.0836159000027692,
+        "content": "1. השתמשו במבנה תיקיות היררכי ופשוט, למשל לפי שנה, חודש ו",
+        "timings": {
+          "cache_n": 34,
+          "prompt_n": 4,
+          "prompt_ms": 1082.168,
+          "prompt_per_token_ms": 270.542,
+          "prompt_per_second": 3.696283756311405,
+          "predicted_n": 32,
+          "predicted_ms": 25901.547,
+          "predicted_per_token_ms": 835.5337741935483,
+          "predicted_per_second": 1.196839709998789,
+          "draft_n": 55,
+          "draft_n_accepted": 17
+        },
+        "run": 5,
+        "scenario": "hebrew"
+      }
+    ],
+    "events": [
+      {
+        "abort": {
+          "used_percent": 88.24,
+          "available_mib": 3816.59,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 747.3,
+          "pagefile_total_mib": 16384.0
+        },
+        "phase": "ready"
+      }
+    ],
+    "label": "token500-smt8-final",
+    "ceiling": 88,
+    "scenario": "mixed",
+    "token_limit": 32,
+    "preflight": {
+      "used_percent": 39.92,
+      "available_mib": 19503.63,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 752.05,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      null
+    ],
+    "load_seconds": 17.732080799993128,
+    "tasks": [],
+    "error": "ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",
+    "peak_ram_percent": 88.24,
+    "aborted": true
+  }
+}

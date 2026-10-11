@@ -1,0 +1,1494 @@
+{
+  "settings": {
+    "num_gpu": 8,
+    "num_ctx": 2048,
+    "num_thread": 4,
+    "num_thread_batch": 12,
+    "native_runner_enabled": true,
+    "native_runner_port": 57206,
+    "cpu_generation_logical": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "cpu_batch_logical": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "num_batch": 512,
+    "draft_num_predict": 0,
+    "memory_cleanup_enabled": true,
+    "memory_threshold_percent": 80,
+    "memory_cleanup_llama": true,
+    "memory_llama_idle_seconds": 45,
+    "memory_target_percent": 40,
+    "memory_cleanup_aggressive": true,
+    "native_sleep_idle_seconds": -1,
+    "model_repack": false,
+    "memory_active_interval_seconds": 120,
+    "model_load_mode": "none",
+    "memory_cleanup_active": true,
+    "model_no_host": true,
+    "memory_active_threshold_percent": 80,
+    "memory_idle_trim_enabled": true,
+    "memory_idle_trim_seconds": 30,
+    "memory_prepare_request_enabled": true,
+    "cuda_no_pinned": true,
+    "native_fit_enabled": false,
+    "native_projector_enabled": false
+  },
+  "rows": [],
+  "events": [
+    {
+      "startup_trim_ram": 80.31,
+      "ok": true
+    },
+    {
+      "startup_trim_ram": 85.19,
+      "ok": true
+    },
+    {
+      "abort": {
+        "used_percent": 88.04,
+        "available_mib": 3881.39,
+        "total_mib": 32460.93,
+        "pagefile_used_mib": 458.18,
+        "pagefile_total_mib": 16384.0
+      },
+      "phase": "loading"
+    }
+  ],
+  "samples": [
+    {
+      "t": 69493.14,
+      "ram": 48.67
+    },
+    {
+      "t": 69493.25,
+      "ram": 48.67
+    },
+    {
+      "t": 69493.359,
+      "ram": 48.69
+    },
+    {
+      "t": 69493.468,
+      "ram": 48.68
+    },
+    {
+      "t": 69493.578,
+      "ram": 48.68
+    },
+    {
+      "t": 69493.671,
+      "ram": 48.68
+    },
+    {
+      "t": 69493.781,
+      "ram": 48.65
+    },
+    {
+      "t": 69493.875,
+      "ram": 48.63
+    },
+    {
+      "t": 69493.984,
+      "ram": 48.64
+    },
+    {
+      "t": 69494.093,
+      "ram": 48.65
+    },
+    {
+      "t": 69494.203,
+      "ram": 49.15,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 151.82
+      },
+      "children": [
+        {
+          "pid": 35904,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "working_set_mib": 7.4
+        }
+      ]
+    },
+    {
+      "t": 69494.312,
+      "ram": 49.48,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 260.29
+      }
+    },
+    {
+      "t": 69494.421,
+      "ram": 49.57,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 277.96
+      }
+    },
+    {
+      "t": 69494.531,
+      "ram": 49.58,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 308.91
+      }
+    },
+    {
+      "t": 69494.64,
+      "ram": 49.63,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 327.66
+      }
+    },
+    {
+      "t": 69494.734,
+      "ram": 49.66,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 333.93
+      }
+    },
+    {
+      "t": 69494.843,
+      "ram": 51.09,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 792.21
+      }
+    },
+    {
+      "t": 69494.953,
+      "ram": 52.75,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 1328.99
+      }
+    },
+    {
+      "t": 69495.046,
+      "ram": 52.75,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 1328.99
+      }
+    },
+    {
+      "t": 69495.156,
+      "ram": 52.74,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 1329.04
+      }
+    },
+    {
+      "t": 69495.265,
+      "ram": 49.71,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 349.93
+      },
+      "children": [
+        {
+          "pid": 35904,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "working_set_mib": 7.4
+        }
+      ]
+    },
+    {
+      "t": 69495.375,
+      "ram": 49.89,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 404.16
+      }
+    },
+    {
+      "t": 69495.484,
+      "ram": 50.1,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 404.16
+      }
+    },
+    {
+      "t": 69495.593,
+      "ram": 49.71,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 342.88
+      }
+    },
+    {
+      "t": 69495.703,
+      "ram": 49.82,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 377.57
+      }
+    },
+    {
+      "t": 69495.812,
+      "ram": 49.84,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 382.26
+      }
+    },
+    {
+      "t": 69495.921,
+      "ram": 49.83,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 381.5
+      }
+    },
+    {
+      "t": 69496.031,
+      "ram": 49.83,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 382.26
+      }
+    },
+    {
+      "t": 69496.14,
+      "ram": 49.99,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 382.26
+      }
+    },
+    {
+      "t": 69496.265,
+      "ram": 49.78,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 369.3
+      }
+    },
+    {
+      "t": 69496.375,
+      "ram": 49.89,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 368.2
+      },
+      "children": [
+        {
+          "pid": 35904,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "working_set_mib": 7.4
+        }
+      ]
+    },
+    {
+      "t": 69496.484,
+      "ram": 49.73,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 351.32
+      }
+    },
+    {
+      "t": 69496.609,
+      "ram": 50.09,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 462.66
+      }
+    },
+    {
+      "t": 69496.718,
+      "ram": 51.14,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 782.68
+      }
+    },
+    {
+      "t": 69496.828,
+      "ram": 52.12,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 1084.87
+      }
+    },
+    {
+      "t": 69496.937,
+      "ram": 52.89,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 1315.18
+      }
+    },
+    {
+      "t": 69497.046,
+      "ram": 53.65,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 1573.04
+      }
+    },
+    {
+      "t": 69497.156,
+      "ram": 54.36,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 1801.3
+      }
+    },
+    {
+      "t": 69497.265,
+      "ram": 55.11,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 2002.43
+      }
+    },
+    {
+      "t": 69497.375,
+      "ram": 55.39,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 2119.24
+      }
+    },
+    {
+      "t": 69497.468,
+      "ram": 55.8,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 2201.93
+      },
+      "children": [
+        {
+          "pid": 35904,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "working_set_mib": 7.4
+        }
+      ]
+    },
+    {
+      "t": 69497.593,
+      "ram": 56.01,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 2320.55
+      }
+    },
+    {
+      "t": 69497.687,
+      "ram": 56.46,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 2389.01
+      }
+    },
+    {
+      "t": 69497.796,
+      "ram": 56.6,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 2483.57
+      }
+    },
+    {
+      "t": 69497.906,
+      "ram": 56.65,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 2565.57
+      }
+    },
+    {
+      "t": 69498.015,
+      "ram": 57.16,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 2683.06
+      }
+    },
+    {
+      "t": 69498.109,
+      "ram": 57.27,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 2780.88
+      }
+    },
+    {
+      "t": 69498.218,
+      "ram": 57.51,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 2852.51
+      }
+    },
+    {
+      "t": 69498.328,
+      "ram": 57.86,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 2951.04
+      }
+    },
+    {
+      "t": 69498.437,
+      "ram": 58.34,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 3064.01
+      }
+    },
+    {
+      "t": 69498.546,
+      "ram": 58.43,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 3139.95
+      },
+      "children": [
+        {
+          "pid": 35904,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "working_set_mib": 7.4
+        }
+      ]
+    },
+    {
+      "t": 69498.656,
+      "ram": 58.95,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 3269.76
+      }
+    },
+    {
+      "t": 69498.765,
+      "ram": 59.21,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 3358.65
+      }
+    },
+    {
+      "t": 69498.875,
+      "ram": 59.35,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 3440.65
+      }
+    },
+    {
+      "t": 69498.984,
+      "ram": 59.9,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 3558.15
+      }
+    },
+    {
+      "t": 69499.078,
+      "ram": 59.97,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 3647.65
+      }
+    },
+    {
+      "t": 69499.187,
+      "ram": 60.16,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 3725.71
+      }
+    },
+    {
+      "t": 69499.296,
+      "ram": 60.52,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 3820.21
+      }
+    },
+    {
+      "t": 69499.406,
+      "ram": 60.76,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 3920.84
+      }
+    },
+    {
+      "t": 69499.515,
+      "ram": 61.14,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 4021.59
+      }
+    },
+    {
+      "t": 69499.625,
+      "ram": 61.73,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 4150.71
+      },
+      "children": [
+        {
+          "pid": 35904,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "working_set_mib": 7.4
+        }
+      ]
+    },
+    {
+      "t": 69499.75,
+      "ram": 61.81,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 4232.41
+      }
+    },
+    {
+      "t": 69499.859,
+      "ram": 62.27,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 4362.23
+      }
+    },
+    {
+      "t": 69499.968,
+      "ram": 62.64,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 4443.79
+      }
+    },
+    {
+      "t": 69500.078,
+      "ram": 62.9,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 4561.09
+      }
+    },
+    {
+      "t": 69500.187,
+      "ram": 63.22,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 4650.29
+      }
+    },
+    {
+      "t": 69500.296,
+      "ram": 63.65,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 4732.79
+      }
+    },
+    {
+      "t": 69500.39,
+      "ram": 63.78,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 4822.48
+      }
+    },
+    {
+      "t": 69500.5,
+      "ram": 64.16,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 4912.66
+      }
+    },
+    {
+      "t": 69500.609,
+      "ram": 64.41,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 5008.29
+      }
+    },
+    {
+      "t": 69500.718,
+      "ram": 64.69,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 5101.16
+      },
+      "children": [
+        {
+          "pid": 35904,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "working_set_mib": 7.4
+        }
+      ]
+    },
+    {
+      "t": 69500.828,
+      "ram": 65.25,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 5214.05
+      }
+    },
+    {
+      "t": 69500.937,
+      "ram": 65.35,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 5295.68
+      }
+    },
+    {
+      "t": 69501.046,
+      "ram": 65.63,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 5367.3
+      }
+    },
+    {
+      "t": 69501.156,
+      "ram": 66.16,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 5484.8
+      }
+    },
+    {
+      "t": 69501.265,
+      "ram": 66.23,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 5594.99
+      }
+    },
+    {
+      "t": 69501.375,
+      "ram": 66.33,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 5690.62
+      }
+    },
+    {
+      "t": 69501.468,
+      "ram": 66.46,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 5752.93
+      }
+    },
+    {
+      "t": 69501.578,
+      "ram": 66.74,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 5848.55
+      }
+    },
+    {
+      "t": 69501.687,
+      "ram": 67.13,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 5937.43
+      }
+    },
+    {
+      "t": 69501.812,
+      "ram": 67.31,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 6039.82
+      },
+      "children": [
+        {
+          "pid": 35904,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "working_set_mib": 7.4
+        }
+      ]
+    },
+    {
+      "t": 69501.937,
+      "ram": 67.67,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 6136.94
+      }
+    },
+    {
+      "t": 69502.046,
+      "ram": 68.15,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 6241.07
+      }
+    },
+    {
+      "t": 69502.156,
+      "ram": 68.35,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 6336.69
+      }
+    },
+    {
+      "t": 69502.265,
+      "ram": 68.73,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 6446.82
+      }
+    },
+    {
+      "t": 69502.375,
+      "ram": 69.05,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 6542.44
+      }
+    },
+    {
+      "t": 69502.484,
+      "ram": 69.23,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 6616.44
+      }
+    },
+    {
+      "t": 69502.593,
+      "ram": 69.83,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 6729.5
+      }
+    },
+    {
+      "t": 69502.703,
+      "ram": 69.99,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 6811.19
+      }
+    },
+    {
+      "t": 69502.796,
+      "ram": 70.18,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 6893.21
+      }
+    },
+    {
+      "t": 69502.906,
+      "ram": 70.44,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 6988.83
+      },
+      "children": [
+        {
+          "pid": 35904,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "working_set_mib": 7.4
+        }
+      ]
+    },
+    {
+      "t": 69503.031,
+      "ram": 70.83,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 7092.96
+      }
+    },
+    {
+      "t": 69503.14,
+      "ram": 71.21,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 7188.58
+      }
+    },
+    {
+      "t": 69503.25,
+      "ram": 71.34,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 7263.77
+      }
+    },
+    {
+      "t": 69503.359,
+      "ram": 71.67,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 7375.58
+      }
+    },
+    {
+      "t": 69503.468,
+      "ram": 71.93,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 7474.14
+      }
+    },
+    {
+      "t": 69503.578,
+      "ram": 72.4,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 7587.08
+      }
+    },
+    {
+      "t": 69503.687,
+      "ram": 72.61,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 7679.96
+      }
+    },
+    {
+      "t": 69503.796,
+      "ram": 73.04,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 7792.84
+      }
+    },
+    {
+      "t": 69503.906,
+      "ram": 73.1,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 7881.41
+      }
+    },
+    {
+      "t": 69504.015,
+      "ram": 73.74,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 8010.09
+      },
+      "children": [
+        {
+          "pid": 35904,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "working_set_mib": 7.4
+        }
+      ]
+    },
+    {
+      "t": 69504.125,
+      "ram": 73.9,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 8108.66
+      }
+    },
+    {
+      "t": 69504.234,
+      "ram": 74.35,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 8221.59
+      }
+    },
+    {
+      "t": 69504.359,
+      "ram": 74.54,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 8314.41
+      }
+    },
+    {
+      "t": 69504.468,
+      "ram": 75.0,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 8427.34
+      }
+    },
+    {
+      "t": 69504.578,
+      "ram": 75.12,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 8527.47
+      }
+    },
+    {
+      "t": 69504.687,
+      "ram": 75.77,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 8662.22
+      }
+    },
+    {
+      "t": 69504.796,
+      "ram": 75.94,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 8749.54
+      }
+    },
+    {
+      "t": 69504.906,
+      "ram": 76.32,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 8867.67
+      }
+    },
+    {
+      "t": 69505.015,
+      "ram": 76.45,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 8956.67
+      }
+    },
+    {
+      "t": 69505.125,
+      "ram": 76.99,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 9073.42
+      },
+      "children": [
+        {
+          "pid": 35904,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "working_set_mib": 7.4
+        }
+      ]
+    },
+    {
+      "t": 69505.25,
+      "ram": 77.12,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 9178.73
+      }
+    },
+    {
+      "t": 69505.359,
+      "ram": 77.76,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 9308.29
+      }
+    },
+    {
+      "t": 69505.468,
+      "ram": 77.81,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 9389.98
+      }
+    },
+    {
+      "t": 69505.578,
+      "ram": 78.09,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 9471.98
+      }
+    },
+    {
+      "t": 69505.671,
+      "ram": 78.39,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 9567.61
+      }
+    },
+    {
+      "t": 69505.781,
+      "ram": 78.72,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 9671.73
+      }
+    },
+    {
+      "t": 69505.89,
+      "ram": 78.91,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 9767.37
+      }
+    },
+    {
+      "t": 69506.0,
+      "ram": 79.31,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 9890.37
+      }
+    },
+    {
+      "t": 69506.109,
+      "ram": 79.5,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 9954.37
+      }
+    },
+    {
+      "t": 69506.218,
+      "ram": 79.85,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 10052.93
+      },
+      "children": [
+        {
+          "pid": 35904,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "working_set_mib": 7.4
+        }
+      ]
+    },
+    {
+      "t": 69506.328,
+      "ram": 80.31,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 10165.87
+      }
+    },
+    {
+      "t": 69507.75,
+      "ram": 83.49,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 1130.9
+      }
+    },
+    {
+      "t": 69507.859,
+      "ram": 83.66,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 1235.72
+      }
+    },
+    {
+      "t": 69507.968,
+      "ram": 83.77,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 1290.61
+      }
+    },
+    {
+      "t": 69508.078,
+      "ram": 84.08,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 1376.42
+      }
+    },
+    {
+      "t": 69508.171,
+      "ram": 84.58,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 1489.3
+      }
+    },
+    {
+      "t": 69508.281,
+      "ram": 84.69,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 1559.49
+      }
+    },
+    {
+      "t": 69508.39,
+      "ram": 85.19,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 1660.18
+      }
+    },
+    {
+      "t": 69508.75,
+      "ram": 86.08,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 276.59
+      }
+    },
+    {
+      "t": 69508.859,
+      "ram": 86.24,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 359.17
+      },
+      "children": [
+        {
+          "pid": 35904,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "working_set_mib": 7.4
+        }
+      ]
+    },
+    {
+      "t": 69508.984,
+      "ram": 86.77,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 477.31
+      }
+    },
+    {
+      "t": 69509.093,
+      "ram": 87.04,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 566.13
+      }
+    },
+    {
+      "t": 69509.203,
+      "ram": 87.17,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 648.13
+      }
+    },
+    {
+      "t": 69509.312,
+      "ram": 87.71,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 765.7
+      }
+    },
+    {
+      "t": 69509.421,
+      "ram": 88.04,
+      "process": {
+        "pid": 11516,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\llama-server.exe",
+        "working_set_mib": 875.82
+      }
+    }
+  ],
+  "label": "lean-load",
+  "ceiling": 88,
+  "preflight": {
+    "used_percent": 48.67,
+    "available_mib": 16662.02,
+    "total_mib": 32460.93,
+    "pagefile_used_mib": 453.95,
+    "pagefile_total_mib": 16384.0
+  },
+  "error": "RuntimeError('Qwen runner failed; see qwen-cpu-runner.log')",
+  "peak_ram_percent": 88.04,
+  "aborted": true
+}

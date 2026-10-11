@@ -1,0 +1,36 @@
+{
+  "id": "5b1eb34efc91",
+  "project": "C:\\Users\\nagor\\Downloads",
+  "created": 1791675069.1317654,
+  "history": [
+    {
+      "id": "8eb15cd3b2fb",
+      "time": 1791675100.9906647,
+      "prompt": "אהלן",
+      "tools": [],
+      "answer": "שלום! איך אני יכול לעזור לך?",
+      "status": "completed"
+    },
+    {
+      "id": "72981f1c1d19",
+      "time": 1791675540.9413106,
+      "prompt": "אתה סוס",
+      "tools": [],
+      "answer": "אני מודל בינה מלאכותית, לא סוס. איך אוכל לעזור לך?",
+      "status": "completed"
+    },
+    {
+      "id": "2bbc82ab2503",
+      "time": 1791681859.7206035,
+      "prompt": "היי",
+      "tools": [],
+      "answer": "שלום! איך אני יכול לעזור לך?",
+      "status": "completed"
+    }
+  ],
+  "tasks": [],
+  "checkpoints": [],
+  "pending": null,
+  "summary": "",
+  "updated": 1791683627.1856236
+}

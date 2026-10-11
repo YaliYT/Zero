@@ -1,0 +1,9 @@
+{
+  "Qwen-Agent.py": "e70caf80f3186a1d2d4acd0c5535dfe87f55b1b7b2129118672e533c0e1d7eb1",
+  "qwen_coding.py": "9c84e29563f0d534fd9ae36c415cedfdfe021c3dae214a3aa29818d1e08b694b",
+  "qwen_cpu_runner.py": "6400754b6959b0a57a8e4496ac25bd043a83e52661d80227c71a514844054210",
+  "qwen-agent-settings.json": "c6cfa3e30e08773453ddfa9063e8fb6da3c1484dc7e8079fe2e62a4011d546e4",
+  "qwen-cpu-runner-paths.json": "86b6368635a624be88ccee1e7eadadd321f7353d462667ee4e452e6a8e931af0",
+  "Run-Offline-Tests.ps1": "c0049067d997dc58c8cf4d890abe3daeff0ff3cb83d8bcd4eed71963cfcdaa85",
+  "work/test_compact_protocol.py": null
+}

@@ -1,0 +1,4 @@
+{"time": 1791678386.9406395, "event": "turn_started", "snapshot": {"used_percent": 83.5, "available_mib": 5355.05, "total_mib": 32460.93, "pagefile_used_mib": 1057.51, "pagefile_total_mib": 16384.0}, "model_paged": false, "prepare_skip_reason": null, "disk_backing": "windows_pagefile"}
+{"time": 1791678453.2449188, "event": "turn_finished", "snapshot": {"used_percent": 84.0, "available_mib": 5194.78, "total_mib": 32460.93, "pagefile_used_mib": 1057.97, "pagefile_total_mib": 16384.0}}
+{"time": 1791678453.2607112, "event": "turn_started", "snapshot": {"used_percent": 84.0, "available_mib": 5192.74, "total_mib": 32460.93, "pagefile_used_mib": 1057.97, "pagefile_total_mib": 16384.0}, "model_paged": false, "prepare_skip_reason": null, "disk_backing": "windows_pagefile"}
+{"time": 1791678479.6610072, "event": "turn_finished", "snapshot": {"used_percent": 84.54, "available_mib": 5019.57, "total_mib": 32460.93, "pagefile_used_mib": 1051.85, "pagefile_total_mib": 16384.0}}

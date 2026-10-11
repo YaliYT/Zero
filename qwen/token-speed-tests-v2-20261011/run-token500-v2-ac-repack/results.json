@@ -1,0 +1,598 @@
+{
+  "settings": {
+    "num_gpu": 9,
+    "num_ctx": 2048,
+    "num_thread": 4,
+    "num_thread_batch": 12,
+    "native_runner_enabled": true,
+    "native_runner_port": 57206,
+    "cpu_generation_logical": [
+      0,
+      2,
+      4,
+      6
+    ],
+    "cpu_batch_logical": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "num_batch": 128,
+    "draft_num_predict": 3,
+    "memory_cleanup_enabled": true,
+    "memory_threshold_percent": 80,
+    "memory_cleanup_llama": true,
+    "memory_llama_idle_seconds": 45,
+    "memory_target_percent": 40,
+    "memory_cleanup_aggressive": true,
+    "native_sleep_idle_seconds": -1,
+    "model_repack": true,
+    "memory_active_interval_seconds": 600,
+    "model_load_mode": "none",
+    "memory_cleanup_active": true,
+    "model_no_host": true,
+    "memory_active_threshold_percent": 90,
+    "memory_idle_trim_enabled": true,
+    "memory_idle_trim_seconds": 600,
+    "memory_prepare_request_enabled": true,
+    "cuda_no_pinned": true,
+    "native_fit_enabled": false,
+    "native_projector_enabled": false,
+    "native_cache_ram_mib": 0,
+    "native_context_checkpoints": 3,
+    "native_checkpoint_min_step": 512,
+    "memory_prepare_min_percent": 90,
+    "memory_model_trim_cooldown_seconds": 600,
+    "native_passive_openmp": true,
+    "native_poll_level": 0,
+    "native_greedy_sampling": true,
+    "native_cache_type_k": "q4_0",
+    "native_cache_type_v": "q4_0"
+  },
+  "rows": [],
+  "events": [
+    {
+      "abort": "AC power changed; timings are not comparable"
+    }
+  ],
+  "samples": [
+    {
+      "t": 75311.39,
+      "ram": 39.74
+    },
+    {
+      "t": 75311.5,
+      "ram": 39.73
+    },
+    {
+      "t": 75311.609,
+      "ram": 39.71
+    },
+    {
+      "t": 75311.703,
+      "ram": 39.71
+    },
+    {
+      "t": 75311.812,
+      "ram": 39.7
+    },
+    {
+      "t": 75311.921,
+      "ram": 39.7
+    },
+    {
+      "t": 75312.031,
+      "ram": 39.69
+    },
+    {
+      "t": 75312.125,
+      "ram": 39.69
+    },
+    {
+      "t": 75312.234,
+      "ram": 39.69
+    },
+    {
+      "t": 75312.343,
+      "ram": 39.74,
+      "power": {
+        "ac": 0,
+        "battery_percent": 96,
+        "battery_saver": 0
+      }
+    },
+    {
+      "t": 75312.453,
+      "ram": 39.81,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 10.96
+      },
+      "children": [
+        {
+          "pid": 38036,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "working_set_mib": 7.47
+        }
+      ]
+    },
+    {
+      "t": 75312.562,
+      "ram": 40.46,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 221.22
+      }
+    },
+    {
+      "t": 75312.671,
+      "ram": 40.6,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 266.47
+      }
+    },
+    {
+      "t": 75312.765,
+      "ram": 40.6,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 267.9
+      }
+    },
+    {
+      "t": 75312.875,
+      "ram": 40.67,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 289.34
+      }
+    },
+    {
+      "t": 75312.984,
+      "ram": 40.66,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 285.85
+      }
+    },
+    {
+      "t": 75313.093,
+      "ram": 40.7,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 291.59
+      }
+    },
+    {
+      "t": 75313.203,
+      "ram": 40.79,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 320.93
+      }
+    },
+    {
+      "t": 75313.312,
+      "ram": 40.82,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 325.7
+      }
+    },
+    {
+      "t": 75313.421,
+      "ram": 40.86,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 345.65
+      },
+      "power": {
+        "ac": 0,
+        "battery_percent": 96,
+        "battery_saver": 0
+      }
+    },
+    {
+      "t": 75313.531,
+      "ram": 40.86,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 345.65
+      },
+      "children": [
+        {
+          "pid": 38036,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "working_set_mib": 7.47
+        }
+      ]
+    },
+    {
+      "t": 75313.671,
+      "ram": 40.88,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 354.11
+      }
+    },
+    {
+      "t": 75313.781,
+      "ram": 40.95,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 373.5
+      }
+    },
+    {
+      "t": 75313.89,
+      "ram": 41.24,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 450.16
+      }
+    },
+    {
+      "t": 75314.0,
+      "ram": 41.22,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 454.74
+      }
+    },
+    {
+      "t": 75314.109,
+      "ram": 41.65,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 545.81
+      }
+    },
+    {
+      "t": 75314.218,
+      "ram": 41.95,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 641.49
+      }
+    },
+    {
+      "t": 75314.328,
+      "ram": 41.8,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 641.49
+      }
+    },
+    {
+      "t": 75314.437,
+      "ram": 42.24,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 737.18
+      }
+    },
+    {
+      "t": 75314.546,
+      "ram": 42.2,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 775.51
+      },
+      "power": {
+        "ac": 0,
+        "battery_percent": 96,
+        "battery_saver": 0
+      }
+    },
+    {
+      "t": 75314.656,
+      "ram": 42.29,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 797.79
+      },
+      "children": [
+        {
+          "pid": 38036,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "working_set_mib": 7.47
+        }
+      ]
+    },
+    {
+      "t": 75314.765,
+      "ram": 42.65,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 918.81
+      }
+    },
+    {
+      "t": 75314.875,
+      "ram": 42.77,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 961.25
+      }
+    },
+    {
+      "t": 75314.984,
+      "ram": 42.98,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 976.32
+      }
+    },
+    {
+      "t": 75315.093,
+      "ram": 42.99,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 1024.15
+      }
+    },
+    {
+      "t": 75315.203,
+      "ram": 43.03,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 1037.03
+      }
+    },
+    {
+      "t": 75315.312,
+      "ram": 43.26,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 1110.74
+      }
+    },
+    {
+      "t": 75315.437,
+      "ram": 43.29,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 1119.79
+      }
+    },
+    {
+      "t": 75315.531,
+      "ram": 43.48,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 1191.19
+      }
+    },
+    {
+      "t": 75315.656,
+      "ram": 43.57,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 1215.42
+      },
+      "power": {
+        "ac": 0,
+        "battery_percent": 96,
+        "battery_saver": 0
+      }
+    },
+    {
+      "t": 75315.765,
+      "ram": 43.78,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 1278.67
+      },
+      "children": [
+        {
+          "pid": 38036,
+          "name": "conhost.exe",
+          "path": "C:\\Windows\\System32\\conhost.exe",
+          "working_set_mib": 7.47
+        }
+      ]
+    },
+    {
+      "t": 75315.875,
+      "ram": 44.01,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 1311.05
+      }
+    },
+    {
+      "t": 75315.984,
+      "ram": 44.0,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 1358.93
+      }
+    },
+    {
+      "t": 75316.093,
+      "ram": 44.16,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 1406.74
+      }
+    },
+    {
+      "t": 75316.203,
+      "ram": 44.32,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 1454.55
+      }
+    },
+    {
+      "t": 75316.312,
+      "ram": 44.55,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 1519.08
+      }
+    },
+    {
+      "t": 75316.421,
+      "ram": 44.64,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 1550.21
+      }
+    },
+    {
+      "t": 75316.531,
+      "ram": 44.85,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 1629.98
+      }
+    },
+    {
+      "t": 75316.656,
+      "ram": 44.93,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 1657.07
+      }
+    },
+    {
+      "t": 75316.765,
+      "ram": 45.23,
+      "process": {
+        "pid": 39100,
+        "name": "llama-server.exe",
+        "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+        "working_set_mib": 1693.69
+      },
+      "power": {
+        "ac": 1,
+        "battery_percent": 96,
+        "battery_saver": 0
+      }
+    }
+  ],
+  "label": "token500-v2-ac-repack",
+  "ceiling": 88,
+  "scenario": "mixed",
+  "token_limit": 32,
+  "power_at_start": {
+    "ac": 0,
+    "battery_percent": 96,
+    "battery_saver": 0
+  },
+  "compact_protocol": false,
+  "runtime_paths": {
+    "executable": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\llama-server.exe",
+    "model": "C:\\Users\\nagor\\.ollama\\models\\blobs\\sha256-f5f1dd8920d417aac2718b0bda3403da274301efdd6760b4f0f4b864ff2ad57d",
+    "projector": "C:\\Users\\nagor\\.ollama\\models\\blobs\\sha256-ac3714bfdddeca31351f2752bf1a63f266f4df87c0b68c895e44945ca704448e",
+    "cuda_library": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\runtime-b11552\\ggml-cuda.dll",
+    "runtime_library_dirs": [
+      "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\lib\\ollama\\cuda_v12"
+    ]
+  },
+  "preflight": {
+    "used_percent": 39.75,
+    "available_mib": 19559.18,
+    "total_mib": 32460.93,
+    "pagefile_used_mib": 1049.49,
+    "pagefile_total_mib": 16384.0
+  },
+  "startup_background_cleanup": [
+    null
+  ],
+  "error": "RuntimeError('Qwen runner failed; see qwen-cpu-runner.log')",
+  "peak_ram_percent": 45.23,
+  "aborted": true
+}

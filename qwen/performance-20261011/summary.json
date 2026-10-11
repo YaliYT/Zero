@@ -1,0 +1,4763 @@
+[
+  {
+    "settings": {
+      "num_gpu": 8,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 512,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 120,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 80,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 30,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false
+    },
+    "rows": [],
+    "events": [
+      {
+        "startup_trim_ram": 80.18,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.9,
+        "ok": true
+      },
+      {
+        "abort": {
+          "used_percent": 88.07,
+          "available_mib": 3872.88,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 464.48,
+          "pagefile_total_mib": 16384.0
+        },
+        "phase": "loading"
+      }
+    ],
+    "label": "all-firefox",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 43.8,
+      "available_mib": 18242.77,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 452.61,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      {
+        "time": 1791672999.9863958,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 43.84,
+          "available_mib": 18230.71,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 452.61,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 43.15,
+          "available_mib": 18453.3,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 462.2,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 222.59,
+        "trimmed": [
+          {
+            "pid": 31764,
+            "name": "firefox.exe",
+            "before_mib": 282.32,
+            "after_mib": 0.33
+          },
+          {
+            "pid": 30196,
+            "name": "firefox.exe",
+            "before_mib": 203.91,
+            "after_mib": 0.2
+          },
+          {
+            "pid": 27108,
+            "name": "firefox.exe",
+            "before_mib": 181.93,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37484,
+            "name": "firefox.exe",
+            "before_mib": 166.79,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30120,
+            "name": "discord.exe",
+            "before_mib": 146.04,
+            "after_mib": 0.66
+          },
+          {
+            "pid": 17008,
+            "name": "firefox.exe",
+            "before_mib": 56.41,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 2028,
+            "name": "firefox.exe",
+            "before_mib": 55.89,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 21296,
+            "name": "firefox.exe",
+            "before_mib": 51.02,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30540,
+            "name": "firefox.exe",
+            "before_mib": 50.98,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 15044,
+            "name": "firefox.exe",
+            "before_mib": 50.44,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 12748,
+            "name": "firefox.exe",
+            "before_mib": 50.08,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 34108,
+            "name": "firefox.exe",
+            "before_mib": 50.01,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 2920,
+            "name": "firefox.exe",
+            "before_mib": 49.57,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 25880,
+            "name": "firefox.exe",
+            "before_mib": 49.05,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 4060,
+            "name": "firefox.exe",
+            "before_mib": 48.1,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 21112,
+            "name": "firefox.exe",
+            "before_mib": 47.97,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 11228,
+            "name": "firefox.exe",
+            "before_mib": 47.77,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 2664,
+            "name": "firefox.exe",
+            "before_mib": 47.66,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 9280,
+            "name": "firefox.exe",
+            "before_mib": 47.57,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 7160,
+            "name": "firefox.exe",
+            "before_mib": 46.68,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30208,
+            "name": "firefox.exe",
+            "before_mib": 46.48,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30004,
+            "name": "firefox.exe",
+            "before_mib": 46.28,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 17988,
+            "name": "steamwebhelper.exe",
+            "before_mib": 46.0,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 23788,
+            "name": "firefox.exe",
+            "before_mib": 46.0,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 32624,
+            "name": "firefox.exe",
+            "before_mib": 45.23,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 16404,
+            "name": "firefox.exe",
+            "before_mib": 45.1,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 1704,
+            "name": "firefox.exe",
+            "before_mib": 44.53,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 4748,
+            "name": "firefox.exe",
+            "before_mib": 44.43,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 13712,
+            "name": "firefox.exe",
+            "before_mib": 44.25,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 2216,
+            "name": "firefox.exe",
+            "before_mib": 44.07,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 36060,
+            "name": "firefox.exe",
+            "before_mib": 43.78,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 35920,
+            "name": "firefox.exe",
+            "before_mib": 43.73,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791673001.0447283,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 43.15,
+          "available_mib": 18454.41,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 462.2,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 42.37,
+          "available_mib": 18706.9,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 462.2,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 252.49,
+        "trimmed": [
+          {
+            "pid": 2692,
+            "name": "firefox.exe",
+            "before_mib": 43.69,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 31800,
+            "name": "firefox.exe",
+            "before_mib": 43.57,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 29936,
+            "name": "firefox.exe",
+            "before_mib": 43.0,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 36108,
+            "name": "firefox.exe",
+            "before_mib": 42.89,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 36596,
+            "name": "firefox.exe",
+            "before_mib": 42.55,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 35932,
+            "name": "firefox.exe",
+            "before_mib": 41.5,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 11236,
+            "name": "firefox.exe",
+            "before_mib": 41.14,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 31396,
+            "name": "firefox.exe",
+            "before_mib": 41.04,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 12548,
+            "name": "firefox.exe",
+            "before_mib": 40.36,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 34496,
+            "name": "firefox.exe",
+            "before_mib": 36.14,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 16756,
+            "name": "discord.exe",
+            "before_mib": 35.77,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 41476,
+            "name": "firefox.exe",
+            "before_mib": 35.56,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 38552,
+            "name": "firefox.exe",
+            "before_mib": 35.38,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 29196,
+            "name": "firefox.exe",
+            "before_mib": 35.3,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 31948,
+            "name": "msedge.exe",
+            "before_mib": 32.96,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791673002.0678642,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 42.37,
+          "available_mib": 18706.9,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 462.2,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 42.03,
+          "available_mib": 18816.42,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 462.2,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 109.52,
+        "trimmed": []
+      }
+    ],
+    "error": "RuntimeError('Qwen runner failed; see qwen-cpu-runner.log')",
+    "peak_ram_percent": 88.07,
+    "aborted": true
+  },
+  {
+    "settings": {
+      "num_gpu": 8,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 512,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 120,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 80,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 30,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false
+    },
+    "rows": [],
+    "events": [
+      {
+        "startup_trim_ram": 80.22,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 83.48,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 85.95,
+        "ok": true
+      },
+      {
+        "abort": {
+          "used_percent": 88.0,
+          "available_mib": 3894.74,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 460.05,
+          "pagefile_total_mib": 16384.0
+        },
+        "phase": "loading"
+      }
+    ],
+    "label": "allocation",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 50.25,
+      "available_mib": 16148.86,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 459.77,
+      "pagefile_total_mib": 16384.0
+    },
+    "error": "RuntimeError('Qwen runner failed; see qwen-cpu-runner.log')",
+    "peak_ram_percent": 88.0,
+    "aborted": true
+  },
+  {
+    "settings": {
+      "num_gpu": 9,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 600,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 90,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 600,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false,
+      "native_cache_ram_mib": 0,
+      "native_context_checkpoints": 3,
+      "native_checkpoint_min_step": 512,
+      "memory_prepare_min_percent": 90,
+      "memory_model_trim_cooldown_seconds": 600,
+      "native_passive_openmp": true,
+      "native_poll_level": 0
+    },
+    "rows": [
+      {
+        "seconds": 7.7383402999985265,
+        "first_token_seconds": 3.536650899986853,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 3519.641,
+          "prompt_per_token_ms": 153.0278695652174,
+          "prompt_per_second": 6.534757380085071,
+          "predicted_n": 16,
+          "predicted_ms": 4201.925,
+          "predicted_per_token_ms": 280.12833333333333,
+          "predicted_per_second": 3.5697924165709765,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 0
+      },
+      {
+        "seconds": 5.0941923999926075,
+        "first_token_seconds": 0.856263299996499,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 845.851,
+          "prompt_per_token_ms": 211.46275,
+          "prompt_per_second": 4.728965266932356,
+          "predicted_n": 16,
+          "predicted_ms": 4237.744,
+          "predicted_per_token_ms": 282.51626666666664,
+          "predicted_per_second": 3.539619193608675,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 1
+      },
+      {
+        "seconds": 5.2368367000017315,
+        "first_token_seconds": 0.8256407000008039,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 812.019,
+          "prompt_per_token_ms": 203.00475,
+          "prompt_per_second": 4.925993110998634,
+          "predicted_n": 16,
+          "predicted_ms": 4410.979,
+          "predicted_per_token_ms": 294.0652666666667,
+          "predicted_per_second": 3.400605625191142,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 2
+      }
+    ],
+    "events": [],
+    "label": "balanced-final",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 41.11,
+      "available_mib": 19115.74,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 546.26,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      {
+        "time": 1791674652.2487543,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 41.13,
+          "available_mib": 19108.97,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 546.26,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 40.85,
+          "available_mib": 19199.07,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 546.26,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 90.1,
+        "trimmed": [
+          {
+            "pid": 30120,
+            "name": "discord.exe",
+            "before_mib": 378.25,
+            "after_mib": 0.4
+          },
+          {
+            "pid": 31764,
+            "name": "firefox.exe",
+            "before_mib": 292.25,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 12548,
+            "name": "firefox.exe",
+            "before_mib": 167.79,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 15044,
+            "name": "firefox.exe",
+            "before_mib": 144.12,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30196,
+            "name": "firefox.exe",
+            "before_mib": 141.18,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37484,
+            "name": "firefox.exe",
+            "before_mib": 102.43,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 2028,
+            "name": "firefox.exe",
+            "before_mib": 84.69,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 3528,
+            "name": "msedge.exe",
+            "before_mib": 55.36,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 24896,
+            "name": "msedge.exe",
+            "before_mib": 48.14,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 9052,
+            "name": "firefox.exe",
+            "before_mib": 47.23,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 27108,
+            "name": "firefox.exe",
+            "before_mib": 44.25,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37012,
+            "name": "firefox.exe",
+            "before_mib": 38.71,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 17008,
+            "name": "firefox.exe",
+            "before_mib": 37.99,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 35904,
+            "name": "firefox.exe",
+            "before_mib": 35.61,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 16756,
+            "name": "discord.exe",
+            "before_mib": 33.91,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791674653.2659543,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 40.85,
+          "available_mib": 19199.06,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 546.26,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 40.87,
+          "available_mib": 19195.7,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 546.26,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": -3.36,
+        "trimmed": []
+      }
+    ],
+    "load_seconds": 19.270970900004613,
+    "tasks": [
+      {
+        "policy": "warm",
+        "seconds": 40.58681799999613,
+        "result": {
+          "answer": "הקובץ נוצר בהצלחה עם התוכן הנדרש.",
+          "tools": [
+            {
+              "name": "write_file",
+              "arguments": {
+                "path": "hello.txt",
+                "content": "hello\n"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-balanced-final\\task-warm\\project\\hello.txt",
+                "bytes": 6,
+                "verified": true,
+                "checkpoint": "fa2c0b1943de"
+              }
+            }
+          ],
+          "prompt": "צור קובץ hello.txt שמכיל בדיוק hello עם ירידת שורה בסוף. אמת את התוכן וענה במשפט קצר בעברית."
+        },
+        "verified": true
+      },
+      {
+        "policy": "warm",
+        "repeat": true,
+        "seconds": 25.52804059999471,
+        "result": {
+          "answer": "הקובץ נוצר בהצלחה עם התוכן הנדרש.",
+          "tools": [
+            {
+              "name": "write_file",
+              "arguments": {
+                "path": "hello.txt",
+                "content": "hello\n"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-balanced-final\\task-warm\\project\\hello.txt",
+                "bytes": 6,
+                "verified": true,
+                "checkpoint": "51f0eba84755"
+              }
+            }
+          ],
+          "prompt": "צור קובץ hello.txt שמכיל בדיוק hello עם ירידת שורה בסוף. אמת את התוכן וענה במשפט קצר בעברית."
+        },
+        "verified": true
+      },
+      {
+        "policy": "warm",
+        "changed_prompt": true,
+        "seconds": 21.72510759999568,
+        "result": {
+          "answer": "התוכן הוא \"hello\".",
+          "tools": [
+            {
+              "name": "read_file",
+              "arguments": {
+                "path": "hello.txt"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-balanced-final\\task-warm\\project\\hello.txt",
+                "content": "hello",
+                "start_line": 1,
+                "total_lines": 1,
+                "next_line": null,
+                "truncated": false
+              }
+            }
+          ],
+          "prompt": "קרא עכשיו שוב את hello.txt בעזרת read_file וציין את התוכן. ענה בקצרה בעברית."
+        },
+        "verified": true
+      }
+    ],
+    "peak_ram_percent": 86.5,
+    "aborted": false
+  },
+  {
+    "settings": {
+      "num_gpu": 8,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 512,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 120,
+      "model_load_mode": "mmap",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 80,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 30,
+      "memory_prepare_request_enabled": true
+    },
+    "rows": [],
+    "events": [
+      {
+        "startup_trim_ram": 80.41,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.45,
+        "ok": true
+      },
+      {
+        "abort": {
+          "used_percent": 88.23,
+          "available_mib": 3820.25,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 493.9,
+          "pagefile_total_mib": 16384.0
+        },
+        "phase": "loading"
+      }
+    ],
+    "label": "baseline",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 52.34,
+      "available_mib": 15471.61,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 455.75,
+      "pagefile_total_mib": 16384.0
+    },
+    "error": "RuntimeError('Qwen runner failed; see qwen-cpu-runner.log')",
+    "peak_ram_percent": 88.23,
+    "aborted": true
+  },
+  {
+    "settings": {
+      "num_gpu": 8,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 0,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 120,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 80,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 30,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_cache_ram_mib": 0,
+      "native_context_checkpoints": 0,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false
+    },
+    "rows": [
+      {
+        "seconds": 11.723066500009736,
+        "first_token_seconds": 4.589198600006057,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 4575.449,
+          "prompt_per_token_ms": 198.9325652173913,
+          "prompt_per_second": 5.026829060929321,
+          "predicted_n": 16,
+          "predicted_ms": 7133.012,
+          "predicted_per_token_ms": 475.53413333333333,
+          "predicted_per_second": 2.1028984670150566
+        },
+        "run": 0
+      },
+      {
+        "seconds": 10.959537499991711,
+        "first_token_seconds": 2.9393192999996245,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 2937.846,
+          "prompt_per_token_ms": 127.73243478260869,
+          "prompt_per_second": 7.828865093677477,
+          "predicted_n": 16,
+          "predicted_ms": 8020.023,
+          "predicted_per_token_ms": 534.6682,
+          "predicted_per_second": 1.8703188257689536
+        },
+        "run": 1
+      },
+      {
+        "seconds": 10.979878099999041,
+        "first_token_seconds": 3.218282599991653,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 3217.033,
+          "prompt_per_token_ms": 139.871,
+          "prompt_per_second": 7.149444845607738,
+          "predicted_n": 16,
+          "predicted_ms": 7761.313,
+          "predicted_per_token_ms": 517.4208666666667,
+          "predicted_per_second": 1.932662682203385
+        },
+        "run": 2
+      },
+      {
+        "seconds": 10.201629500006675,
+        "first_token_seconds": 3.0981155000044964,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 3096.78,
+          "prompt_per_token_ms": 134.64260869565217,
+          "prompt_per_second": 7.427069407578194,
+          "predicted_n": 16,
+          "predicted_ms": 7103.469,
+          "predicted_per_token_ms": 473.5646,
+          "predicted_per_second": 2.1116443247658294
+        },
+        "policy": "warm",
+        "prepare_seconds": 0.002872700002626516,
+        "user_first_token_seconds": 3.100988200007123,
+        "user_total_seconds": 10.204502200009301
+      }
+    ],
+    "events": [
+      {
+        "startup_trim_ram": 80.02,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.86,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.17,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.27,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.34,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.96,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.22,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.37,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.5,
+        "ok": true
+      },
+      {
+        "abort": {
+          "used_percent": 88.06,
+          "available_mib": 3876.3,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 585.94,
+          "pagefile_total_mib": 16384.0
+        },
+        "phase": "ready"
+      }
+    ],
+    "label": "bounded-cache",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 43.18,
+      "available_mib": 18442.88,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 585.95,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      {
+        "time": 1791673149.861529,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 43.2,
+          "available_mib": 18437.1,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 585.95,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 43.0,
+          "available_mib": 18502.72,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 585.95,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 65.62,
+        "trimmed": [
+          {
+            "pid": 30120,
+            "name": "discord.exe",
+            "before_mib": 374.4,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 31764,
+            "name": "firefox.exe",
+            "before_mib": 252.34,
+            "after_mib": 0.72
+          },
+          {
+            "pid": 37484,
+            "name": "firefox.exe",
+            "before_mib": 150.89,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30196,
+            "name": "firefox.exe",
+            "before_mib": 109.79,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 15044,
+            "name": "firefox.exe",
+            "before_mib": 95.74,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 12548,
+            "name": "firefox.exe",
+            "before_mib": 53.69,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 25844,
+            "name": "msedge.exe",
+            "before_mib": 53.67,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 17008,
+            "name": "firefox.exe",
+            "before_mib": 45.43,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 2028,
+            "name": "firefox.exe",
+            "before_mib": 41.95,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 24896,
+            "name": "msedge.exe",
+            "before_mib": 40.18,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30240,
+            "name": "firefox.exe",
+            "before_mib": 38.55,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 16756,
+            "name": "discord.exe",
+            "before_mib": 34.25,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791673150.877867,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 43.0,
+          "available_mib": 18502.52,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 585.95,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 43.02,
+          "available_mib": 18495.82,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 585.95,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": -6.7,
+        "trimmed": []
+      }
+    ],
+    "load_seconds": 24.666055499998038,
+    "error": "ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",
+    "peak_ram_percent": 88.06,
+    "aborted": true
+  },
+  {
+    "settings": {
+      "num_gpu": 8,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 0,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 120,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 80,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 30,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_cache_ram_mib": 256,
+      "native_context_checkpoints": 2,
+      "native_checkpoint_min_step": 128,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false
+    },
+    "rows": [
+      {
+        "seconds": 13.113042500001029,
+        "first_token_seconds": 5.774639300012495,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 5764.01,
+          "prompt_per_token_ms": 250.60913043478263,
+          "prompt_per_second": 3.990277601877859,
+          "predicted_n": 16,
+          "predicted_ms": 7338.836,
+          "predicted_per_token_ms": 489.25573333333335,
+          "predicted_per_second": 2.0439208615644224
+        },
+        "run": 0
+      },
+      {
+        "seconds": 7.7185358999995515,
+        "first_token_seconds": 0.8605850000021746,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 843.682,
+          "prompt_per_token_ms": 210.9205,
+          "prompt_per_second": 4.741122840122226,
+          "predicted_n": 16,
+          "predicted_ms": 6857.685,
+          "predicted_per_token_ms": 457.17900000000003,
+          "predicted_per_second": 2.1873270644539664
+        },
+        "run": 1
+      },
+      {
+        "seconds": 8.389100100001087,
+        "first_token_seconds": 0.8801796999905491,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 866.955,
+          "prompt_per_token_ms": 216.73875,
+          "prompt_per_second": 4.613849623106159,
+          "predicted_n": 16,
+          "predicted_ms": 7508.8,
+          "predicted_per_token_ms": 500.5866666666667,
+          "predicted_per_second": 1.9976560835286596
+        },
+        "run": 2
+      },
+      {
+        "seconds": 7.887890400001197,
+        "first_token_seconds": 0.8911973000067519,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 889.929,
+          "prompt_per_token_ms": 222.48225,
+          "prompt_per_second": 4.4947405916651775,
+          "predicted_n": 16,
+          "predicted_ms": 6996.521,
+          "predicted_per_token_ms": 466.4347333333333,
+          "predicted_per_second": 2.1439226724253384
+        },
+        "policy": "warm",
+        "prepare_seconds": 0.0031470000103581697,
+        "user_first_token_seconds": 0.8943443000171101,
+        "user_total_seconds": 7.891037400011555
+      },
+      {
+        "seconds": 8.133613300000434,
+        "first_token_seconds": 0.7505122000002302,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 749.298,
+          "prompt_per_token_ms": 187.3245,
+          "prompt_per_second": 5.338330010222902,
+          "predicted_n": 16,
+          "predicted_ms": 7382.94,
+          "predicted_per_token_ms": 492.19599999999997,
+          "predicted_per_second": 2.0317109444205155
+        },
+        "policy": "warm",
+        "prepare_seconds": 0.000625400003627874,
+        "user_first_token_seconds": 0.7511376000038581,
+        "user_total_seconds": 8.134238700004062
+      },
+      {
+        "seconds": 8.060391899998649,
+        "first_token_seconds": 0.786393100002897,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 773.233,
+          "prompt_per_token_ms": 193.30825,
+          "prompt_per_second": 5.173084956280966,
+          "predicted_n": 16,
+          "predicted_ms": 7273.826,
+          "predicted_per_token_ms": 484.92173333333335,
+          "predicted_per_second": 2.062188454879179
+        },
+        "policy": "warm",
+        "prepare_seconds": 0.0005983999872114509,
+        "user_first_token_seconds": 0.7869914999901084,
+        "user_total_seconds": 8.06099029998586
+      }
+    ],
+    "events": [
+      {
+        "startup_trim_ram": 80.06,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 85.14,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.19,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.29,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.25,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 85.11,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.16,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.36,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.36,
+        "ok": true
+      }
+    ],
+    "label": "cache2-gpu8",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 43.91,
+      "available_mib": 18207.7,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 584.7,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      {
+        "time": 1791673302.5092525,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 43.92,
+          "available_mib": 18205.21,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 584.7,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 43.35,
+          "available_mib": 18390.09,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 584.7,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 184.88,
+        "trimmed": [
+          {
+            "pid": 30120,
+            "name": "discord.exe",
+            "before_mib": 461.94,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 31764,
+            "name": "firefox.exe",
+            "before_mib": 272.35,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30196,
+            "name": "firefox.exe",
+            "before_mib": 190.87,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 12548,
+            "name": "firefox.exe",
+            "before_mib": 172.11,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 3080,
+            "name": "discord.exe",
+            "before_mib": 142.61,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 15044,
+            "name": "firefox.exe",
+            "before_mib": 108.07,
+            "after_mib": 0.23
+          },
+          {
+            "pid": 2028,
+            "name": "firefox.exe",
+            "before_mib": 75.93,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37484,
+            "name": "firefox.exe",
+            "before_mib": 71.17,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 27108,
+            "name": "firefox.exe",
+            "before_mib": 62.75,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 16756,
+            "name": "discord.exe",
+            "before_mib": 57.32,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 9052,
+            "name": "firefox.exe",
+            "before_mib": 41.98,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 24896,
+            "name": "msedge.exe",
+            "before_mib": 40.26,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 17008,
+            "name": "firefox.exe",
+            "before_mib": 39.25,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37012,
+            "name": "firefox.exe",
+            "before_mib": 36.32,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 35016,
+            "name": "firefox.exe",
+            "before_mib": 35.48,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 33280,
+            "name": "firefox.exe",
+            "before_mib": 35.41,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791673303.526995,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 43.35,
+          "available_mib": 18390.09,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 584.7,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 43.35,
+          "available_mib": 18389.9,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 584.7,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": -0.19,
+        "trimmed": []
+      }
+    ],
+    "load_seconds": 24.76793380000163,
+    "tasks": [
+      {
+        "policy": "warm",
+        "seconds": 72.21216600001208,
+        "result": {
+          "answer": "הקובץ hello.txt נוצר ונבדק בהצלחה — הוא מכיל בדיוק \"hello\" עם שורה חדשה.",
+          "tools": [
+            {
+              "name": "write_file",
+              "arguments": {
+                "path": "hello.txt",
+                "content": "hello\n"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-cache2-gpu8\\task-warm\\project\\hello.txt",
+                "bytes": 6,
+                "verified": true,
+                "checkpoint": "dff5e4d4f00a"
+              }
+            },
+            {
+              "name": "read_file",
+              "arguments": {
+                "path": "hello.txt"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-cache2-gpu8\\task-warm\\project\\hello.txt",
+                "content": "hello",
+                "start_line": 1,
+                "total_lines": 1,
+                "next_line": null,
+                "truncated": false
+              }
+            }
+          ],
+          "prompt": "Create hello.txt containing exactly hello followed by a newline. Verify the contents. Reply in one short sentence."
+        },
+        "verified": true
+      }
+    ],
+    "peak_ram_percent": 85.91,
+    "aborted": false
+  },
+  {
+    "preflight": {
+      "used_percent": 40.93,
+      "available_mib": 19175.42,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 545.44,
+      "pagefile_total_mib": 16384.0
+    },
+    "aborted": false,
+    "exit_code": 0,
+    "seconds_including_model_load": 59.94062290000147,
+    "peak_ram_percent": 85.85,
+    "verified": true,
+    "result": {
+      "answer": "הקובץ נוצר בהצלחה עם התוכן הנדרש.",
+      "tools": [
+        {
+          "name": "write_file",
+          "arguments": {
+            "path": "hello.txt",
+            "content": "hello\n"
+          },
+          "result": {
+            "ok": true,
+            "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-entrypoint-final\\project\\hello.txt",
+            "bytes": 6,
+            "verified": true,
+            "checkpoint": "f83d9fc742ef"
+          }
+        }
+      ],
+      "prompt": "צור קובץ hello.txt שמכיל בדיוק hello עם ירידת שורה בסוף. אמת את התוכן וענה במשפט קצר בעברית."
+    }
+  },
+  {
+    "settings": {
+      "num_gpu": 8,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 600,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 90,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 600,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false,
+      "native_cache_ram_mib": 0,
+      "native_context_checkpoints": 3,
+      "native_checkpoint_min_step": 512,
+      "memory_prepare_min_percent": 90,
+      "memory_model_trim_cooldown_seconds": 600
+    },
+    "rows": [
+      {
+        "seconds": 45.612484099998255,
+        "first_token_seconds": 14.248530400000163,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 14235.21,
+          "prompt_per_token_ms": 618.9221739130435,
+          "prompt_per_second": 1.6157120267280918,
+          "predicted_n": 16,
+          "predicted_ms": 31364.372,
+          "predicted_per_token_ms": 2090.958133333333,
+          "predicted_per_second": 0.4782496521849697,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 0
+      },
+      {
+        "seconds": 34.052642900001956,
+        "first_token_seconds": 6.809810999999172,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 6808.17,
+          "prompt_per_token_ms": 1702.0425,
+          "prompt_per_second": 0.5875293948300351,
+          "predicted_n": 16,
+          "predicted_ms": 27242.504,
+          "predicted_per_token_ms": 1816.1669333333334,
+          "predicted_per_second": 0.5506101788587422,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 1
+      },
+      {
+        "seconds": 30.904424799999106,
+        "first_token_seconds": 5.343208500009496,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 5341.762,
+          "prompt_per_token_ms": 1335.4405,
+          "prompt_per_second": 0.7488165889831857,
+          "predicted_n": 16,
+          "predicted_ms": 25560.914,
+          "predicted_per_token_ms": 1704.0609333333334,
+          "predicted_per_second": 0.5868334755165641,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 2
+      }
+    ],
+    "events": [
+      {
+        "abort": {
+          "used_percent": 88.0,
+          "available_mib": 3894.78,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 561.87,
+          "pagefile_total_mib": 16384.0
+        },
+        "phase": "ready"
+      }
+    ],
+    "label": "final-live",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 41.64,
+      "available_mib": 18943.18,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 558.63,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      {
+        "time": 1791674063.0565414,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 41.64,
+          "available_mib": 18943.79,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 558.63,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 40.95,
+          "available_mib": 19166.76,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 559.1,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 222.97,
+        "trimmed": [
+          {
+            "pid": 30120,
+            "name": "discord.exe",
+            "before_mib": 395.68,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 31764,
+            "name": "firefox.exe",
+            "before_mib": 285.52,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30196,
+            "name": "firefox.exe",
+            "before_mib": 222.23,
+            "after_mib": 0.2
+          },
+          {
+            "pid": 2028,
+            "name": "firefox.exe",
+            "before_mib": 215.46,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 15044,
+            "name": "firefox.exe",
+            "before_mib": 184.76,
+            "after_mib": 2.6
+          },
+          {
+            "pid": 37484,
+            "name": "firefox.exe",
+            "before_mib": 170.32,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 12548,
+            "name": "firefox.exe",
+            "before_mib": 154.77,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 9052,
+            "name": "firefox.exe",
+            "before_mib": 71.65,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 25976,
+            "name": "msedge.exe",
+            "before_mib": 57.29,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 17988,
+            "name": "steamwebhelper.exe",
+            "before_mib": 45.8,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 24896,
+            "name": "msedge.exe",
+            "before_mib": 44.59,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 27108,
+            "name": "firefox.exe",
+            "before_mib": 43.27,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 17008,
+            "name": "firefox.exe",
+            "before_mib": 43.21,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 31452,
+            "name": "firefox.exe",
+            "before_mib": 38.94,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37012,
+            "name": "firefox.exe",
+            "before_mib": 37.07,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 39128,
+            "name": "firefox.exe",
+            "before_mib": 35.82,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 16756,
+            "name": "discord.exe",
+            "before_mib": 33.14,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791674064.0732317,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 40.95,
+          "available_mib": 19167.75,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 559.1,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 40.42,
+          "available_mib": 19339.61,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 559.1,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 171.86,
+        "trimmed": []
+      }
+    ],
+    "load_seconds": 20.71906350000063,
+    "tasks": [
+      {
+        "policy": "warm",
+        "seconds": 141.9503657999885,
+        "result": {
+          "answer": "הקובץ נוצר בהצלחה עם התוכן הנדרש.",
+          "tools": [
+            {
+              "name": "write_file",
+              "arguments": {
+                "path": "hello.txt",
+                "content": "hello\n"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-final-live\\task-warm\\project\\hello.txt",
+                "bytes": 6,
+                "verified": true,
+                "checkpoint": "4f06f135b0a3"
+              }
+            }
+          ],
+          "prompt": "צור קובץ hello.txt שמכיל בדיוק hello עם ירידת שורה בסוף. אמת את התוכן וענה במשפט קצר בעברית."
+        },
+        "verified": true
+      }
+    ],
+    "error": "ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",
+    "peak_ram_percent": 88.0,
+    "aborted": true
+  },
+  {
+    "settings": {
+      "num_gpu": 8,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 512,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 120,
+      "model_load_mode": "mmap",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 80,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 30,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": false,
+      "native_fit_enabled": false
+    },
+    "rows": [],
+    "events": [
+      {
+        "startup_trim_ram": 80.35,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.97,
+        "ok": true
+      },
+      {
+        "abort": {
+          "used_percent": 88.26,
+          "available_mib": 3809.67,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 449.88,
+          "pagefile_total_mib": 16384.0
+        },
+        "phase": "loading"
+      }
+    ],
+    "label": "firefox-baseline",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 49.46,
+      "available_mib": 16405.89,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 443.53,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": {
+      "time": 1791672954.2184925,
+      "threshold_percent": 80,
+      "foreground_excluded": "chatgpt.exe",
+      "target_percent": 40,
+      "target_reached": false,
+      "before": {
+        "used_percent": 49.45,
+        "available_mib": 16407.61,
+        "total_mib": 32460.93,
+        "pagefile_used_mib": 443.53,
+        "pagefile_total_mib": 16384.0
+      },
+      "after": {
+        "used_percent": 47.61,
+        "available_mib": 17007.23,
+        "total_mib": 32460.93,
+        "pagefile_used_mib": 448.78,
+        "pagefile_total_mib": 16384.0
+      },
+      "available_change_mib": 599.62,
+      "trimmed": [
+        {
+          "pid": 30196,
+          "name": "firefox.exe",
+          "before_mib": 552.85,
+          "after_mib": 0.26
+        },
+        {
+          "pid": 9052,
+          "name": "firefox.exe",
+          "before_mib": 550.93,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 31764,
+          "name": "firefox.exe",
+          "before_mib": 460.69,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 15044,
+          "name": "firefox.exe",
+          "before_mib": 425.13,
+          "after_mib": 0.2
+        },
+        {
+          "pid": 30120,
+          "name": "discord.exe",
+          "before_mib": 402.08,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 2028,
+          "name": "firefox.exe",
+          "before_mib": 337.36,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 37484,
+          "name": "firefox.exe",
+          "before_mib": 306.13,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 12548,
+          "name": "firefox.exe",
+          "before_mib": 285.21,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 30240,
+          "name": "firefox.exe",
+          "before_mib": 282.39,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 27108,
+          "name": "firefox.exe",
+          "before_mib": 238.51,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 37012,
+          "name": "firefox.exe",
+          "before_mib": 124.89,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 31452,
+          "name": "firefox.exe",
+          "before_mib": 115.98,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 9020,
+          "name": "firefox.exe",
+          "before_mib": 111.74,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 17008,
+          "name": "firefox.exe",
+          "before_mib": 101.95,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 24648,
+          "name": "firefox.exe",
+          "before_mib": 80.33,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 32052,
+          "name": "firefox.exe",
+          "before_mib": 68.23,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 34496,
+          "name": "firefox.exe",
+          "before_mib": 64.94,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 33292,
+          "name": "firefox.exe",
+          "before_mib": 63.32,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 31968,
+          "name": "firefox.exe",
+          "before_mib": 61.66,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 34544,
+          "name": "firefox.exe",
+          "before_mib": 59.48,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 30520,
+          "name": "firefox.exe",
+          "before_mib": 59.4,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 37476,
+          "name": "firefox.exe",
+          "before_mib": 58.77,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 34804,
+          "name": "firefox.exe",
+          "before_mib": 58.55,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 30036,
+          "name": "firefox.exe",
+          "before_mib": 57.18,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 33088,
+          "name": "firefox.exe",
+          "before_mib": 56.39,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 35892,
+          "name": "msedge.exe",
+          "before_mib": 54.77,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 31044,
+          "name": "firefox.exe",
+          "before_mib": 54.58,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 24896,
+          "name": "msedge.exe",
+          "before_mib": 53.73,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 16772,
+          "name": "firefox.exe",
+          "before_mib": 53.72,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 22148,
+          "name": "firefox.exe",
+          "before_mib": 51.54,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 7536,
+          "name": "firefox.exe",
+          "before_mib": 51.37,
+          "after_mib": 0.0
+        },
+        {
+          "pid": 5228,
+          "name": "firefox.exe",
+          "before_mib": 51.34,
+          "after_mib": 0.0
+        }
+      ]
+    },
+    "error": "RuntimeError('Qwen runner failed; see qwen-cpu-runner.log')",
+    "peak_ram_percent": 88.26,
+    "aborted": true
+  },
+  {
+    "settings": {
+      "num_gpu": 8,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 512,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 120,
+      "model_load_mode": "mmap",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 80,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 30,
+      "memory_prepare_request_enabled": true,
+      "native_fit_enabled": false
+    },
+    "rows": [],
+    "events": [
+      {
+        "startup_trim_ram": 80.5,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.82,
+        "ok": true
+      },
+      {
+        "abort": {
+          "used_percent": 88.13,
+          "available_mib": 3852.25,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 459.79,
+          "pagefile_total_mib": 16384.0
+        },
+        "phase": "loading"
+      }
+    ],
+    "label": "fit-off",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 50.46,
+      "available_mib": 16082.07,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 455.86,
+      "pagefile_total_mib": 16384.0
+    },
+    "error": "RuntimeError('Qwen runner failed; see qwen-cpu-runner.log')",
+    "peak_ram_percent": 88.13,
+    "aborted": true
+  },
+  {
+    "settings": {
+      "num_gpu": 10,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 0,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 120,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 80,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 30,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_cache_ram_mib": 256,
+      "native_context_checkpoints": 2,
+      "native_checkpoint_min_step": 128,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false
+    },
+    "rows": [
+      {
+        "seconds": 10.871209200005978,
+        "first_token_seconds": 4.277261700000963,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 4262.855,
+          "prompt_per_token_ms": 185.34152173913043,
+          "prompt_per_second": 5.395445071436867,
+          "predicted_n": 16,
+          "predicted_ms": 6593.678,
+          "predicted_per_token_ms": 439.5785333333333,
+          "predicted_per_second": 2.2749063572713135
+        },
+        "run": 0
+      },
+      {
+        "seconds": 7.915422899997793,
+        "first_token_seconds": 0.9222711999900639,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 920.768,
+          "prompt_per_token_ms": 230.192,
+          "prompt_per_second": 4.344199624661153,
+          "predicted_n": 16,
+          "predicted_ms": 6992.954,
+          "predicted_per_token_ms": 466.19693333333333,
+          "predicted_per_second": 2.14501625493318
+        },
+        "run": 1
+      },
+      {
+        "seconds": 7.3557615000027,
+        "first_token_seconds": 0.7892857000115328,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 772.441,
+          "prompt_per_token_ms": 193.11025,
+          "prompt_per_second": 5.178389029065003,
+          "predicted_n": 16,
+          "predicted_ms": 6566.221,
+          "predicted_per_token_ms": 437.74806666666666,
+          "predicted_per_second": 2.2844189983858296
+        },
+        "run": 2
+      }
+    ],
+    "events": [
+      {
+        "startup_trim_ram": 80.0,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 81.37,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 80.93,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 80.94,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 81.89,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 80.98,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 81.13,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 81.02,
+        "ok": true
+      }
+    ],
+    "label": "gpu10-brief",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 41.6,
+      "available_mib": 18956.43,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 584.18,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      {
+        "time": 1791673507.645548,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 41.63,
+          "available_mib": 18947.54,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 584.18,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 41.36,
+          "available_mib": 19033.75,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 584.18,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 86.21,
+        "trimmed": [
+          {
+            "pid": 30120,
+            "name": "discord.exe",
+            "before_mib": 406.2,
+            "after_mib": 1.02
+          },
+          {
+            "pid": 31764,
+            "name": "firefox.exe",
+            "before_mib": 298.32,
+            "after_mib": 0.36
+          },
+          {
+            "pid": 30196,
+            "name": "firefox.exe",
+            "before_mib": 258.07,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 27108,
+            "name": "firefox.exe",
+            "before_mib": 175.79,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 12548,
+            "name": "firefox.exe",
+            "before_mib": 161.67,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 15044,
+            "name": "firefox.exe",
+            "before_mib": 112.45,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 2028,
+            "name": "firefox.exe",
+            "before_mib": 85.58,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37484,
+            "name": "firefox.exe",
+            "before_mib": 79.4,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 24896,
+            "name": "msedge.exe",
+            "before_mib": 55.27,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 41824,
+            "name": "msedge.exe",
+            "before_mib": 53.4,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 17008,
+            "name": "firefox.exe",
+            "before_mib": 53.14,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 9052,
+            "name": "firefox.exe",
+            "before_mib": 49.41,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 16756,
+            "name": "discord.exe",
+            "before_mib": 40.58,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 4036,
+            "name": "firefox.exe",
+            "before_mib": 35.65,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 9020,
+            "name": "firefox.exe",
+            "before_mib": 33.86,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791673508.6560822,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 41.36,
+          "available_mib": 19033.75,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 584.18,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 41.35,
+          "available_mib": 19037.69,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 584.18,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 3.94,
+        "trimmed": []
+      }
+    ],
+    "load_seconds": 24.743965499990736,
+    "tasks": [
+      {
+        "policy": "warm",
+        "seconds": 63.03605609999795,
+        "result": {
+          "answer": "הקובץ נוצר ונבדק בהצלחה.",
+          "tools": [
+            {
+              "name": "write_file",
+              "arguments": {
+                "path": "hello.txt",
+                "content": "hello\n"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-gpu10-brief\\task-warm\\project\\hello.txt",
+                "bytes": 6,
+                "verified": true,
+                "checkpoint": "860fb7bac716"
+              }
+            },
+            {
+              "name": "read_file",
+              "arguments": {
+                "path": "hello.txt"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-gpu10-brief\\task-warm\\project\\hello.txt",
+                "content": "hello",
+                "start_line": 1,
+                "total_lines": 1,
+                "next_line": null,
+                "truncated": false
+              }
+            }
+          ],
+          "prompt": "Create hello.txt containing exactly hello followed by a newline. Verify the contents. Reply in one short sentence."
+        },
+        "verified": true
+      }
+    ],
+    "peak_ram_percent": 84.14,
+    "aborted": false
+  },
+  {
+    "settings": {
+      "num_gpu": 8,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 512,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 120,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 80,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 30,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false
+    },
+    "rows": [],
+    "events": [
+      {
+        "startup_trim_ram": 80.05,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 83.12,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 85.52,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 87.67,
+        "ok": true
+      },
+      {
+        "abort": {
+          "used_percent": 88.25,
+          "available_mib": 3813.65,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 460.33,
+          "pagefile_total_mib": 16384.0
+        },
+        "phase": "loading"
+      }
+    ],
+    "label": "guarded",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 50.92,
+      "available_mib": 15931.45,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 460.05,
+      "pagefile_total_mib": 16384.0
+    },
+    "error": "RuntimeError('Qwen runner failed; see qwen-cpu-runner.log')",
+    "peak_ram_percent": 88.25,
+    "aborted": true
+  },
+  {
+    "settings": {
+      "num_gpu": 8,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 512,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 120,
+      "model_load_mode": "mmap",
+      "memory_cleanup_active": true,
+      "model_no_host": false,
+      "memory_active_threshold_percent": 80,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 30,
+      "memory_prepare_request_enabled": true
+    },
+    "rows": [],
+    "events": [
+      {
+        "startup_trim_ram": 80.69,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 85.14,
+        "ok": true
+      },
+      {
+        "abort": {
+          "used_percent": 88.3,
+          "available_mib": 3796.71,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 449.54,
+          "pagefile_total_mib": 16384.0
+        },
+        "phase": "loading"
+      }
+    ],
+    "label": "host-buffer",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 51.17,
+      "available_mib": 15849.1,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 449.79,
+      "pagefile_total_mib": 16384.0
+    },
+    "error": "RuntimeError('Qwen runner failed; see qwen-cpu-runner.log')",
+    "peak_ram_percent": 88.3,
+    "aborted": true
+  },
+  {
+    "settings": {
+      "num_gpu": 8,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 512,
+      "draft_num_predict": 0,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 120,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 80,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 30,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false
+    },
+    "rows": [],
+    "events": [
+      {
+        "startup_trim_ram": 80.31,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 85.19,
+        "ok": true
+      },
+      {
+        "abort": {
+          "used_percent": 88.04,
+          "available_mib": 3881.39,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 458.18,
+          "pagefile_total_mib": 16384.0
+        },
+        "phase": "loading"
+      }
+    ],
+    "label": "lean-load",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 48.67,
+      "available_mib": 16662.02,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 453.95,
+      "pagefile_total_mib": 16384.0
+    },
+    "error": "RuntimeError('Qwen runner failed; see qwen-cpu-runner.log')",
+    "peak_ram_percent": 88.04,
+    "aborted": true
+  },
+  {
+    "settings": {
+      "num_gpu": 8,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 120,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 80,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 30,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_cache_ram_mib": 0,
+      "native_context_checkpoints": 3,
+      "native_checkpoint_min_step": 512,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false
+    },
+    "rows": [
+      {
+        "seconds": 9.129106899999897,
+        "first_token_seconds": 5.207743099992513,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 5193.213,
+          "prompt_per_token_ms": 225.79186956521738,
+          "prompt_per_second": 4.428857433731295,
+          "predicted_n": 16,
+          "predicted_ms": 3920.846,
+          "predicted_per_token_ms": 261.3897333333333,
+          "predicted_per_second": 3.825704962653468,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 0
+      },
+      {
+        "seconds": 5.006373900003382,
+        "first_token_seconds": 0.8294911999983015,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 828.09,
+          "prompt_per_token_ms": 207.0225,
+          "prompt_per_second": 4.830392831697037,
+          "predicted_n": 16,
+          "predicted_ms": 4176.624,
+          "predicted_per_token_ms": 278.4416,
+          "predicted_per_second": 3.5914173744153173,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 1
+      },
+      {
+        "seconds": 4.8992033999966225,
+        "first_token_seconds": 0.8285687000025064,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 827.115,
+          "prompt_per_token_ms": 206.77875,
+          "prompt_per_second": 4.836086880300805,
+          "predicted_n": 16,
+          "predicted_ms": 4070.25,
+          "predicted_per_token_ms": 271.35,
+          "predicted_per_second": 3.6852773171181132,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 2
+      }
+    ],
+    "events": [
+      {
+        "startup_trim_ram": 80.01,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.44,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 82.79,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 83.09,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 83.67,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.01,
+        "ok": true
+      }
+    ],
+    "label": "mtp-smart",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 43.57,
+      "available_mib": 18318.79,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 569.1,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      {
+        "time": 1791673898.7062302,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 43.58,
+          "available_mib": 18315.1,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 569.1,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 42.9,
+          "available_mib": 18536.73,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 569.1,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 221.63,
+        "trimmed": [
+          {
+            "pid": 30120,
+            "name": "discord.exe",
+            "before_mib": 433.42,
+            "after_mib": 0.11
+          },
+          {
+            "pid": 31764,
+            "name": "firefox.exe",
+            "before_mib": 305.52,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 2028,
+            "name": "firefox.exe",
+            "before_mib": 236.6,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30196,
+            "name": "firefox.exe",
+            "before_mib": 208.95,
+            "after_mib": 0.64
+          },
+          {
+            "pid": 37484,
+            "name": "firefox.exe",
+            "before_mib": 184.48,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 12548,
+            "name": "firefox.exe",
+            "before_mib": 178.28,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 15044,
+            "name": "firefox.exe",
+            "before_mib": 140.53,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 9052,
+            "name": "firefox.exe",
+            "before_mib": 118.88,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 3080,
+            "name": "discord.exe",
+            "before_mib": 108.71,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 31452,
+            "name": "firefox.exe",
+            "before_mib": 55.83,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 24896,
+            "name": "msedge.exe",
+            "before_mib": 52.45,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37012,
+            "name": "firefox.exe",
+            "before_mib": 50.91,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 16756,
+            "name": "discord.exe",
+            "before_mib": 49.2,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 9020,
+            "name": "firefox.exe",
+            "before_mib": 46.91,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 27108,
+            "name": "firefox.exe",
+            "before_mib": 46.03,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 17008,
+            "name": "firefox.exe",
+            "before_mib": 45.38,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 41580,
+            "name": "firefox.exe",
+            "before_mib": 35.57,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791673899.723934,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 42.89,
+          "available_mib": 18537.72,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 569.1,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 42.34,
+          "available_mib": 18716.35,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 571.65,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 178.63,
+        "trimmed": []
+      }
+    ],
+    "load_seconds": 21.703664400003618,
+    "tasks": [
+      {
+        "policy": "warm",
+        "seconds": 40.22103449999122,
+        "result": {
+          "answer": "The file was created and verified successfully.",
+          "tools": [
+            {
+              "name": "write_file",
+              "arguments": {
+                "path": "hello.txt",
+                "content": "hello\n"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-mtp-smart\\task-warm\\project\\hello.txt",
+                "bytes": 6,
+                "verified": true,
+                "checkpoint": "98ff39035da9"
+              }
+            }
+          ],
+          "prompt": "Create hello.txt containing exactly hello followed by a newline. Verify the contents. Reply in one short sentence."
+        },
+        "verified": true
+      },
+      {
+        "policy": "warm",
+        "repeat": true,
+        "seconds": 21.564459900007932,
+        "result": {
+          "answer": "The file was created and verified successfully.",
+          "tools": [
+            {
+              "name": "write_file",
+              "arguments": {
+                "path": "hello.txt",
+                "content": "hello\n"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-mtp-smart\\task-warm\\project\\hello.txt",
+                "bytes": 6,
+                "verified": true,
+                "checkpoint": "3b67af50ceda"
+              }
+            }
+          ],
+          "prompt": "Create hello.txt containing exactly hello followed by a newline. Verify the contents. Reply in one short sentence."
+        },
+        "verified": true
+      }
+    ],
+    "peak_ram_percent": 87.02,
+    "aborted": false
+  },
+  {
+    "settings": {
+      "num_gpu": 8,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 512,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 120,
+      "model_load_mode": "mmap",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 80,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 30,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false
+    },
+    "rows": [],
+    "events": [
+      {
+        "startup_trim_ram": 80.29,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.64,
+        "ok": true
+      },
+      {
+        "abort": {
+          "used_percent": 88.39,
+          "available_mib": 3768.11,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 459.77,
+          "pagefile_total_mib": 16384.0
+        },
+        "phase": "loading"
+      }
+    ],
+    "label": "no-pinned",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 50.69,
+      "available_mib": 16006.89,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 449.16,
+      "pagefile_total_mib": 16384.0
+    },
+    "error": "RuntimeError('Qwen runner failed; see qwen-cpu-runner.log')",
+    "peak_ram_percent": 88.39,
+    "aborted": true
+  },
+  {
+    "settings": {
+      "num_gpu": 10,
+      "num_ctx": 2048,
+      "num_thread": 8,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 0,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 120,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 80,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 30,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_cache_ram_mib": 256,
+      "native_context_checkpoints": 2,
+      "native_checkpoint_min_step": 128,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false
+    },
+    "rows": [
+      {
+        "seconds": 10.933541599995806,
+        "first_token_seconds": 4.482243699996616,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 4449.606,
+          "prompt_per_token_ms": 193.4611304347826,
+          "prompt_per_second": 5.168996985351063,
+          "predicted_n": 16,
+          "predicted_ms": 6449.68,
+          "predicted_per_token_ms": 429.9786666666667,
+          "predicted_per_second": 2.3256967787549145
+        },
+        "run": 0
+      },
+      {
+        "seconds": 7.479514499995275,
+        "first_token_seconds": 0.8373578000027919,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 835.929,
+          "prompt_per_token_ms": 208.98225,
+          "prompt_per_second": 4.785095384895129,
+          "predicted_n": 16,
+          "predicted_ms": 6642.003,
+          "predicted_per_token_ms": 442.80019999999996,
+          "predicted_per_second": 2.2583548968586737
+        },
+        "run": 1
+      },
+      {
+        "seconds": 11.880612499997369,
+        "first_token_seconds": 0.925263899989659,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 923.745,
+          "prompt_per_token_ms": 230.93625,
+          "prompt_per_second": 4.330199351552647,
+          "predicted_n": 16,
+          "predicted_ms": 10955.264,
+          "predicted_per_token_ms": 730.3509333333333,
+          "predicted_per_second": 1.3692047950647288
+        },
+        "run": 2
+      }
+    ],
+    "events": [
+      {
+        "startup_trim_ram": 80.29,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 82.08,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 81.78,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 81.82,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 81.92,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 81.65,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 81.82,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 81.92,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 82.19,
+        "ok": true
+      }
+    ],
+    "label": "p-smt-smart",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 43.09,
+      "available_mib": 18473.55,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 574.43,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      {
+        "time": 1791673656.185856,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 43.02,
+          "available_mib": 18495.86,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 574.43,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 42.27,
+          "available_mib": 18739.1,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 574.73,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 243.24,
+        "trimmed": [
+          {
+            "pid": 30120,
+            "name": "discord.exe",
+            "before_mib": 399.69,
+            "after_mib": 0.34
+          },
+          {
+            "pid": 31764,
+            "name": "firefox.exe",
+            "before_mib": 291.98,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 2028,
+            "name": "firefox.exe",
+            "before_mib": 269.31,
+            "after_mib": 0.09
+          },
+          {
+            "pid": 30196,
+            "name": "firefox.exe",
+            "before_mib": 208.05,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 12548,
+            "name": "firefox.exe",
+            "before_mib": 166.42,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 15044,
+            "name": "firefox.exe",
+            "before_mib": 125.2,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37484,
+            "name": "firefox.exe",
+            "before_mib": 119.48,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 3080,
+            "name": "discord.exe",
+            "before_mib": 95.79,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 9020,
+            "name": "firefox.exe",
+            "before_mib": 64.57,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37012,
+            "name": "firefox.exe",
+            "before_mib": 57.77,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 9052,
+            "name": "firefox.exe",
+            "before_mib": 52.09,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 27108,
+            "name": "firefox.exe",
+            "before_mib": 50.15,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 24896,
+            "name": "msedge.exe",
+            "before_mib": 47.72,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 17008,
+            "name": "firefox.exe",
+            "before_mib": 43.39,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 41076,
+            "name": "firefox.exe",
+            "before_mib": 35.93,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 38984,
+            "name": "firefox.exe",
+            "before_mib": 35.79,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30240,
+            "name": "firefox.exe",
+            "before_mib": 34.56,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791673657.2065237,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 42.27,
+          "available_mib": 18739.97,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 574.73,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 41.86,
+          "available_mib": 18873.68,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 574.48,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 133.71,
+        "trimmed": []
+      }
+    ],
+    "load_seconds": 25.6907257999992,
+    "tasks": [
+      {
+        "policy": "warm",
+        "seconds": 52.35811879999528,
+        "result": {
+          "answer": "The file hello.txt was created and verified with exactly \"hello\" plus a newline.",
+          "tools": [
+            {
+              "name": "write_file",
+              "arguments": {
+                "path": "hello.txt",
+                "content": "hello\n"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-p-smt-smart\\task-warm\\project\\hello.txt",
+                "bytes": 6,
+                "verified": true,
+                "checkpoint": "607fba5bcd82"
+              }
+            }
+          ],
+          "prompt": "Create hello.txt containing exactly hello followed by a newline. Verify the contents. Reply in one short sentence."
+        },
+        "verified": true
+      }
+    ],
+    "peak_ram_percent": 85.53,
+    "aborted": false
+  },
+  {
+    "settings": {
+      "num_gpu": 8,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 600,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 90,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 600,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false,
+      "native_cache_ram_mib": 0,
+      "native_context_checkpoints": 2,
+      "native_checkpoint_min_step": 512,
+      "memory_prepare_min_percent": 90,
+      "memory_model_trim_cooldown_seconds": 600,
+      "native_passive_openmp": true,
+      "native_poll_level": 0
+    },
+    "rows": [
+      {
+        "seconds": 9.460389600004419,
+        "first_token_seconds": 3.9370523000106914,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 23,
+          "prompt_ms": 3932.485,
+          "prompt_per_token_ms": 170.97760869565218,
+          "prompt_per_second": 5.848719066951304,
+          "predicted_n": 16,
+          "predicted_ms": 5523.354,
+          "predicted_per_token_ms": 368.22360000000003,
+          "predicted_per_second": 2.7157411963817637,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 0
+      },
+      {
+        "seconds": 5.971328600004199,
+        "first_token_seconds": 0.9973203999979887,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 995.942,
+          "prompt_per_token_ms": 248.9855,
+          "prompt_per_second": 4.016298137843369,
+          "predicted_n": 16,
+          "predicted_ms": 4973.893,
+          "predicted_per_token_ms": 331.5928666666667,
+          "predicted_per_second": 3.0157464183487663,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 1
+      },
+      {
+        "seconds": 5.465592199994717,
+        "first_token_seconds": 0.8796001999871805,
+        "content": "1. **Use a consistent naming convention**: Adopt a standardized format, such as",
+        "timings": {
+          "cache_n": 19,
+          "prompt_n": 4,
+          "prompt_ms": 878.263,
+          "prompt_per_token_ms": 219.56575,
+          "prompt_per_second": 4.554444397634877,
+          "predicted_n": 16,
+          "predicted_ms": 4585.725,
+          "predicted_per_token_ms": 305.71500000000003,
+          "predicted_per_second": 3.2710203948121617,
+          "draft_n": 16,
+          "draft_n_accepted": 10
+        },
+        "run": 2
+      }
+    ],
+    "events": [],
+    "label": "passive-live",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 41.27,
+      "available_mib": 19065.56,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 561.87,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      {
+        "time": 1791674414.291911,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 41.29,
+          "available_mib": 19058.47,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 561.87,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 40.99,
+          "available_mib": 19153.93,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 561.87,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 95.46,
+        "trimmed": [
+          {
+            "pid": 30120,
+            "name": "discord.exe",
+            "before_mib": 405.89,
+            "after_mib": 0.34
+          },
+          {
+            "pid": 31764,
+            "name": "firefox.exe",
+            "before_mib": 195.67,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 12548,
+            "name": "firefox.exe",
+            "before_mib": 172.73,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37484,
+            "name": "firefox.exe",
+            "before_mib": 169.76,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30196,
+            "name": "firefox.exe",
+            "before_mib": 166.11,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 15044,
+            "name": "firefox.exe",
+            "before_mib": 151.93,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 2028,
+            "name": "firefox.exe",
+            "before_mib": 96.14,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 22360,
+            "name": "msedge.exe",
+            "before_mib": 56.23,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 9052,
+            "name": "firefox.exe",
+            "before_mib": 53.23,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 24896,
+            "name": "msedge.exe",
+            "before_mib": 46.96,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 27108,
+            "name": "firefox.exe",
+            "before_mib": 46.57,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 17008,
+            "name": "firefox.exe",
+            "before_mib": 46.4,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 16756,
+            "name": "discord.exe",
+            "before_mib": 41.96,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37012,
+            "name": "firefox.exe",
+            "before_mib": 37.7,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791674415.3071454,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 40.99,
+          "available_mib": 19153.93,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 561.87,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 41.02,
+          "available_mib": 19146.95,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 561.87,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": -6.98,
+        "trimmed": []
+      }
+    ],
+    "load_seconds": 17.674874499993166,
+    "tasks": [
+      {
+        "policy": "warm",
+        "seconds": 41.69464220000373,
+        "result": {
+          "answer": "הקובץ נוצר בהצלחה עם התוכן הנכון.",
+          "tools": [
+            {
+              "name": "write_file",
+              "arguments": {
+                "path": "hello.txt",
+                "content": "hello\n"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-passive-live\\task-warm\\project\\hello.txt",
+                "bytes": 6,
+                "verified": true,
+                "checkpoint": "d2d82c2db011"
+              }
+            }
+          ],
+          "prompt": "צור קובץ hello.txt שמכיל בדיוק hello עם ירידת שורה בסוף. אמת את התוכן וענה במשפט קצר בעברית."
+        },
+        "verified": true
+      },
+      {
+        "policy": "warm",
+        "repeat": true,
+        "seconds": 41.88478039999609,
+        "result": {
+          "answer": "הקובץ נוצר בהצלחה עם התוכן הנדרש.",
+          "tools": [
+            {
+              "name": "write_file",
+              "arguments": {
+                "path": "hello.txt",
+                "content": "hello\n"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-passive-live\\task-warm\\project\\hello.txt",
+                "bytes": 6,
+                "verified": true,
+                "checkpoint": "aa65ce06cc30"
+              }
+            }
+          ],
+          "prompt": "צור קובץ hello.txt שמכיל בדיוק hello עם ירידת שורה בסוף. אמת את התוכן וענה במשפט קצר בעברית."
+        },
+        "verified": true
+      },
+      {
+        "policy": "warm",
+        "changed_prompt": true,
+        "seconds": 42.40076629999385,
+        "result": {
+          "answer": "התוכן הוא \"hello\".",
+          "tools": [
+            {
+              "name": "read_file",
+              "arguments": {
+                "path": "hello.txt"
+              },
+              "result": {
+                "ok": true,
+                "path": "C:\\Users\\nagor\\Documents\\Codex\\2026-10-10\\x20-x20\\acceleration-20261011\\run-passive-live\\task-warm\\project\\hello.txt",
+                "content": "hello",
+                "start_line": 1,
+                "total_lines": 1,
+                "next_line": null,
+                "truncated": false
+              }
+            }
+          ],
+          "prompt": "קרא עכשיו שוב את hello.txt בעזרת read_file וציין את התוכן. ענה בקצרה בעברית."
+        },
+        "verified": true
+      }
+    ],
+    "peak_ram_percent": 87.22,
+    "aborted": false
+  },
+  {
+    "settings": {
+      "num_gpu": 8,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 512,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 120,
+      "model_load_mode": "mmap",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 80,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 30,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": false,
+      "native_fit_enabled": false
+    },
+    "rows": [],
+    "events": [
+      {
+        "startup_trim_ram": 80.12,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.42,
+        "ok": true
+      },
+      {
+        "abort": {
+          "used_percent": 88.1,
+          "available_mib": 3863.07,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 453.9,
+          "pagefile_total_mib": 16384.0
+        },
+        "phase": "loading"
+      }
+    ],
+    "label": "preclean",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 49.2,
+      "available_mib": 16490.42,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 460.33,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": {
+      "time": 1791672688.8548436,
+      "threshold_percent": 80,
+      "foreground_excluded": "firefox.exe",
+      "target_percent": 40,
+      "target_reached": false,
+      "before": {
+        "used_percent": 49.16,
+        "available_mib": 16501.57,
+        "total_mib": 32460.93,
+        "pagefile_used_mib": 460.33,
+        "pagefile_total_mib": 16384.0
+      },
+      "after": {
+        "used_percent": 49.09,
+        "available_mib": 16524.38,
+        "total_mib": 32460.93,
+        "pagefile_used_mib": 460.33,
+        "pagefile_total_mib": 16384.0
+      },
+      "available_change_mib": 22.81,
+      "trimmed": [
+        {
+          "pid": 30120,
+          "name": "discord.exe",
+          "before_mib": 383.14,
+          "after_mib": 0.04
+        }
+      ]
+    },
+    "error": "RuntimeError('Qwen runner failed; see qwen-cpu-runner.log')",
+    "peak_ram_percent": 88.1,
+    "aborted": true
+  },
+  {
+    "settings": {
+      "num_gpu": 8,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 120,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 80,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 30,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false
+    },
+    "rows": [],
+    "events": [
+      {
+        "startup_trim_ram": 80.41,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 85.93,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 85.95,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 85.33,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 85.57,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 85.78,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 87.92,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 87.65,
+        "ok": true
+      },
+      {
+        "abort": {
+          "used_percent": 88.05,
+          "available_mib": 3877.69,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 467.98,
+          "pagefile_total_mib": 16384.0
+        },
+        "phase": "loading"
+      }
+    ],
+    "label": "small-batch",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 43.57,
+      "available_mib": 18316.2,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 463.86,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      {
+        "time": 1791673038.9242094,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 43.58,
+          "available_mib": 18313.58,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 463.86,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 43.12,
+          "available_mib": 18465.05,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 463.86,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 151.47,
+        "trimmed": [
+          {
+            "pid": 31764,
+            "name": "firefox.exe",
+            "before_mib": 272.66,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30196,
+            "name": "firefox.exe",
+            "before_mib": 168.81,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30120,
+            "name": "discord.exe",
+            "before_mib": 145.88,
+            "after_mib": 0.34
+          },
+          {
+            "pid": 30240,
+            "name": "firefox.exe",
+            "before_mib": 120.68,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 15044,
+            "name": "firefox.exe",
+            "before_mib": 72.15,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 3080,
+            "name": "discord.exe",
+            "before_mib": 67.44,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 33412,
+            "name": "msedge.exe",
+            "before_mib": 56.69,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 37484,
+            "name": "firefox.exe",
+            "before_mib": 45.26,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 12548,
+            "name": "firefox.exe",
+            "before_mib": 43.38,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 24896,
+            "name": "msedge.exe",
+            "before_mib": 42.76,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 17008,
+            "name": "firefox.exe",
+            "before_mib": 37.86,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791673039.9500813,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 43.12,
+          "available_mib": 18465.05,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 463.86,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 43.4,
+          "available_mib": 18372.52,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 463.86,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": -92.53,
+        "trimmed": []
+      }
+    ],
+    "error": "RuntimeError('Qwen runner failed; see qwen-cpu-runner.log')",
+    "peak_ram_percent": 88.05,
+    "aborted": true
+  },
+  {
+    "settings": {
+      "num_gpu": 8,
+      "num_ctx": 2048,
+      "num_thread": 4,
+      "num_thread_batch": 12,
+      "native_runner_enabled": true,
+      "native_runner_port": 57206,
+      "cpu_generation_logical": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cpu_batch_logical": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "num_batch": 128,
+      "draft_num_predict": 4,
+      "memory_cleanup_enabled": true,
+      "memory_threshold_percent": 80,
+      "memory_cleanup_llama": true,
+      "memory_llama_idle_seconds": 45,
+      "memory_target_percent": 40,
+      "memory_cleanup_aggressive": true,
+      "native_sleep_idle_seconds": -1,
+      "model_repack": false,
+      "memory_active_interval_seconds": 120,
+      "model_load_mode": "none",
+      "memory_cleanup_active": true,
+      "model_no_host": true,
+      "memory_active_threshold_percent": 80,
+      "memory_idle_trim_enabled": true,
+      "memory_idle_trim_seconds": 30,
+      "memory_prepare_request_enabled": true,
+      "cuda_no_pinned": true,
+      "native_fit_enabled": false,
+      "native_projector_enabled": false
+    },
+    "rows": [],
+    "events": [
+      {
+        "startup_trim_ram": 80.15,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 86.95,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 84.95,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 85.16,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 85.43,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 85.49,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 87.45,
+        "ok": true
+      },
+      {
+        "startup_trim_ram": 85.29,
+        "ok": true
+      },
+      {
+        "abort": {
+          "used_percent": 88.08,
+          "available_mib": 3869.25,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 589.18,
+          "pagefile_total_mib": 16384.0
+        },
+        "phase": "ready"
+      }
+    ],
+    "label": "text-only",
+    "ceiling": 88,
+    "preflight": {
+      "used_percent": 43.45,
+      "available_mib": 18356.95,
+      "total_mib": 32460.93,
+      "pagefile_used_mib": 464.84,
+      "pagefile_total_mib": 16384.0
+    },
+    "startup_background_cleanup": [
+      {
+        "time": 1791673086.677101,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 43.45,
+          "available_mib": 18357.0,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 464.84,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 43.28,
+          "available_mib": 18411.78,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 464.84,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": 54.78,
+        "trimmed": [
+          {
+            "pid": 31764,
+            "name": "firefox.exe",
+            "before_mib": 262.5,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30196,
+            "name": "firefox.exe",
+            "before_mib": 174.99,
+            "after_mib": 4.02
+          },
+          {
+            "pid": 37484,
+            "name": "firefox.exe",
+            "before_mib": 154.53,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 30120,
+            "name": "discord.exe",
+            "before_mib": 144.16,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 27108,
+            "name": "firefox.exe",
+            "before_mib": 133.63,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 15044,
+            "name": "firefox.exe",
+            "before_mib": 62.2,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 2028,
+            "name": "firefox.exe",
+            "before_mib": 59.09,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 32072,
+            "name": "msedge.exe",
+            "before_mib": 53.37,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 9052,
+            "name": "firefox.exe",
+            "before_mib": 52.79,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 12548,
+            "name": "firefox.exe",
+            "before_mib": 47.5,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 31452,
+            "name": "firefox.exe",
+            "before_mib": 38.66,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 24896,
+            "name": "msedge.exe",
+            "before_mib": 37.13,
+            "after_mib": 0.0
+          },
+          {
+            "pid": 20316,
+            "name": "epicgameslauncher.exe",
+            "before_mib": 32.26,
+            "after_mib": 0.0
+          }
+        ]
+      },
+      {
+        "time": 1791673087.70021,
+        "threshold_percent": 80,
+        "foreground_excluded": "chatgpt.exe",
+        "target_percent": 40,
+        "target_reached": false,
+        "before": {
+          "used_percent": 43.28,
+          "available_mib": 18411.73,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 464.84,
+          "pagefile_total_mib": 16384.0
+        },
+        "after": {
+          "used_percent": 43.3,
+          "available_mib": 18405.58,
+          "total_mib": 32460.93,
+          "pagefile_used_mib": 464.84,
+          "pagefile_total_mib": 16384.0
+        },
+        "available_change_mib": -6.15,
+        "trimmed": []
+      }
+    ],
+    "load_seconds": 22.73484129999997,
+    "error": "ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)",
+    "peak_ram_percent": 88.08,
+    "aborted": true
+  }
+]

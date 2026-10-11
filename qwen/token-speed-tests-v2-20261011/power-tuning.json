@@ -1,0 +1,7 @@
+{
+  "verified_at": "2026-10-11T03:13:16.5931862+03:00",
+  "ac_connected": true,
+  "previous_scheme": "64a64f24-65b9-4b56-befd-5ec1eaced9b3",
+  "active_scheme": "27fa6203-3987-4dcc-918d-748559d549ec",
+  "reason": "User requested maximum local model performance and confirmed AC connected"
+}

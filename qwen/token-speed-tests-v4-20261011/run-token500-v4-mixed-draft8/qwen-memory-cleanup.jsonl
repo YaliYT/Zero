@@ -1,0 +1,2 @@
+{"time": 1791682406.9448547, "event": "monitor_started", "pid": 34504, "threshold_percent": 80, "poll_seconds": 5, "target_percent": 40, "aggressive": true, "active_cleanup": true, "active_threshold_percent": 90, "idle_trim_enabled": true, "idle_trim_seconds": 600, "prepare_request_enabled": true, "pass_cooldown_seconds": 120, "process_cooldown_seconds": 600, "llama_cleanup": true, "llama_idle_seconds": 45, "prepare_min_percent": 90, "model_trim_cooldown_seconds": 600}
+{"time": 1791682523.5926154, "event": "monitor_stopped", "pid": 34504}

@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-11T02:56:15.6055343+03:00",
+  "agent_files_unchanged": true,
+  "files_sha256": {
+    "Qwen-Agent.py": "e70caf80f3186a1d2d4acd0c5535dfe87f55b1b7b2129118672e533c0e1d7eb1",
+    "qwen_coding.py": "9c84e29563f0d534fd9ae36c415cedfdfe021c3dae214a3aa29818d1e08b694b",
+    "qwen_memory_guard.py": "b96d07a68d795285a34789d27ab3b06815cb65986a13c1b53e2af3e858cc5f0e",
+    "qwen_cpu_runner.py": "6400754b6959b0a57a8e4496ac25bd043a83e52661d80227c71a514844054210",
+    "qwen-agent-settings.json": "c6cfa3e30e08773453ddfa9063e8fb6da3c1484dc7e8079fe2e62a4011d546e4"
+  },
+  "target_achieved": false,
+  "selected_threads": 4,
+  "draft_max": 4,
+  "gpu_layers": 9
+}

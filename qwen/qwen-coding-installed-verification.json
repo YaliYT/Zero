@@ -1,0 +1,14 @@
+{
+  "verified": true,
+  "session": "c153c1dc12c9",
+  "installed_root": "C:\\Users\\nagor\\Downloads\\Qwen-Agent",
+  "marker_removed": true,
+  "checks": [
+    "UTF-8 creation",
+    "exact edit",
+    "read",
+    "disk session resume",
+    "plan enforcement",
+    "undo twice"
+  ]
+}

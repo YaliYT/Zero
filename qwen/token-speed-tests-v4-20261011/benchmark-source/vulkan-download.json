@@ -1,0 +1,6 @@
+{
+  "asset": "llama-b11552-bin-win-vulkan-x64.zip",
+  "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11552/llama-b11552-bin-win-vulkan-x64.zip",
+  "sha256": "83dc16325b532ba603034719e8377e28ca5093c5d4370141a6522f1a0250386c",
+  "size": 33473578
+}

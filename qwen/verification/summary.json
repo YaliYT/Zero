@@ -1,0 +1,129 @@
+﻿{
+    "work":  "C:\\Users\\nagor\\Downloads\\Qwen-Agent-work",
+    "backup":  "C:\\Users\\nagor\\Downloads\\Qwen-Agent-backup-20261010-235222",
+    "before":  [
+                   {
+                       "test":  "test_memory_guard.py",
+                       "exit_code":  0,
+                       "seconds":  4.595
+                   },
+                   {
+                       "test":  "test_memory_target.py",
+                       "exit_code":  0,
+                       "seconds":  1.516
+                   },
+                   {
+                       "test":  "test_active_cleanup.py",
+                       "exit_code":  0,
+                       "seconds":  1.494
+                   },
+                   {
+                       "test":  "test_request_paging.py",
+                       "exit_code":  0,
+                       "seconds":  0.503
+                   },
+                   {
+                       "test":  "test_native_stream.py",
+                       "exit_code":  0,
+                       "seconds":  0.484
+                   },
+                   {
+                       "test":  "test_coding_features.py",
+                       "exit_code":  0,
+                       "seconds":  2.218
+                   },
+                   {
+                       "test":  "test_command_completion.py",
+                       "exit_code":  0,
+                       "seconds":  3.247
+                   },
+                   {
+                       "test":  "test_hebrew_console.py",
+                       "exit_code":  0,
+                       "seconds":  0.693
+                   },
+                   {
+                       "test":  "test_memory_hysteresis.py",
+                       "exit_code":  1,
+                       "seconds":  0.568
+                   },
+                   {
+                       "test":  "test_progress_guards.py",
+                       "exit_code":  1,
+                       "seconds":  0.567
+                   },
+                   {
+                       "test":  "test_agent_loop.py",
+                       "exit_code":  1,
+                       "seconds":  0.607
+                   },
+                   {
+                       "test":  "test_link_boundaries.py",
+                       "exit_code":  0,
+                       "seconds":  0.566
+                   }
+               ],
+    "after":  [
+                  {
+                      "test":  "test_memory_guard.py",
+                      "exit_code":  0,
+                      "seconds":  4.553
+                  },
+                  {
+                      "test":  "test_memory_target.py",
+                      "exit_code":  0,
+                      "seconds":  1.475
+                  },
+                  {
+                      "test":  "test_active_cleanup.py",
+                      "exit_code":  0,
+                      "seconds":  1.481
+                  },
+                  {
+                      "test":  "test_request_paging.py",
+                      "exit_code":  0,
+                      "seconds":  0.512
+                  },
+                  {
+                      "test":  "test_native_stream.py",
+                      "exit_code":  0,
+                      "seconds":  0.437
+                  },
+                  {
+                      "test":  "test_coding_features.py",
+                      "exit_code":  0,
+                      "seconds":  1.342
+                  },
+                  {
+                      "test":  "test_command_completion.py",
+                      "exit_code":  0,
+                      "seconds":  3.174
+                  },
+                  {
+                      "test":  "test_hebrew_console.py",
+                      "exit_code":  0,
+                      "seconds":  0.505
+                  },
+                  {
+                      "test":  "test_memory_hysteresis.py",
+                      "exit_code":  0,
+                      "seconds":  0.526
+                  },
+                  {
+                      "test":  "test_progress_guards.py",
+                      "exit_code":  0,
+                      "seconds":  0.836
+                  },
+                  {
+                      "test":  "test_agent_loop.py",
+                      "exit_code":  0,
+                      "seconds":  0.557
+                  },
+                  {
+                      "test":  "test_link_boundaries.py",
+                      "exit_code":  0,
+                      "seconds":  0.525
+                  }
+              ],
+    "after_all_passed":  true
+}

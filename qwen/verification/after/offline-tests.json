@@ -1,0 +1,68 @@
+﻿{
+    "label":  "after",
+    "checked_at":  "2026-10-10T23:53:04.1092180+03:00",
+    "python":  "C:\\Users\\nagor\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "all_passed":  true,
+    "tests":  [
+                  {
+                      "test":  "test_memory_guard.py",
+                      "exit_code":  0,
+                      "seconds":  4.553
+                  },
+                  {
+                      "test":  "test_memory_target.py",
+                      "exit_code":  0,
+                      "seconds":  1.475
+                  },
+                  {
+                      "test":  "test_active_cleanup.py",
+                      "exit_code":  0,
+                      "seconds":  1.481
+                  },
+                  {
+                      "test":  "test_request_paging.py",
+                      "exit_code":  0,
+                      "seconds":  0.512
+                  },
+                  {
+                      "test":  "test_native_stream.py",
+                      "exit_code":  0,
+                      "seconds":  0.437
+                  },
+                  {
+                      "test":  "test_coding_features.py",
+                      "exit_code":  0,
+                      "seconds":  1.342
+                  },
+                  {
+                      "test":  "test_command_completion.py",
+                      "exit_code":  0,
+                      "seconds":  3.174
+                  },
+                  {
+                      "test":  "test_hebrew_console.py",
+                      "exit_code":  0,
+                      "seconds":  0.505
+                  },
+                  {
+                      "test":  "test_memory_hysteresis.py",
+                      "exit_code":  0,
+                      "seconds":  0.526
+                  },
+                  {
+                      "test":  "test_progress_guards.py",
+                      "exit_code":  0,
+                      "seconds":  0.836
+                  },
+                  {
+                      "test":  "test_agent_loop.py",
+                      "exit_code":  0,
+                      "seconds":  0.557
+                  },
+                  {
+                      "test":  "test_link_boundaries.py",
+                      "exit_code":  0,
+                      "seconds":  0.525
+                  }
+              ]
+}

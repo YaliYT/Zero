@@ -1,0 +1,11 @@
+{
+  "num_gpu": 8,
+  "num_ctx": 2048,
+  "num_thread": 8,
+  "num_batch": 512,
+  "draft_num_predict": 4,
+  "memory_cleanup_enabled": true,
+  "memory_threshold_percent": 80,
+  "memory_cleanup_llama": true,
+  "memory_llama_idle_seconds": 45
+}

@@ -1,0 +1,28 @@
+{
+  "id": "32463f8ba88f",
+  "project": "C:\\Users\\nagor\\Downloads",
+  "created": 1791665559.075931,
+  "history": [
+    {
+      "id": "b3f2e73eac6b",
+      "time": 1791665559.078205,
+      "prompt": "test",
+      "tools": [],
+      "answer": "391",
+      "status": "completed"
+    },
+    {
+      "id": "cf2e6a6e1208",
+      "time": 1791665559.079236,
+      "prompt": "test",
+      "tools": [],
+      "answer": "intentional failure",
+      "status": "interrupted"
+    }
+  ],
+  "tasks": [],
+  "checkpoints": [],
+  "pending": null,
+  "summary": "",
+  "updated": 1791665559.0802464
+}

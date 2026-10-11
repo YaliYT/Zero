@@ -1,0 +1,131 @@
+{
+  "captured_at": "2026-10-11T00:35:42+0300",
+  "inference_performed": false,
+  "ram": {
+    "used_percent": 49.41,
+    "total_mib": 32461,
+    "available_mib": 16422,
+    "commit_used_mib": 23679,
+    "commit_limit_mib": 48845
+  },
+  "pagefile": {
+    "pagefile_used_mib": 407,
+    "pagefile_total_mib": 16384
+  },
+  "psutil_virtual_memory": {
+    "percent": 49.4,
+    "available_mib": 16425,
+    "used_mib": 16036
+  },
+  "relevant_processes": [
+    {
+      "pid": 13156,
+      "name": "ollama app.exe",
+      "exe": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\ollama app.exe",
+      "cmdline": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\ollama app.exe",
+      "ws_mib": 70.2,
+      "private_mib": 52.1,
+      "faults": 37047
+    },
+    {
+      "pid": 28240,
+      "name": "ollama.exe",
+      "exe": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\ollama.exe",
+      "cmdline": "C:\\Users\\nagor\\AppData\\Local\\Programs\\Ollama\\ollama.exe serve",
+      "ws_mib": 75.1,
+      "private_mib": 60.8,
+      "faults": 56102
+    }
+  ],
+  "llama_server_running": false,
+  "top_working_sets": [
+    {
+      "name": "javaw.exe",
+      "pid": 28080,
+      "ws_mib": 2341.9,
+      "private_mib": 3990.5
+    },
+    {
+      "name": "explorer.exe",
+      "pid": 1492,
+      "ws_mib": 781.8,
+      "private_mib": 440.0
+    },
+    {
+      "name": "Discord.exe",
+      "pid": 30120,
+      "ws_mib": 622.2,
+      "private_mib": 673.9
+    },
+    {
+      "name": "ChatGPT.exe",
+      "pid": 17944,
+      "ws_mib": 535.0,
+      "private_mib": 596.2
+    },
+    {
+      "name": "firefox.exe",
+      "pid": 30196,
+      "ws_mib": 446.1,
+      "private_mib": 338.5
+    },
+    {
+      "name": "firefox.exe",
+      "pid": 2028,
+      "ws_mib": 408.6,
+      "private_mib": 344.9
+    },
+    {
+      "name": "MsMpEng.exe",
+      "pid": 5408,
+      "ws_mib": 391.1,
+      "private_mib": 468.4
+    },
+    {
+      "name": "ChatGPT.exe",
+      "pid": 2264,
+      "ws_mib": 319.2,
+      "private_mib": 412.4
+    },
+    {
+      "name": "MemCompression",
+      "pid": 3068,
+      "ws_mib": 306.0,
+      "private_mib": 4.6
+    },
+    {
+      "name": "ChatGPT.exe",
+      "pid": 24780,
+      "ws_mib": 280.4,
+      "private_mib": 340.5
+    },
+    {
+      "name": "msedge.exe",
+      "pid": 31948,
+      "ws_mib": 274.2,
+      "private_mib": 229.5
+    },
+    {
+      "name": "ChatGPT.exe",
+      "pid": 26744,
+      "ws_mib": 230.6,
+      "private_mib": 293.8
+    }
+  ],
+  "port_57206_listening": false,
+  "port_11434_listening": true,
+  "ollama_api_ps": {
+    "models": []
+  },
+  "vram": {
+    "vram_used_mib": 1904,
+    "vram_total_mib": 4096
+  },
+  "nvidia_smi_compute_apps": "1048, [N/A]\n1692, [N/A]\n1492, [N/A]\n10704, [N/A]\n10736, [N/A]\n1152, [N/A]\n12532, [N/A]\n12996, [N/A]\n13436, [N/A]\n17256, [N/A]\n15504, [N/A]\n19016, [N/A]\n20316, [N/A]\n19820, [N/A]\n20612, [N/A]\n21588, [N/A]\n22888, [N/A]\n4800, [N/A]\n25088, [N/A]\n26696, [N/A]\n10880, [N/A]\n26668, [N/A]\n3080, [N/A]\n30240, [N/A]\n11236, [N/A]\n26400, [N/A]\n33024, [N/A]\n33904, [N/A]\n28080, [N/A]\n28876, [N/A]\n8856, [N/A]",
+  "nvidia_smi_gpu": "NVIDIA GeForce RTX 3050 Laptop GPU, 572.61, 70, 25.59 W, 1740 MHz, 17 %",
+  "power_scheme": "Power Scheme GUID: 27fa6203-3987-4dcc-918d-748559d549ec  (Performance)",
+  "ac_line_status": "AC (plugged in)",
+  "battery_percent": 99,
+  "battery_saver": false,
+  "cpu_percent_1s": 6.1
+}

@@ -1,0 +1,7 @@
+{
+  "Qwen-Agent.py": "0405427e5f1f46f8e4ca8161c9a653b7224e0c6e121de74a9676a3e989ed4202",
+  "qwen_coding.py": "24a54f397f2009c1f1fa90ffdfd5659a38c91ff5195dd121a3d798abc25a26f6",
+  "qwen_memory_guard.py": "54147c2bcfe14bf81bf21c73bce0f931569c40cf30544f0943196ee11dbdd29d",
+  "qwen_cpu_runner.py": "8de5ec26bb41c6e1b0bd7fdd33f14f3b41f0619e2cc5405a7048d51d212b8a91",
+  "qwen-agent-settings.json": "e9f015ef54c8710613d12456e350372886fd59240b98610b8f17240687180160"
+}

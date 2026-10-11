@@ -1,0 +1,392 @@
+{
+  "samples": [
+    {
+      "time": "2026-10-11T03:42:25.2940979+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:25.8093954+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:26.3200558+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:26.8230627+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:27.3306501+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:27.8356414+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:28.3446648+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:28.8529003+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:29.3538418+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:29.8578687+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:30.3691006+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:30.8736142+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:31.3833977+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:31.8921089+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:32.4067229+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:32.9161816+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:33.4235661+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:33.9332249+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:34.4421141+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:34.9437030+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:35.4507040+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:35.9647781+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:36.4684265+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:36.9830158+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:37.4913767+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:38.0061973+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:38.5194012+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:39.0262036+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:39.5376643+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:40.0437603+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:40.5517211+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:41.0627743+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:41.5712175+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:42.0817234+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:42.5824983+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:43.0914844+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:43.6001994+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:44.1206991+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:44.6308960+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    },
+    {
+      "time": "2026-10-11T03:42:45.1330354+03:00",
+      "ac": 1,
+      "flags": 9,
+      "percent": 77
+    }
+  ],
+  "events": [
+    {
+      "time": "2026-10-11T03:41:29.4390485+03:00",
+      "data": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "30970"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:28.4373513+03:00",
+      "data": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "30986"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:27.4318906+03:00",
+      "data": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "30986"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:18.4719551+03:00",
+      "data": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31097"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:15.7924122+03:00",
+      "data": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31113"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:14.7867284+03:00",
+      "data": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31113"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:13.7890596+03:00",
+      "data": [
+        {
+          "name": "AcOnline",
+          "value": "true"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31129"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-11T03:41:12.7515654+03:00",
+      "data": [
+        {
+          "name": "AcOnline",
+          "value": "false"
+        },
+        {
+          "name": "RemainingCapacity",
+          "value": "31145"
+        },
+        {
+          "name": "FullChargeCapacity",
+          "value": "41261"
+        }
+      ]
+    }
+  ],
+  "battery_driver": [
+    {
+      "PowerOnline": true,
+      "Charging": true,
+      "Discharging": false,
+      "RemainingCapacity": 31671,
+      "Rate": null,
+      "Voltage": 16905
+    }
+  ]
+}
