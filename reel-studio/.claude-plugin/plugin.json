@@ -1,0 +1,8 @@
+{
+  "name": "reel-studio",
+  "version": "1.0.0",
+  "icon": ".claude-plugin/icon.png",
+  "description": "Make vertical AI videos (Reels/TikTok/Shorts) end to end in Claude Code: script, ElevenLabs cloned voice, word-by-word Hebrew captions with Whisper (ivrit-ai), HyperFrames motion graphics, Playwright review and ffmpeg finishing.",
+  "author": { "name": "YaliYT" },
+  "keywords": ["video", "reels", "hebrew", "captions", "hyperframes", "elevenlabs", "whisper", "ffmpeg"]
+}

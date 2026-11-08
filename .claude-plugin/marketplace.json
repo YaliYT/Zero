@@ -1,0 +1,14 @@
+{
+  "name": "zero",
+  "description": "Claude Code plugins by YaliYT: Reel Studio for making AI videos.",
+  "owner": {
+    "name": "YaliYT"
+  },
+  "plugins": [
+    {
+      "name": "reel-studio",
+      "source": "./reel-studio",
+      "description": "Make vertical AI videos end to end: script, cloned voice, Hebrew word-by-word captions, motion graphics, render."
+    }
+  ]
+}

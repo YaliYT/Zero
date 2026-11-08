@@ -1,0 +1,22 @@
+<template>
+  <style>
+    #root {
+      position: absolute; inset: 0; overflow: hidden;
+      background:
+        radial-gradient(70% 35% at 50% 62%, rgba(255, 40, 30, 0.28), transparent 70%),
+        linear-gradient(180deg, #050303 0%, #1a0606 55%, #050303 100%);
+    }
+    .bd-streak { position: absolute; top: -10%; width: 2px; height: 55%; background: linear-gradient(180deg, transparent, rgba(255, 60, 50, 0.55), transparent); }
+    #bd-s1 { left: 18%; } #bd-s2 { left: 61%; } #bd-s3 { left: 84%; }
+  </style>
+  <div id="root" data-composition-id="backdrop" data-width="1080" data-height="1920">
+    <div id="bd-s1" class="bd-streak clip" data-layout-allow-overflow data-start="0" data-duration="8"></div>
+    <div id="bd-s2" class="bd-streak clip" data-layout-allow-overflow data-start="0" data-duration="8"></div>
+    <div id="bd-s3" class="bd-streak clip" data-layout-allow-overflow data-start="0" data-duration="8"></div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo(".bd-streak", { yPercent: -40, opacity: 0.2 }, { yPercent: 160, opacity: 1, duration: 4, ease: "none", stagger: 1.3 }, 0);
+    window.__timelines["backdrop"] = tl;
+  </script>
+</template>
